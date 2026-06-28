@@ -1,0 +1,2 @@
+recommended_topic_count,decision_rule,selected_coherence_cv,selected_perplexity,selected_log_likelihood_bound,coherence_optimal_topic_count,coherence_optimal_cv,coherence_tolerance,conclusion
+7,metric-optimised coherence-first solution,0.4185741840510382,275.0294678443901,-1596070.223483145,7,0.4185741840510382,0.025,Use 7 topics for the main journal model.

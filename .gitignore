@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.DS_Store
+Thumbs.db
+
+# Do not commit copyrighted or large source corpora.
+Submission/
+PDFs/
+kumar_MV/
+*Extracted Text*.txt
+all_extracted_text_by_pdf.txt
+qwen_batch_*.md
+complete_analysis_report.md
+document_evidence.json
+document_evidence_table.csv
+full_interactive_graph_pack.html
+graph_data.json
+document_evidence_network_full.svg

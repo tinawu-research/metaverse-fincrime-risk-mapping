@@ -1,0 +1,109 @@
+id,label,type,prevalence,documents,source_doc_id,filename,relevance,pages,words,total_score
+T6,"T6: Crypto finance, DeFi, scams, and grey-economy risks",topic,19.17,13,,,,,,
+T2,"T2: Avatar privacy, cyberattack detection, and metaverse security",topic,18.53,10,,,,,,
+T1,"T1: Blockchain-based metaverse governance, ownership, and token infrastructure",topic,16.3,8,,,,,,
+T7,"T7: Cryptographic access control, authentication, and encryption protocols",topic,13.64,9,,,,,,
+T5,"T5: Blockchain gaming, NFT markets, and digital-property law",topic,13.37,7,,,,,,
+T3,"T3: Cryptocurrency networks, wallets, exchanges, and regulatory risk",topic,9.65,7,,,,,,
+T4,"T4: Digital payments, privacy policy, trust, and fraud detection",topic,9.34,5,,,,,,
+TH_SCAM,"Scam, fraud, and social-deception laundering opportunities",threat,,,,,,,,
+TH_IDENTITY,"Avatar, identity, biometric, and account takeover abuse",threat,,,,,,,,
+TH_NFT,"NFT, gaming, and virtual-property value manipulation",threat,,,,,,,,
+TH_WALLET,"Wallet, exchange, off-ramp, and cross-chain laundering exposure",threat,,,,,,,,
+TH_DEFI,"DeFi, smart-contract, DAO, and governance-control misuse",threat,,,,,,,,
+TH_PRIVACY,"Privacy, data protection, and traceability gaps",threat,,,,,,,,
+TH_PAYMENT,"Digital payment, trust, fraud-detection, and Sybil-risk environment",threat,,,,,,,,
+TH_CYBER,"Cyberattack, malware, platform-security, and infrastructure compromise",threat,,,,,,,,
+TH_GOVERNANCE,"Platform governance, jurisdictional, and legal accountability gaps",threat,,,,,,,,
+LY_PLATFORM,"Platform affordances: avatars, immersion, persistence, social presence",layer,,,,,,,,
+LY_IDENTITY,"Identity-access layer: accounts, avatars, biometrics, credentials",layer,,,,,,,,
+LY_ASSET,"Asset-market layer: NFTs, tokens, game items, virtual property",layer,,,,,,,,
+LY_TRANSACTION,"Transaction-flow layer: wallets, payments, bridges, exchanges",layer,,,,,,,,
+LY_GOVERNANCE,"Governance-control layer: DAOs, contracts, rules, jurisdiction",layer,,,,,,,,
+LY_OPPORTUNITY,"Opportunity-formation layer: anonymity, deception, fragmented controls",layer,,,,,,,,
+LY_DETECTION,"Detection-intervention layer: evidence, analytics, policy controls",layer,,,,,,,,
+SG_SCAM,Scam campaign and social-engineering signals,signal,,,,,,,,
+SG_AVATAR,Avatar/account anomaly signals,signal,,,,,,,,
+SG_NFT,"NFT wash-trade, provenance, and value-anomaly signals",signal,,,,,,,,
+SG_WALLET,"Wallet clustering, mixer, bridge, and off-ramp exposure signals",signal,,,,,,,,
+SG_CONTRACT,"Smart-contract, DAO, treasury, and permission-risk signals",signal,,,,,,,,
+SG_PRIVACY,"Privacy, encryption, and traceability-loss signals",signal,,,,,,,,
+SG_PAYMENT,"Payment, fraud-detection, trust, and Sybil signals",signal,,,,,,,,
+SG_CYBER,"Cyberattack, malware, and platform compromise signals",signal,,,,,,,,
+SG_GOVERNANCE,"Legal, compliance, and cross-jurisdiction signals",signal,,,,,,,,
+IN_SCAM_MONITOR,Scam-campaign monitoring and user harm response,intervention,,,,,,,,
+IN_ONBOARDING,Risk-based onboarding and identity assurance,intervention,,,,,,,,
+IN_ACCESS,"Authentication, key custody, and access-control monitoring",intervention,,,,,,,,
+IN_PLATFORM_SECURITY,Platform security monitoring and vulnerability response,intervention,,,,,,,,
+IN_PROVENANCE,NFT/token provenance and asset-origin review,intervention,,,,,,,,
+IN_MARKETPLACE,Marketplace behaviour monitoring and scam suppression,intervention,,,,,,,,
+IN_VALUATION,Virtual-asset valuation and wash-trade anomaly review,intervention,,,,,,,,
+IN_CHAIN_ANALYTICS,"Wallet, bridge, mixer, and cross-chain analytics",intervention,,,,,,,,
+IN_PAYMENT_CONTROLS,Digital-payment fraud controls and trust scoring,intervention,,,,,,,,
+IN_GOVERNANCE_AUDIT,"Smart-contract, DAO, and governance audit controls",intervention,,,,,,,,
+IN_OFFRAMP,Exchange/off-ramp due diligence and reporting,intervention,,,,,,,,
+IN_EVIDENCE,"Investigation, evidence preservation, and case escalation",intervention,,,,,,,,
+IN_PRIVACY_BY_DESIGN,Privacy-by-design controls with auditability,intervention,,,,,,,,
+DIM_metaverse_platform_features,Metaverse platform features,dimension,,,,,,,,
+DIM_crypto_ecosystem_features,Cryptocurrency ecosystem features,dimension,,,,,,,,
+DIM_financial_crime_opportunities,Financial crime opportunities,dimension,,,,,,,,
+DIM_modelling_analysis_intervention,"Modelling, analysis, and intervention",dimension,,,,,,,,
+DOC_D001,D001: A Mini Review on Purchaser Security in the Metaverse -...,document,,,D001_a_mini_review_on_purchaser_security_in_the_metaverse_extract,A Mini Review on Purchaser Security in the Metaverse - extracted chapter.pdf,primary financial-crime/crypto evidence,14,3863,369
+DOC_D002,D002: A Prelude to Cybersecurity Challenges in the Metaverse -...,document,,,D002_a_prelude_to_cybersecurity_challenges_in_the_metaverse_extra,A Prelude to Cybersecurity Challenges in the Metaverse - extracted chapter.pdf,primary financial-crime/crypto evidence,22,9993,590
+DOC_D003,D003: A blockchain-based signature exchange protocol for metaverse,document,,,D003_a_blockchain_based_signature_exchange_protocol_for_metaverse,A blockchain-based signature exchange protocol for metaverse_compressed.pdf,highly relevant platform/security evidence,11,3870,100
+DOC_D004,D004: AI-based Malicious Bitcoin Transaction Detection Framework...,document,,,D004_ai_based_malicious_bitcoin_transaction_detection_framework_f,AI-based_Malicious_Bitcoin_Transaction_Detection_Framework_for_Real_Estate_in_Metaverse_compressed.pdf,highly relevant platform/security evidence,6,3808,221
+DOC_D005,D005: A Smart Contract-Based Authentication Scheme for Securing...,document,,,D005_a_smart_contract_based_authentication_scheme_for_securing_me,A_Smart_Contract-Based_Authentication_Scheme_for_Securing_Metaverse_Environment_in_Web_3.0_compressed.pdf,highly relevant platform/security evidence,11,7829,347
+DOC_D006,D006: A privacy awareness framework for NFT avatars in the metaverse,document,,,D006_a_privacy_awareness_framework_for_nft_avatars_in_the_metaver,A_privacy_awareness_framework_for_NFT_avatars_in_the_metaverse_compressed.pdf,highly relevant platform/security evidence,5,4388,293
+DOC_D007,D007: Accounting Profession in Metaverse Era - NFT,document,,,D007_accounting_profession_in_metaverse_era_nft_compressed,Accounting Profession in Metaverse Era - NFT_compressed.pdf,primary financial-crime/crypto evidence,8,6214,366
+DOC_D008,D008: Advanced Encryption Using Generative Adversarial Network for...,document,,,D008_advanced_encryption_using_generative_adversarial_network_for,Advanced_Encryption_Using_Generative_Adversarial_Network_for_Enhancing_Security_of_Non-Fungible_Tokens_NFTs_compressed.pdf,highly relevant platform/security evidence,16,9408,374
+DOC_D009,D009: Artificial Intelligence-Based Cybersecurity for the...,document,,,D009_artificial_intelligence_based_cybersecurity_for_the_metavers,Artificial_Intelligence-Based_Cybersecurity_for_the_Metaverse_Research_Challenges_and_Opportunities_compressed.pdf,primary financial-crime/crypto evidence,45,32990,2218
+DOC_D010,D010: Blockchain for the metaverse Recent advances taxonomy and...,document,,,D010_blockchain_for_the_metaverse_recent_advances_taxonomy_and_fu,Blockchain for the metaverse_ Recent advances taxonomy and future challenges_compressed.pdf,primary financial-crime/crypto evidence,32,28574,2499
+DOC_D011,D011: Blockchain-Based Privacy-Preserving and Accountable Mobile...,document,,,D011_blockchain_based_privacy_preserving_and_accountable_mobile_e,Blockchain-Based_Privacy-Preserving_and_Accountable_Mobile_Edge_Outsourcing_Computing_Framework_for_the_Metaverse_compressed.pdf,highly relevant platform/security evidence,14,10611,408
+DOC_D012,D012: Blockchain-Based Trust Management for Virtual Entities in...,document,,,D012_blockchain_based_trust_management_for_virtual_entities_in_th,Blockchain-Based_Trust_Management_for_Virtual_Entities_in_the_Metaverse_A_Model_for_Avatar_and_Virtual_Organization_Interactions_compressed.pdf,highly relevant platform/security evidence,25,15849,588
+DOC_D013,D013: Blockchain-Empowered Privacy-Preserving Digital Object...,document,,,D013_blockchain_empowered_privacy_preserving_digital_object_tradi,Blockchain-Empowered_Privacy-Preserving_Digital_Object_Trading_in_the_Metaverse_compressed.pdf,highly relevant platform/security evidence,10,6247,395
+DOC_D014,D014: Blockchain-based asset storage and service mechanism to...,document,,,D014_blockchain_based_asset_storage_and_service_mechanism_to_meta,Blockchain-based asset storage and service mechanism to metaverse universe_ Metarepo_compressed.pdf,highly relevant platform/security evidence,17,4784,161
+DOC_D015,D015: Blockchain-based Security Framework for Metaverse A...,document,,,D015_blockchain_based_security_framework_for_metaverse_a_decentra,Blockchain-based_Security_Framework_for_Metaverse_A_Decentralized_Approach_compressed.pdf,highly relevant platform/security evidence,6,4250,321
+DOC_D016,D016: Bridging Law and Machine Learning A Cybersecure Model for...,document,,,D016_bridging_law_and_machine_learning_a_cybersecure_model_for_cl,Bridging Law and Machine Learning_ A Cybersecure Model for Classifying Digital Real Estate Contracts in the Metaverse_compressed.pdf,highly relevant platform/security evidence,15,7651,349
+DOC_D017,D017: Challenges and Opportunities of Integrating Non-Fungible...,document,,,D017_challenges_and_opportunities_of_integrating_non_fungible_tok,Challenges_and_Opportunities_of_Integrating_Non-Fungible_Tokens_NFTs_and_Self-Sovereign_AI_SSAI_in_Blockchain-Based_Metaverse_Projects_compressed.pdf,highly relevant platform/security evidence,9,6507,620
+DOC_D018,"D018: Criminology Towards the Metaverse Cryptocurrency Scams, Grey...",document,,,D018_criminology_towards_the_metaverse_cryptocurrency_scams_grey_,"Criminology Towards the Metaverse_ Cryptocurrency Scams, Grey Economy and the Technosocial_compressed.pdf",primary financial-crime/crypto evidence,16,10051,437
+DOC_D019,D019: Decentralized autonomous organizations review importance and...,document,,,D019_decentralized_autonomous_organizations_review_importance_and,Decentralized_autonomous_organizations_review_importance_and_applications_compressed.pdf,highly relevant platform/security evidence,6,3759,227
+DOC_D020,D020: Demystifying opportunities and risk for businesses A...,document,,,D020_demystifying_opportunities_and_risk_for_businesses_a_qualita,Demystifying opportunities and risk for businesses_ A qualitative enquiry_compressed.pdf,highly relevant platform/security evidence,12,4941,251
+DOC_D021,D021: Design of Secure Mutual Authentication Scheme for Metaverse...,document,,,D021_design_of_secure_mutual_authentication_scheme_for_metaverse_,Design_of_Secure_Mutual_Authentication_Scheme_for_Metaverse_Environments_Using_Blockchain_compressed.pdf,highly relevant platform/security evidence,15,9192,278
+DOC_D022,D022: Detecting Smart Contract Project Anomalies in Metaverse,document,,,D022_detecting_smart_contract_project_anomalies_in_metaverse_comp,Detecting_Smart_Contract_Project_Anomalies_in_Metaverse_compressed.pdf,highly relevant platform/security evidence,9,6591,422
+DOC_D023,D023: Eden An Edge Computing Empowered Proof-of-Personhood...,document,,,D023_eden_an_edge_computing_empowered_proof_of_personhood_protoco,Eden_An_Edge_Computing_Empowered_Proof-of-Personhood_Protocol_for_Anti-Sybil_in_Blockchain-based_Metaverse_compressed.pdf,highly relevant platform/security evidence,8,5713,363
+DOC_D024,D024: Efficient post-quantum attribute-based access control scheme...,document,,,D024_efficient_post_quantum_attribute_based_access_control_scheme,Efficient post-quantum attribute-based access control scheme for blockchain-empowered metaverse data management_compressed.pdf,highly relevant platform/security evidence,15,12048,195
+DOC_D025,D025: Enhancing Identity Security in the Metaverse Solutions Using...,document,,,D025_enhancing_identity_security_in_the_metaverse_solutions_using,Enhancing_Identity_Security_in_the_Metaverse_Solutions_Using_AI_Blockchain_and_NFTs_compressed.pdf,primary financial-crime/crypto evidence,6,3826,488
+DOC_D026,D026: Ethical and Legal Challenges of NFTs chaptered,document,,,D026_ethical_and_legal_challenges_of_nfts_chapter_extracted,Ethical_and_Legal_Challenges_of_NFTs_chapter_extracted.pdf,highly relevant platform/security evidence,15,5784,401
+DOC_D027,D027: Exploring-NFTs-and-Metaverse-Collaborations...,document,,,D027_exploring_nfts_and_metaverse_collaborations_innovations_oppo,Exploring-NFTs-and-Metaverse-Collaborations_-Innovations-Opportunities-and-Challenges_compressed.pdf,highly relevant platform/security evidence,22,7589,493
+DOC_D028,D028: Financial cybercrime in the Islamic Finance Metaverse,document,,,D028_financial_cybercrime_in_the_islamic_finance_metaverse_compre,Financial cybercrime in the Islamic Finance Metaverse_compressed.pdf,primary financial-crime/crypto evidence,6,4407,306
+DOC_D029,D029: Freedom and Restraint in Dark Forest A Peek at the Metaverse...,document,,,D029_freedom_and_restraint_in_dark_forest_a_peek_at_the_metaverse,Freedom_and_Restraint_in_Dark_Forest_A_Peek_at_the_Metaverse_Through_a_Blockchain_Game_compressed.pdf,highly relevant platform/security evidence,12,9938,127
+DOC_D030,D030: Fusing Blockchain and AI With Metaverse A Survey,document,,,D030_fusing_blockchain_and_ai_with_metaverse_a_survey_compressed,Fusing_Blockchain_and_AI_With_Metaverse_A_Survey_compressed.pdf,highly relevant platform/security evidence,15,11318,809
+DOC_D031,D031: Jurisdictional Challenges in Metaverse chapter,document,,,D031_jurisdictional_challenges_in_metaverse_chapter,Jurisdictional_Challenges_in_Metaverse_chapter.pdf,highly relevant platform/security evidence,11,4395,178
+DOC_D032,D032: Legal Challenges of Intellectual Property in the Metaverse...,document,,,D032_legal_challenges_of_intellectual_property_in_the_metaverse_u,Legal_Challenges_of_Intellectual_Property_in_the_Metaverse_Under_UAE_Intellectual_Property_Law_Trademarks_Copyrights_Patents_compressed.pdf,highly relevant platform/security evidence,7,5902,199
+DOC_D033,D033: Legalities in Metaverse Ethereum Fraud Detection,document,,,D033_legalities_in_metaverse_ethereum_fraud_detection_compressed,Legalities_in_Metaverse__Ethereum_Fraud_Detection_compressed.pdf,primary financial-crime/crypto evidence,14,7774,421
+DOC_D034,D034: METAseen analyzing network traffic and privacy policies in...,document,,,D034_metaseen_analyzing_network_traffic_and_privacy_policies_in_w,METAseen_ analyzing network traffic and privacy policies in Web 3.0 based Metaverse_compressed.pdf,highly relevant platform/security evidence,13,11082,661
+DOC_D035,D035: Meta-Governance Blockchain-Driven Metaverse Platform for...,document,,,D035_meta_governance_blockchain_driven_metaverse_platform_for_mit,Meta-Governance_Blockchain-Driven_Metaverse_Platform_for_Mitigating_Misbehavior_Using_Smart_Contract_and_AI_compressed.pdf,highly relevant platform/security evidence,15,9903,520
+DOC_D036,D036: MetaL A Fully Decentralized User-Driven Access Control...,document,,,D036_metal_a_fully_decentralized_user_driven_access_control_schem,MetaL_A_Fully_Decentralized_User-Driven_Access_Control_Scheme_for_Metaverse_Utilizing_MC-ABE_and_Sharding_Blockchain_compressed.pdf,highly relevant platform/security evidence,9,7077,154
+DOC_D037,D037: Metaverse ethical challenges of the tokenisation of the...,document,,,D037_metaverse_ethical_challenges_of_the_tokenisation_of_the_econ,Metaverse_ ethical challenges of the tokenisation of the economy_NON_ENGLISH_PAPER_compressed.pdf,highly relevant platform/security evidence,20,10700,150
+DOC_D038,D038: Metaverse The Potential Threats in the Virtual World chapter...,document,,,D038_metaverse_the_potential_threats_in_the_virtual_world_chapter,Metaverse_The_Potential_Threats_in_the_Virtual_World_chapter_pages_84-92.pdf,highly relevant platform/security evidence,9,2650,189
+DOC_D039,D039: Modelling BTC networks,document,,,D039_modelling_btc_networks,Modelling BTC networks.pdf,highly relevant platform/security evidence,33,15923,496
+DOC_D040,"D040: Money, possessions, and ownership in the Metaverse NFTs,...",document,,,D040_money_possessions_and_ownership_in_the_metaverse_nfts_crypto,"Money, possessions, and ownership in the Metaverse_ NFTs, cryptocurrencies, Web3 and Wild Markets_compressed.pdf",highly relevant platform/security evidence,8,8217,362
+DOC_D041,D041: NFT-Based Digital Identity Authentication Framework for the...,document,,,D041_nft_based_digital_identity_authentication_framework_for_the_,NFT-Based_Digital_Identity_Authentication_Framework_for_the_Metaverse_Environments_compressed.pdf,highly relevant platform/security evidence,9,5827,320
+DOC_D042,"D042: NFTs for accessing, monetizing, and teleporting digital...",document,,,D042_nfts_for_accessing_monetizing_and_teleporting_digital_twins_,"NFTs for accessing, monetizing, and teleporting digital twins and digital artifacts in the metaverse_compressed.pdf",highly relevant platform/security evidence,16,11058,887
+DOC_D043,D043: NFTs for combating deepfakes and fake metaverse digital...,document,,,D043_nfts_for_combating_deepfakes_and_fake_metaverse_digital_cont,NFTs for combating deepfakes and fake metaverse digital contents_compressed.pdf,highly relevant platform/security evidence,24,12719,584
+DOC_D044,D044: Navigating Consumer Rights and Ethical Advertising in the...,document,,,D044_navigating_consumer_rights_and_ethical_advertising_in_the_me,Navigating_Consumer_Rights_and_Ethical_Advertising_in_the_Metaverse_chapter.pdf,highly relevant platform/security evidence,10,3683,165
+DOC_D045,D045: Opportunities to future crime Scoping the future of money...,document,,,D045_opportunities_to_future_crime_scoping_the_future_of_money_la,Opportunities to future crime_ Scoping the future of money laundering and terrorist financing through cryptoassets_compressed.pdf,primary financial-crime/crypto evidence,24,19120,1357
+DOC_D046,D046: Seamless Asset Exchange in Interconnected Metaverses...,document,,,D046_seamless_asset_exchange_in_interconnected_metaverses_unravel,Seamless_Asset_Exchange_in_Interconnected_Metaverses_Unraveling_On-Chain_Atomic_Swap_compressed.pdf,highly relevant platform/security evidence,10,7281,366
+DOC_D047,D047: Securing the Metaverse chaptered,document,,,D047_securing_the_metaverse_chapter_extracted,Securing_the_Metaverse_chapter_extracted.pdf,highly relevant platform/security evidence,11,3242,188
+DOC_D048,D048: Stylized facts of metaverse non-fungible tokens,document,,,D048_stylized_facts_of_metaverse_non_fungible_tokens_compressed,Stylized facts of metaverse non-fungible tokens_compressed.pdf,primary financial-crime/crypto evidence,29,18036,939
+DOC_D049,D049: The Digital Payment Revolution in the Metaverse A Systematic...,document,,,D049_the_digital_payment_revolution_in_the_metaverse_a_systematic,"The Digital Payment Revolution in the Metaverse_ A Systematic Review of Emerging Technologies, Challenges, and Future Directions_compressed.pdf",highly relevant platform/security evidence,17,9320,405
+DOC_D050,D050: The New Economic Models of Metaverse and Its Implications in...,document,,,D050_the_new_economic_models_of_metaverse_and_its_implications_in,The New Economic Models of Metaverse and Its Implications in International Financial Markets_chapter.pdf,highly relevant platform/security evidence,10,4387,252
+DOC_D051,D051: The Study of DeFi in Virtual Community and Financial...,document,,,D051_the_study_of_defi_in_virtual_community_and_financial_supervi,The Study of DeFi in Virtual Community and Financial Supervision_compressed.pdf,highly relevant platform/security evidence,8,5431,398
+DOC_D052,D052: The Technological Innovation of the Metaverse in Financial,document,,,D052_the_technological_innovation_of_the_metaverse_in_financial_c,The Technological Innovation of the Metaverse in Financial_compressed.pdf,highly relevant platform/security evidence,17,12454,517
+DOC_D053,D053: The effects of non-fungible token platform affordances on...,document,,,D053_the_effects_of_non_fungible_token_platform_affordances_on_cu,The effects of non-fungible token platform affordances on customer loyalty_ A Buyer-Creator duality perspective_compressed.pdf,highly relevant platform/security evidence,16,12365,390
+DOC_D054,D054: The rise and fall of cryptocurrencies,document,,,D054_the_rise_and_fall_of_cryptocurrencies,The rise and fall of cryptocurrencies.pdf,primary financial-crime/crypto evidence,34,16953,855
+DOC_D055,D055: The metaverse applications for the finance industry its...,document,,,D055_the_metaverse_applications_for_the_finance_industry_its_chal,The_metaverse_applications_for_the_finance_industry_its_challenges_and_an_approach_for_the_metaverse_finance_industry_compressed.pdf,primary financial-crime/crypto evidence,4,2795,245
+DOC_D056,D056: Towards Secure AI-driven Industrial Metaverse with NFT...,document,,,D056_towards_secure_ai_driven_industrial_metaverse_with_nft_digit,Towards_Secure_AI-driven_Industrial_Metaverse_with_NFT_Digital_Twins_compressed.pdf,highly relevant platform/security evidence,9,6247,321
+DOC_D057,D057: Trusted AI with Blockchain to Empower Metaverse,document,,,D057_trusted_ai_with_blockchain_to_empower_metaverse_compressed,Trusted_AI_with_Blockchain_to_Empower_Metaverse_compressed.pdf,highly relevant platform/security evidence,8,6071,607
+DOC_D058,D058: Unraveling the dynamics of digital equality and trust in...,document,,,D058_unraveling_the_dynamics_of_digital_equality_and_trust_in_ai_,Unraveling the dynamics of digital equality and trust in AI-empowered metaverses and AI-VR-convergence_compressed.pdf,highly relevant platform/security evidence,20,15361,833
+DOC_D059,D059: Urban metaverse and blockchain,document,,,D059_urban_metaverse_and_blockchain,Urban metaverse and blockchain.pdf,primary financial-crime/crypto evidence,40,27813,1565

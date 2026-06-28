@@ -1,0 +1,5264 @@
+{
+  "created_by": "Codex local/free graph builder",
+  "cost_boundary": "No paid API, no Zep Cloud, no external web libraries.",
+  "source_evidence_table": "C:\\Users\\mtiwar05\\OneDrive - Charles Sturt University\\CSU\\Metaverse and Cryptocurrencies\\Analysis\\Codex\\Results\\Round 5\\mirofish_local_qwen_free_analysis_20260527-112059\\document_evidence_table.csv",
+  "summary": {
+    "documents": 59,
+    "nodes": 108,
+    "edges": 498,
+    "topics": 7,
+    "threat_environments": 9,
+    "interventions": 13
+  },
+  "topics": [
+    {
+      "id": "T6",
+      "label": "Crypto finance, DeFi, scams, and grey-economy risks",
+      "prevalence": 19.17,
+      "documents": 13,
+      "threats": [
+        "TH_SCAM",
+        "TH_WALLET",
+        "TH_DEFI"
+      ]
+    },
+    {
+      "id": "T2",
+      "label": "Avatar privacy, cyberattack detection, and metaverse security",
+      "prevalence": 18.53,
+      "documents": 10,
+      "threats": [
+        "TH_IDENTITY",
+        "TH_CYBER",
+        "TH_PRIVACY"
+      ]
+    },
+    {
+      "id": "T1",
+      "label": "Blockchain-based metaverse governance, ownership, and token infrastructure",
+      "prevalence": 16.3,
+      "documents": 8,
+      "threats": [
+        "TH_GOVERNANCE",
+        "TH_DEFI",
+        "TH_NFT"
+      ]
+    },
+    {
+      "id": "T7",
+      "label": "Cryptographic access control, authentication, and encryption protocols",
+      "prevalence": 13.64,
+      "documents": 9,
+      "threats": [
+        "TH_IDENTITY",
+        "TH_PRIVACY",
+        "TH_CYBER"
+      ]
+    },
+    {
+      "id": "T5",
+      "label": "Blockchain gaming, NFT markets, and digital-property law",
+      "prevalence": 13.37,
+      "documents": 7,
+      "threats": [
+        "TH_NFT",
+        "TH_SCAM",
+        "TH_GOVERNANCE"
+      ]
+    },
+    {
+      "id": "T3",
+      "label": "Cryptocurrency networks, wallets, exchanges, and regulatory risk",
+      "prevalence": 9.65,
+      "documents": 7,
+      "threats": [
+        "TH_WALLET",
+        "TH_DEFI",
+        "TH_PAYMENT"
+      ]
+    },
+    {
+      "id": "T4",
+      "label": "Digital payments, privacy policy, trust, and fraud detection",
+      "prevalence": 9.34,
+      "documents": 5,
+      "threats": [
+        "TH_PAYMENT",
+        "TH_PRIVACY",
+        "TH_SCAM"
+      ]
+    }
+  ],
+  "threats": [
+    {
+      "id": "TH_SCAM",
+      "label": "Scam, fraud, and social-deception laundering opportunities",
+      "keywords": [
+        "fraud",
+        "scam",
+        "social engineering",
+        "phishing",
+        "cybercrime",
+        "financial fraud",
+        "money laundering",
+        "laundering"
+      ],
+      "layer": "LY_OPPORTUNITY",
+      "signal": "SG_SCAM",
+      "interventions": [
+        "IN_SCAM_MONITOR",
+        "IN_EVIDENCE",
+        "IN_MARKETPLACE"
+      ]
+    },
+    {
+      "id": "TH_IDENTITY",
+      "label": "Avatar, identity, biometric, and account takeover abuse",
+      "keywords": [
+        "avatar",
+        "identity",
+        "biometric",
+        "deepfake",
+        "authentication",
+        "account",
+        "fingerprint",
+        "credential"
+      ],
+      "layer": "LY_IDENTITY",
+      "signal": "SG_AVATAR",
+      "interventions": [
+        "IN_ONBOARDING",
+        "IN_ACCESS",
+        "IN_EVIDENCE"
+      ]
+    },
+    {
+      "id": "TH_NFT",
+      "label": "NFT, gaming, and virtual-property value manipulation",
+      "keywords": [
+        "nft",
+        "non-fungible",
+        "gaming",
+        "game",
+        "digital asset",
+        "virtual asset",
+        "property",
+        "marketplace",
+        "wash"
+      ],
+      "layer": "LY_ASSET",
+      "signal": "SG_NFT",
+      "interventions": [
+        "IN_PROVENANCE",
+        "IN_MARKETPLACE",
+        "IN_VALUATION"
+      ]
+    },
+    {
+      "id": "TH_WALLET",
+      "label": "Wallet, exchange, off-ramp, and cross-chain laundering exposure",
+      "keywords": [
+        "wallet",
+        "exchange",
+        "bitcoin",
+        "cryptocurrency",
+        "crypto",
+        "transaction",
+        "off-ramp",
+        "mixer",
+        "bridge",
+        "address"
+      ],
+      "layer": "LY_TRANSACTION",
+      "signal": "SG_WALLET",
+      "interventions": [
+        "IN_CHAIN_ANALYTICS",
+        "IN_OFFRAMP",
+        "IN_EVIDENCE"
+      ]
+    },
+    {
+      "id": "TH_DEFI",
+      "label": "DeFi, smart-contract, DAO, and governance-control misuse",
+      "keywords": [
+        "defi",
+        "decentralized",
+        "smart contract",
+        "dao",
+        "protocol",
+        "governance",
+        "token",
+        "treasury"
+      ],
+      "layer": "LY_GOVERNANCE",
+      "signal": "SG_CONTRACT",
+      "interventions": [
+        "IN_GOVERNANCE_AUDIT",
+        "IN_CHAIN_ANALYTICS",
+        "IN_PROVENANCE"
+      ]
+    },
+    {
+      "id": "TH_PRIVACY",
+      "label": "Privacy, data protection, and traceability gaps",
+      "keywords": [
+        "privacy",
+        "data protection",
+        "personal data",
+        "confidential",
+        "encryption",
+        "anonymous",
+        "anonymity",
+        "traceability"
+      ],
+      "layer": "LY_IDENTITY",
+      "signal": "SG_PRIVACY",
+      "interventions": [
+        "IN_ACCESS",
+        "IN_PRIVACY_BY_DESIGN",
+        "IN_EVIDENCE"
+      ]
+    },
+    {
+      "id": "TH_PAYMENT",
+      "label": "Digital payment, trust, fraud-detection, and Sybil-risk environment",
+      "keywords": [
+        "payment",
+        "trust",
+        "fraud detection",
+        "sybil",
+        "transaction pattern",
+        "anomaly",
+        "risk detection"
+      ],
+      "layer": "LY_TRANSACTION",
+      "signal": "SG_PAYMENT",
+      "interventions": [
+        "IN_PAYMENT_CONTROLS",
+        "IN_CHAIN_ANALYTICS",
+        "IN_OFFRAMP"
+      ]
+    },
+    {
+      "id": "TH_CYBER",
+      "label": "Cyberattack, malware, platform-security, and infrastructure compromise",
+      "keywords": [
+        "cyberattack",
+        "malware",
+        "cybersecurity",
+        "attack",
+        "security",
+        "vulnerability",
+        "malicious",
+        "threat"
+      ],
+      "layer": "LY_PLATFORM",
+      "signal": "SG_CYBER",
+      "interventions": [
+        "IN_PLATFORM_SECURITY",
+        "IN_ACCESS",
+        "IN_EVIDENCE"
+      ]
+    },
+    {
+      "id": "TH_GOVERNANCE",
+      "label": "Platform governance, jurisdictional, and legal accountability gaps",
+      "keywords": [
+        "law",
+        "regulation",
+        "regulatory",
+        "jurisdiction",
+        "governance",
+        "compliance",
+        "legal",
+        "accountability"
+      ],
+      "layer": "LY_GOVERNANCE",
+      "signal": "SG_GOVERNANCE",
+      "interventions": [
+        "IN_GOVERNANCE_AUDIT",
+        "IN_OFFRAMP",
+        "IN_EVIDENCE"
+      ]
+    }
+  ],
+  "layers": [
+    [
+      "LY_PLATFORM",
+      "Platform affordances: avatars, immersion, persistence, social presence"
+    ],
+    [
+      "LY_IDENTITY",
+      "Identity-access layer: accounts, avatars, biometrics, credentials"
+    ],
+    [
+      "LY_ASSET",
+      "Asset-market layer: NFTs, tokens, game items, virtual property"
+    ],
+    [
+      "LY_TRANSACTION",
+      "Transaction-flow layer: wallets, payments, bridges, exchanges"
+    ],
+    [
+      "LY_GOVERNANCE",
+      "Governance-control layer: DAOs, contracts, rules, jurisdiction"
+    ],
+    [
+      "LY_OPPORTUNITY",
+      "Opportunity-formation layer: anonymity, deception, fragmented controls"
+    ],
+    [
+      "LY_DETECTION",
+      "Detection-intervention layer: evidence, analytics, policy controls"
+    ]
+  ],
+  "signals": [
+    [
+      "SG_SCAM",
+      "Scam campaign and social-engineering signals"
+    ],
+    [
+      "SG_AVATAR",
+      "Avatar/account anomaly signals"
+    ],
+    [
+      "SG_NFT",
+      "NFT wash-trade, provenance, and value-anomaly signals"
+    ],
+    [
+      "SG_WALLET",
+      "Wallet clustering, mixer, bridge, and off-ramp exposure signals"
+    ],
+    [
+      "SG_CONTRACT",
+      "Smart-contract, DAO, treasury, and permission-risk signals"
+    ],
+    [
+      "SG_PRIVACY",
+      "Privacy, encryption, and traceability-loss signals"
+    ],
+    [
+      "SG_PAYMENT",
+      "Payment, fraud-detection, trust, and Sybil signals"
+    ],
+    [
+      "SG_CYBER",
+      "Cyberattack, malware, and platform compromise signals"
+    ],
+    [
+      "SG_GOVERNANCE",
+      "Legal, compliance, and cross-jurisdiction signals"
+    ]
+  ],
+  "interventions": [
+    [
+      "IN_SCAM_MONITOR",
+      "Scam-campaign monitoring and user harm response"
+    ],
+    [
+      "IN_ONBOARDING",
+      "Risk-based onboarding and identity assurance"
+    ],
+    [
+      "IN_ACCESS",
+      "Authentication, key custody, and access-control monitoring"
+    ],
+    [
+      "IN_PLATFORM_SECURITY",
+      "Platform security monitoring and vulnerability response"
+    ],
+    [
+      "IN_PROVENANCE",
+      "NFT/token provenance and asset-origin review"
+    ],
+    [
+      "IN_MARKETPLACE",
+      "Marketplace behaviour monitoring and scam suppression"
+    ],
+    [
+      "IN_VALUATION",
+      "Virtual-asset valuation and wash-trade anomaly review"
+    ],
+    [
+      "IN_CHAIN_ANALYTICS",
+      "Wallet, bridge, mixer, and cross-chain analytics"
+    ],
+    [
+      "IN_PAYMENT_CONTROLS",
+      "Digital-payment fraud controls and trust scoring"
+    ],
+    [
+      "IN_GOVERNANCE_AUDIT",
+      "Smart-contract, DAO, and governance audit controls"
+    ],
+    [
+      "IN_OFFRAMP",
+      "Exchange/off-ramp due diligence and reporting"
+    ],
+    [
+      "IN_EVIDENCE",
+      "Investigation, evidence preservation, and case escalation"
+    ],
+    [
+      "IN_PRIVACY_BY_DESIGN",
+      "Privacy-by-design controls with auditability"
+    ]
+  ],
+  "nodes": [
+    {
+      "id": "T6",
+      "label": "T6: Crypto finance, DeFi, scams, and grey-economy risks",
+      "type": "topic",
+      "prevalence": 19.17,
+      "documents": 13
+    },
+    {
+      "id": "T2",
+      "label": "T2: Avatar privacy, cyberattack detection, and metaverse security",
+      "type": "topic",
+      "prevalence": 18.53,
+      "documents": 10
+    },
+    {
+      "id": "T1",
+      "label": "T1: Blockchain-based metaverse governance, ownership, and token infrastructure",
+      "type": "topic",
+      "prevalence": 16.3,
+      "documents": 8
+    },
+    {
+      "id": "T7",
+      "label": "T7: Cryptographic access control, authentication, and encryption protocols",
+      "type": "topic",
+      "prevalence": 13.64,
+      "documents": 9
+    },
+    {
+      "id": "T5",
+      "label": "T5: Blockchain gaming, NFT markets, and digital-property law",
+      "type": "topic",
+      "prevalence": 13.37,
+      "documents": 7
+    },
+    {
+      "id": "T3",
+      "label": "T3: Cryptocurrency networks, wallets, exchanges, and regulatory risk",
+      "type": "topic",
+      "prevalence": 9.65,
+      "documents": 7
+    },
+    {
+      "id": "T4",
+      "label": "T4: Digital payments, privacy policy, trust, and fraud detection",
+      "type": "topic",
+      "prevalence": 9.34,
+      "documents": 5
+    },
+    {
+      "id": "TH_SCAM",
+      "label": "Scam, fraud, and social-deception laundering opportunities",
+      "type": "threat"
+    },
+    {
+      "id": "TH_IDENTITY",
+      "label": "Avatar, identity, biometric, and account takeover abuse",
+      "type": "threat"
+    },
+    {
+      "id": "TH_NFT",
+      "label": "NFT, gaming, and virtual-property value manipulation",
+      "type": "threat"
+    },
+    {
+      "id": "TH_WALLET",
+      "label": "Wallet, exchange, off-ramp, and cross-chain laundering exposure",
+      "type": "threat"
+    },
+    {
+      "id": "TH_DEFI",
+      "label": "DeFi, smart-contract, DAO, and governance-control misuse",
+      "type": "threat"
+    },
+    {
+      "id": "TH_PRIVACY",
+      "label": "Privacy, data protection, and traceability gaps",
+      "type": "threat"
+    },
+    {
+      "id": "TH_PAYMENT",
+      "label": "Digital payment, trust, fraud-detection, and Sybil-risk environment",
+      "type": "threat"
+    },
+    {
+      "id": "TH_CYBER",
+      "label": "Cyberattack, malware, platform-security, and infrastructure compromise",
+      "type": "threat"
+    },
+    {
+      "id": "TH_GOVERNANCE",
+      "label": "Platform governance, jurisdictional, and legal accountability gaps",
+      "type": "threat"
+    },
+    {
+      "id": "LY_PLATFORM",
+      "label": "Platform affordances: avatars, immersion, persistence, social presence",
+      "type": "layer"
+    },
+    {
+      "id": "LY_IDENTITY",
+      "label": "Identity-access layer: accounts, avatars, biometrics, credentials",
+      "type": "layer"
+    },
+    {
+      "id": "LY_ASSET",
+      "label": "Asset-market layer: NFTs, tokens, game items, virtual property",
+      "type": "layer"
+    },
+    {
+      "id": "LY_TRANSACTION",
+      "label": "Transaction-flow layer: wallets, payments, bridges, exchanges",
+      "type": "layer"
+    },
+    {
+      "id": "LY_GOVERNANCE",
+      "label": "Governance-control layer: DAOs, contracts, rules, jurisdiction",
+      "type": "layer"
+    },
+    {
+      "id": "LY_OPPORTUNITY",
+      "label": "Opportunity-formation layer: anonymity, deception, fragmented controls",
+      "type": "layer"
+    },
+    {
+      "id": "LY_DETECTION",
+      "label": "Detection-intervention layer: evidence, analytics, policy controls",
+      "type": "layer"
+    },
+    {
+      "id": "SG_SCAM",
+      "label": "Scam campaign and social-engineering signals",
+      "type": "signal"
+    },
+    {
+      "id": "SG_AVATAR",
+      "label": "Avatar/account anomaly signals",
+      "type": "signal"
+    },
+    {
+      "id": "SG_NFT",
+      "label": "NFT wash-trade, provenance, and value-anomaly signals",
+      "type": "signal"
+    },
+    {
+      "id": "SG_WALLET",
+      "label": "Wallet clustering, mixer, bridge, and off-ramp exposure signals",
+      "type": "signal"
+    },
+    {
+      "id": "SG_CONTRACT",
+      "label": "Smart-contract, DAO, treasury, and permission-risk signals",
+      "type": "signal"
+    },
+    {
+      "id": "SG_PRIVACY",
+      "label": "Privacy, encryption, and traceability-loss signals",
+      "type": "signal"
+    },
+    {
+      "id": "SG_PAYMENT",
+      "label": "Payment, fraud-detection, trust, and Sybil signals",
+      "type": "signal"
+    },
+    {
+      "id": "SG_CYBER",
+      "label": "Cyberattack, malware, and platform compromise signals",
+      "type": "signal"
+    },
+    {
+      "id": "SG_GOVERNANCE",
+      "label": "Legal, compliance, and cross-jurisdiction signals",
+      "type": "signal"
+    },
+    {
+      "id": "IN_SCAM_MONITOR",
+      "label": "Scam-campaign monitoring and user harm response",
+      "type": "intervention"
+    },
+    {
+      "id": "IN_ONBOARDING",
+      "label": "Risk-based onboarding and identity assurance",
+      "type": "intervention"
+    },
+    {
+      "id": "IN_ACCESS",
+      "label": "Authentication, key custody, and access-control monitoring",
+      "type": "intervention"
+    },
+    {
+      "id": "IN_PLATFORM_SECURITY",
+      "label": "Platform security monitoring and vulnerability response",
+      "type": "intervention"
+    },
+    {
+      "id": "IN_PROVENANCE",
+      "label": "NFT/token provenance and asset-origin review",
+      "type": "intervention"
+    },
+    {
+      "id": "IN_MARKETPLACE",
+      "label": "Marketplace behaviour monitoring and scam suppression",
+      "type": "intervention"
+    },
+    {
+      "id": "IN_VALUATION",
+      "label": "Virtual-asset valuation and wash-trade anomaly review",
+      "type": "intervention"
+    },
+    {
+      "id": "IN_CHAIN_ANALYTICS",
+      "label": "Wallet, bridge, mixer, and cross-chain analytics",
+      "type": "intervention"
+    },
+    {
+      "id": "IN_PAYMENT_CONTROLS",
+      "label": "Digital-payment fraud controls and trust scoring",
+      "type": "intervention"
+    },
+    {
+      "id": "IN_GOVERNANCE_AUDIT",
+      "label": "Smart-contract, DAO, and governance audit controls",
+      "type": "intervention"
+    },
+    {
+      "id": "IN_OFFRAMP",
+      "label": "Exchange/off-ramp due diligence and reporting",
+      "type": "intervention"
+    },
+    {
+      "id": "IN_EVIDENCE",
+      "label": "Investigation, evidence preservation, and case escalation",
+      "type": "intervention"
+    },
+    {
+      "id": "IN_PRIVACY_BY_DESIGN",
+      "label": "Privacy-by-design controls with auditability",
+      "type": "intervention"
+    },
+    {
+      "id": "DIM_metaverse_platform_features",
+      "label": "Metaverse platform features",
+      "type": "dimension"
+    },
+    {
+      "id": "DIM_crypto_ecosystem_features",
+      "label": "Cryptocurrency ecosystem features",
+      "type": "dimension"
+    },
+    {
+      "id": "DIM_financial_crime_opportunities",
+      "label": "Financial crime opportunities",
+      "type": "dimension"
+    },
+    {
+      "id": "DIM_modelling_analysis_intervention",
+      "label": "Modelling, analysis, and intervention",
+      "type": "dimension"
+    },
+    {
+      "id": "DOC_D001",
+      "label": "D001: A Mini Review on Purchaser Security in the Metaverse -...",
+      "type": "document",
+      "source_doc_id": "D001_a_mini_review_on_purchaser_security_in_the_metaverse_extract",
+      "title": "A Mini Review on Purchaser Security in the Metaverse - extracted chapter",
+      "filename": "A Mini Review on Purchaser Security in the Metaverse - extracted chapter.pdf",
+      "relevance": "primary financial-crime/crypto evidence",
+      "pages": 14,
+      "words": 3863,
+      "total_score": 369
+    },
+    {
+      "id": "DOC_D002",
+      "label": "D002: A Prelude to Cybersecurity Challenges in the Metaverse -...",
+      "type": "document",
+      "source_doc_id": "D002_a_prelude_to_cybersecurity_challenges_in_the_metaverse_extra",
+      "title": "A Prelude to Cybersecurity Challenges in the Metaverse - extracted chapter",
+      "filename": "A Prelude to Cybersecurity Challenges in the Metaverse - extracted chapter.pdf",
+      "relevance": "primary financial-crime/crypto evidence",
+      "pages": 22,
+      "words": 9993,
+      "total_score": 590
+    },
+    {
+      "id": "DOC_D003",
+      "label": "D003: A blockchain-based signature exchange protocol for metaverse",
+      "type": "document",
+      "source_doc_id": "D003_a_blockchain_based_signature_exchange_protocol_for_metaverse",
+      "title": "A blockchain-based signature exchange protocol for metaverse",
+      "filename": "A blockchain-based signature exchange protocol for metaverse_compressed.pdf",
+      "relevance": "highly relevant platform/security evidence",
+      "pages": 11,
+      "words": 3870,
+      "total_score": 100
+    },
+    {
+      "id": "DOC_D004",
+      "label": "D004: AI-based Malicious Bitcoin Transaction Detection Framework...",
+      "type": "document",
+      "source_doc_id": "D004_ai_based_malicious_bitcoin_transaction_detection_framework_f",
+      "title": "AI-based Malicious Bitcoin Transaction Detection Framework for Real Estate in Metaverse",
+      "filename": "AI-based_Malicious_Bitcoin_Transaction_Detection_Framework_for_Real_Estate_in_Metaverse_compressed.pdf",
+      "relevance": "highly relevant platform/security evidence",
+      "pages": 6,
+      "words": 3808,
+      "total_score": 221
+    },
+    {
+      "id": "DOC_D005",
+      "label": "D005: A Smart Contract-Based Authentication Scheme for Securing...",
+      "type": "document",
+      "source_doc_id": "D005_a_smart_contract_based_authentication_scheme_for_securing_me",
+      "title": "A Smart Contract-Based Authentication Scheme for Securing Metaverse Environment in Web 3.0",
+      "filename": "A_Smart_Contract-Based_Authentication_Scheme_for_Securing_Metaverse_Environment_in_Web_3.0_compressed.pdf",
+      "relevance": "highly relevant platform/security evidence",
+      "pages": 11,
+      "words": 7829,
+      "total_score": 347
+    },
+    {
+      "id": "DOC_D006",
+      "label": "D006: A privacy awareness framework for NFT avatars in the metaverse",
+      "type": "document",
+      "source_doc_id": "D006_a_privacy_awareness_framework_for_nft_avatars_in_the_metaver",
+      "title": "A privacy awareness framework for NFT avatars in the metaverse",
+      "filename": "A_privacy_awareness_framework_for_NFT_avatars_in_the_metaverse_compressed.pdf",
+      "relevance": "highly relevant platform/security evidence",
+      "pages": 5,
+      "words": 4388,
+      "total_score": 293
+    },
+    {
+      "id": "DOC_D007",
+      "label": "D007: Accounting Profession in Metaverse Era - NFT",
+      "type": "document",
+      "source_doc_id": "D007_accounting_profession_in_metaverse_era_nft_compressed",
+      "title": "Accounting Profession in Metaverse Era - NFT",
+      "filename": "Accounting Profession in Metaverse Era - NFT_compressed.pdf",
+      "relevance": "primary financial-crime/crypto evidence",
+      "pages": 8,
+      "words": 6214,
+      "total_score": 366
+    },
+    {
+      "id": "DOC_D008",
+      "label": "D008: Advanced Encryption Using Generative Adversarial Network for...",
+      "type": "document",
+      "source_doc_id": "D008_advanced_encryption_using_generative_adversarial_network_for",
+      "title": "Advanced Encryption Using Generative Adversarial Network for Enhancing Security of Non-Fungible Tokens NFTs",
+      "filename": "Advanced_Encryption_Using_Generative_Adversarial_Network_for_Enhancing_Security_of_Non-Fungible_Tokens_NFTs_compressed.pdf",
+      "relevance": "highly relevant platform/security evidence",
+      "pages": 16,
+      "words": 9408,
+      "total_score": 374
+    },
+    {
+      "id": "DOC_D009",
+      "label": "D009: Artificial Intelligence-Based Cybersecurity for the...",
+      "type": "document",
+      "source_doc_id": "D009_artificial_intelligence_based_cybersecurity_for_the_metavers",
+      "title": "Artificial Intelligence-Based Cybersecurity for the Metaverse Research Challenges and Opportunities",
+      "filename": "Artificial_Intelligence-Based_Cybersecurity_for_the_Metaverse_Research_Challenges_and_Opportunities_compressed.pdf",
+      "relevance": "primary financial-crime/crypto evidence",
+      "pages": 45,
+      "words": 32990,
+      "total_score": 2218
+    },
+    {
+      "id": "DOC_D010",
+      "label": "D010: Blockchain for the metaverse Recent advances taxonomy and...",
+      "type": "document",
+      "source_doc_id": "D010_blockchain_for_the_metaverse_recent_advances_taxonomy_and_fu",
+      "title": "Blockchain for the metaverse Recent advances taxonomy and future challenges",
+      "filename": "Blockchain for the metaverse_ Recent advances taxonomy and future challenges_compressed.pdf",
+      "relevance": "primary financial-crime/crypto evidence",
+      "pages": 32,
+      "words": 28574,
+      "total_score": 2499
+    },
+    {
+      "id": "DOC_D011",
+      "label": "D011: Blockchain-Based Privacy-Preserving and Accountable Mobile...",
+      "type": "document",
+      "source_doc_id": "D011_blockchain_based_privacy_preserving_and_accountable_mobile_e",
+      "title": "Blockchain-Based Privacy-Preserving and Accountable Mobile Edge Outsourcing Computing Framework for the Metaverse",
+      "filename": "Blockchain-Based_Privacy-Preserving_and_Accountable_Mobile_Edge_Outsourcing_Computing_Framework_for_the_Metaverse_compressed.pdf",
+      "relevance": "highly relevant platform/security evidence",
+      "pages": 14,
+      "words": 10611,
+      "total_score": 408
+    },
+    {
+      "id": "DOC_D012",
+      "label": "D012: Blockchain-Based Trust Management for Virtual Entities in...",
+      "type": "document",
+      "source_doc_id": "D012_blockchain_based_trust_management_for_virtual_entities_in_th",
+      "title": "Blockchain-Based Trust Management for Virtual Entities in the Metaverse A Model for Avatar and Virtual Organization Interactions",
+      "filename": "Blockchain-Based_Trust_Management_for_Virtual_Entities_in_the_Metaverse_A_Model_for_Avatar_and_Virtual_Organization_Interactions_compressed.pdf",
+      "relevance": "highly relevant platform/security evidence",
+      "pages": 25,
+      "words": 15849,
+      "total_score": 588
+    },
+    {
+      "id": "DOC_D013",
+      "label": "D013: Blockchain-Empowered Privacy-Preserving Digital Object...",
+      "type": "document",
+      "source_doc_id": "D013_blockchain_empowered_privacy_preserving_digital_object_tradi",
+      "title": "Blockchain-Empowered Privacy-Preserving Digital Object Trading in the Metaverse",
+      "filename": "Blockchain-Empowered_Privacy-Preserving_Digital_Object_Trading_in_the_Metaverse_compressed.pdf",
+      "relevance": "highly relevant platform/security evidence",
+      "pages": 10,
+      "words": 6247,
+      "total_score": 395
+    },
+    {
+      "id": "DOC_D014",
+      "label": "D014: Blockchain-based asset storage and service mechanism to...",
+      "type": "document",
+      "source_doc_id": "D014_blockchain_based_asset_storage_and_service_mechanism_to_meta",
+      "title": "Blockchain-based asset storage and service mechanism to metaverse universe Metarepo",
+      "filename": "Blockchain-based asset storage and service mechanism to metaverse universe_ Metarepo_compressed.pdf",
+      "relevance": "highly relevant platform/security evidence",
+      "pages": 17,
+      "words": 4784,
+      "total_score": 161
+    },
+    {
+      "id": "DOC_D015",
+      "label": "D015: Blockchain-based Security Framework for Metaverse A...",
+      "type": "document",
+      "source_doc_id": "D015_blockchain_based_security_framework_for_metaverse_a_decentra",
+      "title": "Blockchain-based Security Framework for Metaverse A Decentralized Approach",
+      "filename": "Blockchain-based_Security_Framework_for_Metaverse_A_Decentralized_Approach_compressed.pdf",
+      "relevance": "highly relevant platform/security evidence",
+      "pages": 6,
+      "words": 4250,
+      "total_score": 321
+    },
+    {
+      "id": "DOC_D016",
+      "label": "D016: Bridging Law and Machine Learning A Cybersecure Model for...",
+      "type": "document",
+      "source_doc_id": "D016_bridging_law_and_machine_learning_a_cybersecure_model_for_cl",
+      "title": "Bridging Law and Machine Learning A Cybersecure Model for Classifying Digital Real Estate Contracts in the Metaverse",
+      "filename": "Bridging Law and Machine Learning_ A Cybersecure Model for Classifying Digital Real Estate Contracts in the Metaverse_compressed.pdf",
+      "relevance": "highly relevant platform/security evidence",
+      "pages": 15,
+      "words": 7651,
+      "total_score": 349
+    },
+    {
+      "id": "DOC_D017",
+      "label": "D017: Challenges and Opportunities of Integrating Non-Fungible...",
+      "type": "document",
+      "source_doc_id": "D017_challenges_and_opportunities_of_integrating_non_fungible_tok",
+      "title": "Challenges and Opportunities of Integrating Non-Fungible Tokens NFTs and Self-Sovereign AI SSAI in Blockchain-Based Metaverse Projects",
+      "filename": "Challenges_and_Opportunities_of_Integrating_Non-Fungible_Tokens_NFTs_and_Self-Sovereign_AI_SSAI_in_Blockchain-Based_Metaverse_Projects_compressed.pdf",
+      "relevance": "highly relevant platform/security evidence",
+      "pages": 9,
+      "words": 6507,
+      "total_score": 620
+    },
+    {
+      "id": "DOC_D018",
+      "label": "D018: Criminology Towards the Metaverse Cryptocurrency Scams, Grey...",
+      "type": "document",
+      "source_doc_id": "D018_criminology_towards_the_metaverse_cryptocurrency_scams_grey_",
+      "title": "Criminology Towards the Metaverse Cryptocurrency Scams, Grey Economy and the Technosocial",
+      "filename": "Criminology Towards the Metaverse_ Cryptocurrency Scams, Grey Economy and the Technosocial_compressed.pdf",
+      "relevance": "primary financial-crime/crypto evidence",
+      "pages": 16,
+      "words": 10051,
+      "total_score": 437
+    },
+    {
+      "id": "DOC_D019",
+      "label": "D019: Decentralized autonomous organizations review importance and...",
+      "type": "document",
+      "source_doc_id": "D019_decentralized_autonomous_organizations_review_importance_and",
+      "title": "Decentralized autonomous organizations review importance and applications",
+      "filename": "Decentralized_autonomous_organizations_review_importance_and_applications_compressed.pdf",
+      "relevance": "highly relevant platform/security evidence",
+      "pages": 6,
+      "words": 3759,
+      "total_score": 227
+    },
+    {
+      "id": "DOC_D020",
+      "label": "D020: Demystifying opportunities and risk for businesses A...",
+      "type": "document",
+      "source_doc_id": "D020_demystifying_opportunities_and_risk_for_businesses_a_qualita",
+      "title": "Demystifying opportunities and risk for businesses A qualitative enquiry",
+      "filename": "Demystifying opportunities and risk for businesses_ A qualitative enquiry_compressed.pdf",
+      "relevance": "highly relevant platform/security evidence",
+      "pages": 12,
+      "words": 4941,
+      "total_score": 251
+    },
+    {
+      "id": "DOC_D021",
+      "label": "D021: Design of Secure Mutual Authentication Scheme for Metaverse...",
+      "type": "document",
+      "source_doc_id": "D021_design_of_secure_mutual_authentication_scheme_for_metaverse_",
+      "title": "Design of Secure Mutual Authentication Scheme for Metaverse Environments Using Blockchain",
+      "filename": "Design_of_Secure_Mutual_Authentication_Scheme_for_Metaverse_Environments_Using_Blockchain_compressed.pdf",
+      "relevance": "highly relevant platform/security evidence",
+      "pages": 15,
+      "words": 9192,
+      "total_score": 278
+    },
+    {
+      "id": "DOC_D022",
+      "label": "D022: Detecting Smart Contract Project Anomalies in Metaverse",
+      "type": "document",
+      "source_doc_id": "D022_detecting_smart_contract_project_anomalies_in_metaverse_comp",
+      "title": "Detecting Smart Contract Project Anomalies in Metaverse",
+      "filename": "Detecting_Smart_Contract_Project_Anomalies_in_Metaverse_compressed.pdf",
+      "relevance": "highly relevant platform/security evidence",
+      "pages": 9,
+      "words": 6591,
+      "total_score": 422
+    },
+    {
+      "id": "DOC_D023",
+      "label": "D023: Eden An Edge Computing Empowered Proof-of-Personhood...",
+      "type": "document",
+      "source_doc_id": "D023_eden_an_edge_computing_empowered_proof_of_personhood_protoco",
+      "title": "Eden An Edge Computing Empowered Proof-of-Personhood Protocol for Anti-Sybil in Blockchain-based Metaverse",
+      "filename": "Eden_An_Edge_Computing_Empowered_Proof-of-Personhood_Protocol_for_Anti-Sybil_in_Blockchain-based_Metaverse_compressed.pdf",
+      "relevance": "highly relevant platform/security evidence",
+      "pages": 8,
+      "words": 5713,
+      "total_score": 363
+    },
+    {
+      "id": "DOC_D024",
+      "label": "D024: Efficient post-quantum attribute-based access control scheme...",
+      "type": "document",
+      "source_doc_id": "D024_efficient_post_quantum_attribute_based_access_control_scheme",
+      "title": "Efficient post-quantum attribute-based access control scheme for blockchain-empowered metaverse data management",
+      "filename": "Efficient post-quantum attribute-based access control scheme for blockchain-empowered metaverse data management_compressed.pdf",
+      "relevance": "highly relevant platform/security evidence",
+      "pages": 15,
+      "words": 12048,
+      "total_score": 195
+    },
+    {
+      "id": "DOC_D025",
+      "label": "D025: Enhancing Identity Security in the Metaverse Solutions Using...",
+      "type": "document",
+      "source_doc_id": "D025_enhancing_identity_security_in_the_metaverse_solutions_using",
+      "title": "Enhancing Identity Security in the Metaverse Solutions Using AI Blockchain and NFTs",
+      "filename": "Enhancing_Identity_Security_in_the_Metaverse_Solutions_Using_AI_Blockchain_and_NFTs_compressed.pdf",
+      "relevance": "primary financial-crime/crypto evidence",
+      "pages": 6,
+      "words": 3826,
+      "total_score": 488
+    },
+    {
+      "id": "DOC_D026",
+      "label": "D026: Ethical and Legal Challenges of NFTs chaptered",
+      "type": "document",
+      "source_doc_id": "D026_ethical_and_legal_challenges_of_nfts_chapter_extracted",
+      "title": "Ethical and Legal Challenges of NFTs chaptered",
+      "filename": "Ethical_and_Legal_Challenges_of_NFTs_chapter_extracted.pdf",
+      "relevance": "highly relevant platform/security evidence",
+      "pages": 15,
+      "words": 5784,
+      "total_score": 401
+    },
+    {
+      "id": "DOC_D027",
+      "label": "D027: Exploring-NFTs-and-Metaverse-Collaborations...",
+      "type": "document",
+      "source_doc_id": "D027_exploring_nfts_and_metaverse_collaborations_innovations_oppo",
+      "title": "Exploring-NFTs-and-Metaverse-Collaborations -Innovations-Opportunities-and-Challenges",
+      "filename": "Exploring-NFTs-and-Metaverse-Collaborations_-Innovations-Opportunities-and-Challenges_compressed.pdf",
+      "relevance": "highly relevant platform/security evidence",
+      "pages": 22,
+      "words": 7589,
+      "total_score": 493
+    },
+    {
+      "id": "DOC_D028",
+      "label": "D028: Financial cybercrime in the Islamic Finance Metaverse",
+      "type": "document",
+      "source_doc_id": "D028_financial_cybercrime_in_the_islamic_finance_metaverse_compre",
+      "title": "Financial cybercrime in the Islamic Finance Metaverse",
+      "filename": "Financial cybercrime in the Islamic Finance Metaverse_compressed.pdf",
+      "relevance": "primary financial-crime/crypto evidence",
+      "pages": 6,
+      "words": 4407,
+      "total_score": 306
+    },
+    {
+      "id": "DOC_D029",
+      "label": "D029: Freedom and Restraint in Dark Forest A Peek at the Metaverse...",
+      "type": "document",
+      "source_doc_id": "D029_freedom_and_restraint_in_dark_forest_a_peek_at_the_metaverse",
+      "title": "Freedom and Restraint in Dark Forest A Peek at the Metaverse Through a Blockchain Game",
+      "filename": "Freedom_and_Restraint_in_Dark_Forest_A_Peek_at_the_Metaverse_Through_a_Blockchain_Game_compressed.pdf",
+      "relevance": "highly relevant platform/security evidence",
+      "pages": 12,
+      "words": 9938,
+      "total_score": 127
+    },
+    {
+      "id": "DOC_D030",
+      "label": "D030: Fusing Blockchain and AI With Metaverse A Survey",
+      "type": "document",
+      "source_doc_id": "D030_fusing_blockchain_and_ai_with_metaverse_a_survey_compressed",
+      "title": "Fusing Blockchain and AI With Metaverse A Survey",
+      "filename": "Fusing_Blockchain_and_AI_With_Metaverse_A_Survey_compressed.pdf",
+      "relevance": "highly relevant platform/security evidence",
+      "pages": 15,
+      "words": 11318,
+      "total_score": 809
+    },
+    {
+      "id": "DOC_D031",
+      "label": "D031: Jurisdictional Challenges in Metaverse chapter",
+      "type": "document",
+      "source_doc_id": "D031_jurisdictional_challenges_in_metaverse_chapter",
+      "title": "Jurisdictional Challenges in Metaverse chapter",
+      "filename": "Jurisdictional_Challenges_in_Metaverse_chapter.pdf",
+      "relevance": "highly relevant platform/security evidence",
+      "pages": 11,
+      "words": 4395,
+      "total_score": 178
+    },
+    {
+      "id": "DOC_D032",
+      "label": "D032: Legal Challenges of Intellectual Property in the Metaverse...",
+      "type": "document",
+      "source_doc_id": "D032_legal_challenges_of_intellectual_property_in_the_metaverse_u",
+      "title": "Legal Challenges of Intellectual Property in the Metaverse Under UAE Intellectual Property Law Trademarks Copyrights Patents",
+      "filename": "Legal_Challenges_of_Intellectual_Property_in_the_Metaverse_Under_UAE_Intellectual_Property_Law_Trademarks_Copyrights_Patents_compressed.pdf",
+      "relevance": "highly relevant platform/security evidence",
+      "pages": 7,
+      "words": 5902,
+      "total_score": 199
+    },
+    {
+      "id": "DOC_D033",
+      "label": "D033: Legalities in Metaverse Ethereum Fraud Detection",
+      "type": "document",
+      "source_doc_id": "D033_legalities_in_metaverse_ethereum_fraud_detection_compressed",
+      "title": "Legalities in Metaverse Ethereum Fraud Detection",
+      "filename": "Legalities_in_Metaverse__Ethereum_Fraud_Detection_compressed.pdf",
+      "relevance": "primary financial-crime/crypto evidence",
+      "pages": 14,
+      "words": 7774,
+      "total_score": 421
+    },
+    {
+      "id": "DOC_D034",
+      "label": "D034: METAseen analyzing network traffic and privacy policies in...",
+      "type": "document",
+      "source_doc_id": "D034_metaseen_analyzing_network_traffic_and_privacy_policies_in_w",
+      "title": "METAseen analyzing network traffic and privacy policies in Web 3.0 based Metaverse",
+      "filename": "METAseen_ analyzing network traffic and privacy policies in Web 3.0 based Metaverse_compressed.pdf",
+      "relevance": "highly relevant platform/security evidence",
+      "pages": 13,
+      "words": 11082,
+      "total_score": 661
+    },
+    {
+      "id": "DOC_D035",
+      "label": "D035: Meta-Governance Blockchain-Driven Metaverse Platform for...",
+      "type": "document",
+      "source_doc_id": "D035_meta_governance_blockchain_driven_metaverse_platform_for_mit",
+      "title": "Meta-Governance Blockchain-Driven Metaverse Platform for Mitigating Misbehavior Using Smart Contract and AI",
+      "filename": "Meta-Governance_Blockchain-Driven_Metaverse_Platform_for_Mitigating_Misbehavior_Using_Smart_Contract_and_AI_compressed.pdf",
+      "relevance": "highly relevant platform/security evidence",
+      "pages": 15,
+      "words": 9903,
+      "total_score": 520
+    },
+    {
+      "id": "DOC_D036",
+      "label": "D036: MetaL A Fully Decentralized User-Driven Access Control...",
+      "type": "document",
+      "source_doc_id": "D036_metal_a_fully_decentralized_user_driven_access_control_schem",
+      "title": "MetaL A Fully Decentralized User-Driven Access Control Scheme for Metaverse Utilizing MC-ABE and Sharding Blockchain",
+      "filename": "MetaL_A_Fully_Decentralized_User-Driven_Access_Control_Scheme_for_Metaverse_Utilizing_MC-ABE_and_Sharding_Blockchain_compressed.pdf",
+      "relevance": "highly relevant platform/security evidence",
+      "pages": 9,
+      "words": 7077,
+      "total_score": 154
+    },
+    {
+      "id": "DOC_D037",
+      "label": "D037: Metaverse ethical challenges of the tokenisation of the...",
+      "type": "document",
+      "source_doc_id": "D037_metaverse_ethical_challenges_of_the_tokenisation_of_the_econ",
+      "title": "Metaverse ethical challenges of the tokenisation of the economy NON ENGLISH PAPER",
+      "filename": "Metaverse_ ethical challenges of the tokenisation of the economy_NON_ENGLISH_PAPER_compressed.pdf",
+      "relevance": "highly relevant platform/security evidence",
+      "pages": 20,
+      "words": 10700,
+      "total_score": 150
+    },
+    {
+      "id": "DOC_D038",
+      "label": "D038: Metaverse The Potential Threats in the Virtual World chapter...",
+      "type": "document",
+      "source_doc_id": "D038_metaverse_the_potential_threats_in_the_virtual_world_chapter",
+      "title": "Metaverse The Potential Threats in the Virtual World chapter pages 84-92",
+      "filename": "Metaverse_The_Potential_Threats_in_the_Virtual_World_chapter_pages_84-92.pdf",
+      "relevance": "highly relevant platform/security evidence",
+      "pages": 9,
+      "words": 2650,
+      "total_score": 189
+    },
+    {
+      "id": "DOC_D039",
+      "label": "D039: Modelling BTC networks",
+      "type": "document",
+      "source_doc_id": "D039_modelling_btc_networks",
+      "title": "Modelling BTC networks",
+      "filename": "Modelling BTC networks.pdf",
+      "relevance": "highly relevant platform/security evidence",
+      "pages": 33,
+      "words": 15923,
+      "total_score": 496
+    },
+    {
+      "id": "DOC_D040",
+      "label": "D040: Money, possessions, and ownership in the Metaverse NFTs,...",
+      "type": "document",
+      "source_doc_id": "D040_money_possessions_and_ownership_in_the_metaverse_nfts_crypto",
+      "title": "Money, possessions, and ownership in the Metaverse NFTs, cryptocurrencies, Web3 and Wild Markets",
+      "filename": "Money, possessions, and ownership in the Metaverse_ NFTs, cryptocurrencies, Web3 and Wild Markets_compressed.pdf",
+      "relevance": "highly relevant platform/security evidence",
+      "pages": 8,
+      "words": 8217,
+      "total_score": 362
+    },
+    {
+      "id": "DOC_D041",
+      "label": "D041: NFT-Based Digital Identity Authentication Framework for the...",
+      "type": "document",
+      "source_doc_id": "D041_nft_based_digital_identity_authentication_framework_for_the_",
+      "title": "NFT-Based Digital Identity Authentication Framework for the Metaverse Environments",
+      "filename": "NFT-Based_Digital_Identity_Authentication_Framework_for_the_Metaverse_Environments_compressed.pdf",
+      "relevance": "highly relevant platform/security evidence",
+      "pages": 9,
+      "words": 5827,
+      "total_score": 320
+    },
+    {
+      "id": "DOC_D042",
+      "label": "D042: NFTs for accessing, monetizing, and teleporting digital...",
+      "type": "document",
+      "source_doc_id": "D042_nfts_for_accessing_monetizing_and_teleporting_digital_twins_",
+      "title": "NFTs for accessing, monetizing, and teleporting digital twins and digital artifacts in the metaverse",
+      "filename": "NFTs for accessing, monetizing, and teleporting digital twins and digital artifacts in the metaverse_compressed.pdf",
+      "relevance": "highly relevant platform/security evidence",
+      "pages": 16,
+      "words": 11058,
+      "total_score": 887
+    },
+    {
+      "id": "DOC_D043",
+      "label": "D043: NFTs for combating deepfakes and fake metaverse digital...",
+      "type": "document",
+      "source_doc_id": "D043_nfts_for_combating_deepfakes_and_fake_metaverse_digital_cont",
+      "title": "NFTs for combating deepfakes and fake metaverse digital contents",
+      "filename": "NFTs for combating deepfakes and fake metaverse digital contents_compressed.pdf",
+      "relevance": "highly relevant platform/security evidence",
+      "pages": 24,
+      "words": 12719,
+      "total_score": 584
+    },
+    {
+      "id": "DOC_D044",
+      "label": "D044: Navigating Consumer Rights and Ethical Advertising in the...",
+      "type": "document",
+      "source_doc_id": "D044_navigating_consumer_rights_and_ethical_advertising_in_the_me",
+      "title": "Navigating Consumer Rights and Ethical Advertising in the Metaverse chapter",
+      "filename": "Navigating_Consumer_Rights_and_Ethical_Advertising_in_the_Metaverse_chapter.pdf",
+      "relevance": "highly relevant platform/security evidence",
+      "pages": 10,
+      "words": 3683,
+      "total_score": 165
+    },
+    {
+      "id": "DOC_D045",
+      "label": "D045: Opportunities to future crime Scoping the future of money...",
+      "type": "document",
+      "source_doc_id": "D045_opportunities_to_future_crime_scoping_the_future_of_money_la",
+      "title": "Opportunities to future crime Scoping the future of money laundering and terrorist financing through cryptoassets",
+      "filename": "Opportunities to future crime_ Scoping the future of money laundering and terrorist financing through cryptoassets_compressed.pdf",
+      "relevance": "primary financial-crime/crypto evidence",
+      "pages": 24,
+      "words": 19120,
+      "total_score": 1357
+    },
+    {
+      "id": "DOC_D046",
+      "label": "D046: Seamless Asset Exchange in Interconnected Metaverses...",
+      "type": "document",
+      "source_doc_id": "D046_seamless_asset_exchange_in_interconnected_metaverses_unravel",
+      "title": "Seamless Asset Exchange in Interconnected Metaverses Unraveling On-Chain Atomic Swap",
+      "filename": "Seamless_Asset_Exchange_in_Interconnected_Metaverses_Unraveling_On-Chain_Atomic_Swap_compressed.pdf",
+      "relevance": "highly relevant platform/security evidence",
+      "pages": 10,
+      "words": 7281,
+      "total_score": 366
+    },
+    {
+      "id": "DOC_D047",
+      "label": "D047: Securing the Metaverse chaptered",
+      "type": "document",
+      "source_doc_id": "D047_securing_the_metaverse_chapter_extracted",
+      "title": "Securing the Metaverse chaptered",
+      "filename": "Securing_the_Metaverse_chapter_extracted.pdf",
+      "relevance": "highly relevant platform/security evidence",
+      "pages": 11,
+      "words": 3242,
+      "total_score": 188
+    },
+    {
+      "id": "DOC_D048",
+      "label": "D048: Stylized facts of metaverse non-fungible tokens",
+      "type": "document",
+      "source_doc_id": "D048_stylized_facts_of_metaverse_non_fungible_tokens_compressed",
+      "title": "Stylized facts of metaverse non-fungible tokens",
+      "filename": "Stylized facts of metaverse non-fungible tokens_compressed.pdf",
+      "relevance": "primary financial-crime/crypto evidence",
+      "pages": 29,
+      "words": 18036,
+      "total_score": 939
+    },
+    {
+      "id": "DOC_D049",
+      "label": "D049: The Digital Payment Revolution in the Metaverse A Systematic...",
+      "type": "document",
+      "source_doc_id": "D049_the_digital_payment_revolution_in_the_metaverse_a_systematic",
+      "title": "The Digital Payment Revolution in the Metaverse A Systematic Review of Emerging Technologies, Challenges, and Future Directions",
+      "filename": "The Digital Payment Revolution in the Metaverse_ A Systematic Review of Emerging Technologies, Challenges, and Future Directions_compressed.pdf",
+      "relevance": "highly relevant platform/security evidence",
+      "pages": 17,
+      "words": 9320,
+      "total_score": 405
+    },
+    {
+      "id": "DOC_D050",
+      "label": "D050: The New Economic Models of Metaverse and Its Implications in...",
+      "type": "document",
+      "source_doc_id": "D050_the_new_economic_models_of_metaverse_and_its_implications_in",
+      "title": "The New Economic Models of Metaverse and Its Implications in International Financial Markets chapter",
+      "filename": "The New Economic Models of Metaverse and Its Implications in International Financial Markets_chapter.pdf",
+      "relevance": "highly relevant platform/security evidence",
+      "pages": 10,
+      "words": 4387,
+      "total_score": 252
+    },
+    {
+      "id": "DOC_D051",
+      "label": "D051: The Study of DeFi in Virtual Community and Financial...",
+      "type": "document",
+      "source_doc_id": "D051_the_study_of_defi_in_virtual_community_and_financial_supervi",
+      "title": "The Study of DeFi in Virtual Community and Financial Supervision",
+      "filename": "The Study of DeFi in Virtual Community and Financial Supervision_compressed.pdf",
+      "relevance": "highly relevant platform/security evidence",
+      "pages": 8,
+      "words": 5431,
+      "total_score": 398
+    },
+    {
+      "id": "DOC_D052",
+      "label": "D052: The Technological Innovation of the Metaverse in Financial",
+      "type": "document",
+      "source_doc_id": "D052_the_technological_innovation_of_the_metaverse_in_financial_c",
+      "title": "The Technological Innovation of the Metaverse in Financial",
+      "filename": "The Technological Innovation of the Metaverse in Financial_compressed.pdf",
+      "relevance": "highly relevant platform/security evidence",
+      "pages": 17,
+      "words": 12454,
+      "total_score": 517
+    },
+    {
+      "id": "DOC_D053",
+      "label": "D053: The effects of non-fungible token platform affordances on...",
+      "type": "document",
+      "source_doc_id": "D053_the_effects_of_non_fungible_token_platform_affordances_on_cu",
+      "title": "The effects of non-fungible token platform affordances on customer loyalty A Buyer-Creator duality perspective",
+      "filename": "The effects of non-fungible token platform affordances on customer loyalty_ A Buyer-Creator duality perspective_compressed.pdf",
+      "relevance": "highly relevant platform/security evidence",
+      "pages": 16,
+      "words": 12365,
+      "total_score": 390
+    },
+    {
+      "id": "DOC_D054",
+      "label": "D054: The rise and fall of cryptocurrencies",
+      "type": "document",
+      "source_doc_id": "D054_the_rise_and_fall_of_cryptocurrencies",
+      "title": "The rise and fall of cryptocurrencies",
+      "filename": "The rise and fall of cryptocurrencies.pdf",
+      "relevance": "primary financial-crime/crypto evidence",
+      "pages": 34,
+      "words": 16953,
+      "total_score": 855
+    },
+    {
+      "id": "DOC_D055",
+      "label": "D055: The metaverse applications for the finance industry its...",
+      "type": "document",
+      "source_doc_id": "D055_the_metaverse_applications_for_the_finance_industry_its_chal",
+      "title": "The metaverse applications for the finance industry its challenges and an approach for the metaverse finance industry",
+      "filename": "The_metaverse_applications_for_the_finance_industry_its_challenges_and_an_approach_for_the_metaverse_finance_industry_compressed.pdf",
+      "relevance": "primary financial-crime/crypto evidence",
+      "pages": 4,
+      "words": 2795,
+      "total_score": 245
+    },
+    {
+      "id": "DOC_D056",
+      "label": "D056: Towards Secure AI-driven Industrial Metaverse with NFT...",
+      "type": "document",
+      "source_doc_id": "D056_towards_secure_ai_driven_industrial_metaverse_with_nft_digit",
+      "title": "Towards Secure AI-driven Industrial Metaverse with NFT Digital Twins",
+      "filename": "Towards_Secure_AI-driven_Industrial_Metaverse_with_NFT_Digital_Twins_compressed.pdf",
+      "relevance": "highly relevant platform/security evidence",
+      "pages": 9,
+      "words": 6247,
+      "total_score": 321
+    },
+    {
+      "id": "DOC_D057",
+      "label": "D057: Trusted AI with Blockchain to Empower Metaverse",
+      "type": "document",
+      "source_doc_id": "D057_trusted_ai_with_blockchain_to_empower_metaverse_compressed",
+      "title": "Trusted AI with Blockchain to Empower Metaverse",
+      "filename": "Trusted_AI_with_Blockchain_to_Empower_Metaverse_compressed.pdf",
+      "relevance": "highly relevant platform/security evidence",
+      "pages": 8,
+      "words": 6071,
+      "total_score": 607
+    },
+    {
+      "id": "DOC_D058",
+      "label": "D058: Unraveling the dynamics of digital equality and trust in...",
+      "type": "document",
+      "source_doc_id": "D058_unraveling_the_dynamics_of_digital_equality_and_trust_in_ai_",
+      "title": "Unraveling the dynamics of digital equality and trust in AI-empowered metaverses and AI-VR-convergence",
+      "filename": "Unraveling the dynamics of digital equality and trust in AI-empowered metaverses and AI-VR-convergence_compressed.pdf",
+      "relevance": "highly relevant platform/security evidence",
+      "pages": 20,
+      "words": 15361,
+      "total_score": 833
+    },
+    {
+      "id": "DOC_D059",
+      "label": "D059: Urban metaverse and blockchain",
+      "type": "document",
+      "source_doc_id": "D059_urban_metaverse_and_blockchain",
+      "title": "Urban metaverse and blockchain",
+      "filename": "Urban metaverse and blockchain.pdf",
+      "relevance": "primary financial-crime/crypto evidence",
+      "pages": 40,
+      "words": 27813,
+      "total_score": 1565
+    }
+  ],
+  "edges": [
+    {
+      "source": "T6",
+      "target": "TH_SCAM",
+      "relation": "topic-identifies-emerging-threat",
+      "weight": 19.17,
+      "evidence": ""
+    },
+    {
+      "source": "T6",
+      "target": "TH_WALLET",
+      "relation": "topic-identifies-emerging-threat",
+      "weight": 19.17,
+      "evidence": ""
+    },
+    {
+      "source": "T6",
+      "target": "TH_DEFI",
+      "relation": "topic-identifies-emerging-threat",
+      "weight": 19.17,
+      "evidence": ""
+    },
+    {
+      "source": "T2",
+      "target": "TH_IDENTITY",
+      "relation": "topic-identifies-emerging-threat",
+      "weight": 18.53,
+      "evidence": ""
+    },
+    {
+      "source": "T2",
+      "target": "TH_CYBER",
+      "relation": "topic-identifies-emerging-threat",
+      "weight": 18.53,
+      "evidence": ""
+    },
+    {
+      "source": "T2",
+      "target": "TH_PRIVACY",
+      "relation": "topic-identifies-emerging-threat",
+      "weight": 18.53,
+      "evidence": ""
+    },
+    {
+      "source": "T1",
+      "target": "TH_GOVERNANCE",
+      "relation": "topic-identifies-emerging-threat",
+      "weight": 16.3,
+      "evidence": ""
+    },
+    {
+      "source": "T1",
+      "target": "TH_DEFI",
+      "relation": "topic-identifies-emerging-threat",
+      "weight": 16.3,
+      "evidence": ""
+    },
+    {
+      "source": "T1",
+      "target": "TH_NFT",
+      "relation": "topic-identifies-emerging-threat",
+      "weight": 16.3,
+      "evidence": ""
+    },
+    {
+      "source": "T7",
+      "target": "TH_IDENTITY",
+      "relation": "topic-identifies-emerging-threat",
+      "weight": 13.64,
+      "evidence": ""
+    },
+    {
+      "source": "T7",
+      "target": "TH_PRIVACY",
+      "relation": "topic-identifies-emerging-threat",
+      "weight": 13.64,
+      "evidence": ""
+    },
+    {
+      "source": "T7",
+      "target": "TH_CYBER",
+      "relation": "topic-identifies-emerging-threat",
+      "weight": 13.64,
+      "evidence": ""
+    },
+    {
+      "source": "T5",
+      "target": "TH_NFT",
+      "relation": "topic-identifies-emerging-threat",
+      "weight": 13.37,
+      "evidence": ""
+    },
+    {
+      "source": "T5",
+      "target": "TH_SCAM",
+      "relation": "topic-identifies-emerging-threat",
+      "weight": 13.37,
+      "evidence": ""
+    },
+    {
+      "source": "T5",
+      "target": "TH_GOVERNANCE",
+      "relation": "topic-identifies-emerging-threat",
+      "weight": 13.37,
+      "evidence": ""
+    },
+    {
+      "source": "T3",
+      "target": "TH_WALLET",
+      "relation": "topic-identifies-emerging-threat",
+      "weight": 9.65,
+      "evidence": ""
+    },
+    {
+      "source": "T3",
+      "target": "TH_DEFI",
+      "relation": "topic-identifies-emerging-threat",
+      "weight": 9.65,
+      "evidence": ""
+    },
+    {
+      "source": "T3",
+      "target": "TH_PAYMENT",
+      "relation": "topic-identifies-emerging-threat",
+      "weight": 9.65,
+      "evidence": ""
+    },
+    {
+      "source": "T4",
+      "target": "TH_PAYMENT",
+      "relation": "topic-identifies-emerging-threat",
+      "weight": 9.34,
+      "evidence": ""
+    },
+    {
+      "source": "T4",
+      "target": "TH_PRIVACY",
+      "relation": "topic-identifies-emerging-threat",
+      "weight": 9.34,
+      "evidence": ""
+    },
+    {
+      "source": "T4",
+      "target": "TH_SCAM",
+      "relation": "topic-identifies-emerging-threat",
+      "weight": 9.34,
+      "evidence": ""
+    },
+    {
+      "source": "TH_SCAM",
+      "target": "LY_OPPORTUNITY",
+      "relation": "threat-operates-through-layer",
+      "weight": 2.0,
+      "evidence": ""
+    },
+    {
+      "source": "TH_SCAM",
+      "target": "SG_SCAM",
+      "relation": "modelled-by-signal",
+      "weight": 2.0,
+      "evidence": ""
+    },
+    {
+      "source": "TH_SCAM",
+      "target": "IN_SCAM_MONITOR",
+      "relation": "intervention-point",
+      "weight": 2.0,
+      "evidence": ""
+    },
+    {
+      "source": "TH_SCAM",
+      "target": "IN_EVIDENCE",
+      "relation": "intervention-point",
+      "weight": 2.0,
+      "evidence": ""
+    },
+    {
+      "source": "TH_SCAM",
+      "target": "IN_MARKETPLACE",
+      "relation": "intervention-point",
+      "weight": 2.0,
+      "evidence": ""
+    },
+    {
+      "source": "TH_IDENTITY",
+      "target": "LY_IDENTITY",
+      "relation": "threat-operates-through-layer",
+      "weight": 2.0,
+      "evidence": ""
+    },
+    {
+      "source": "TH_IDENTITY",
+      "target": "SG_AVATAR",
+      "relation": "modelled-by-signal",
+      "weight": 2.0,
+      "evidence": ""
+    },
+    {
+      "source": "TH_IDENTITY",
+      "target": "IN_ONBOARDING",
+      "relation": "intervention-point",
+      "weight": 2.0,
+      "evidence": ""
+    },
+    {
+      "source": "TH_IDENTITY",
+      "target": "IN_ACCESS",
+      "relation": "intervention-point",
+      "weight": 2.0,
+      "evidence": ""
+    },
+    {
+      "source": "TH_IDENTITY",
+      "target": "IN_EVIDENCE",
+      "relation": "intervention-point",
+      "weight": 2.0,
+      "evidence": ""
+    },
+    {
+      "source": "TH_NFT",
+      "target": "LY_ASSET",
+      "relation": "threat-operates-through-layer",
+      "weight": 2.0,
+      "evidence": ""
+    },
+    {
+      "source": "TH_NFT",
+      "target": "SG_NFT",
+      "relation": "modelled-by-signal",
+      "weight": 2.0,
+      "evidence": ""
+    },
+    {
+      "source": "TH_NFT",
+      "target": "IN_PROVENANCE",
+      "relation": "intervention-point",
+      "weight": 2.0,
+      "evidence": ""
+    },
+    {
+      "source": "TH_NFT",
+      "target": "IN_MARKETPLACE",
+      "relation": "intervention-point",
+      "weight": 2.0,
+      "evidence": ""
+    },
+    {
+      "source": "TH_NFT",
+      "target": "IN_VALUATION",
+      "relation": "intervention-point",
+      "weight": 2.0,
+      "evidence": ""
+    },
+    {
+      "source": "TH_WALLET",
+      "target": "LY_TRANSACTION",
+      "relation": "threat-operates-through-layer",
+      "weight": 2.0,
+      "evidence": ""
+    },
+    {
+      "source": "TH_WALLET",
+      "target": "SG_WALLET",
+      "relation": "modelled-by-signal",
+      "weight": 2.0,
+      "evidence": ""
+    },
+    {
+      "source": "TH_WALLET",
+      "target": "IN_CHAIN_ANALYTICS",
+      "relation": "intervention-point",
+      "weight": 2.0,
+      "evidence": ""
+    },
+    {
+      "source": "TH_WALLET",
+      "target": "IN_OFFRAMP",
+      "relation": "intervention-point",
+      "weight": 2.0,
+      "evidence": ""
+    },
+    {
+      "source": "TH_WALLET",
+      "target": "IN_EVIDENCE",
+      "relation": "intervention-point",
+      "weight": 2.0,
+      "evidence": ""
+    },
+    {
+      "source": "TH_DEFI",
+      "target": "LY_GOVERNANCE",
+      "relation": "threat-operates-through-layer",
+      "weight": 2.0,
+      "evidence": ""
+    },
+    {
+      "source": "TH_DEFI",
+      "target": "SG_CONTRACT",
+      "relation": "modelled-by-signal",
+      "weight": 2.0,
+      "evidence": ""
+    },
+    {
+      "source": "TH_DEFI",
+      "target": "IN_GOVERNANCE_AUDIT",
+      "relation": "intervention-point",
+      "weight": 2.0,
+      "evidence": ""
+    },
+    {
+      "source": "TH_DEFI",
+      "target": "IN_CHAIN_ANALYTICS",
+      "relation": "intervention-point",
+      "weight": 2.0,
+      "evidence": ""
+    },
+    {
+      "source": "TH_DEFI",
+      "target": "IN_PROVENANCE",
+      "relation": "intervention-point",
+      "weight": 2.0,
+      "evidence": ""
+    },
+    {
+      "source": "TH_PRIVACY",
+      "target": "LY_IDENTITY",
+      "relation": "threat-operates-through-layer",
+      "weight": 2.0,
+      "evidence": ""
+    },
+    {
+      "source": "TH_PRIVACY",
+      "target": "SG_PRIVACY",
+      "relation": "modelled-by-signal",
+      "weight": 2.0,
+      "evidence": ""
+    },
+    {
+      "source": "TH_PRIVACY",
+      "target": "IN_ACCESS",
+      "relation": "intervention-point",
+      "weight": 2.0,
+      "evidence": ""
+    },
+    {
+      "source": "TH_PRIVACY",
+      "target": "IN_PRIVACY_BY_DESIGN",
+      "relation": "intervention-point",
+      "weight": 2.0,
+      "evidence": ""
+    },
+    {
+      "source": "TH_PRIVACY",
+      "target": "IN_EVIDENCE",
+      "relation": "intervention-point",
+      "weight": 2.0,
+      "evidence": ""
+    },
+    {
+      "source": "TH_PAYMENT",
+      "target": "LY_TRANSACTION",
+      "relation": "threat-operates-through-layer",
+      "weight": 2.0,
+      "evidence": ""
+    },
+    {
+      "source": "TH_PAYMENT",
+      "target": "SG_PAYMENT",
+      "relation": "modelled-by-signal",
+      "weight": 2.0,
+      "evidence": ""
+    },
+    {
+      "source": "TH_PAYMENT",
+      "target": "IN_PAYMENT_CONTROLS",
+      "relation": "intervention-point",
+      "weight": 2.0,
+      "evidence": ""
+    },
+    {
+      "source": "TH_PAYMENT",
+      "target": "IN_CHAIN_ANALYTICS",
+      "relation": "intervention-point",
+      "weight": 2.0,
+      "evidence": ""
+    },
+    {
+      "source": "TH_PAYMENT",
+      "target": "IN_OFFRAMP",
+      "relation": "intervention-point",
+      "weight": 2.0,
+      "evidence": ""
+    },
+    {
+      "source": "TH_CYBER",
+      "target": "LY_PLATFORM",
+      "relation": "threat-operates-through-layer",
+      "weight": 2.0,
+      "evidence": ""
+    },
+    {
+      "source": "TH_CYBER",
+      "target": "SG_CYBER",
+      "relation": "modelled-by-signal",
+      "weight": 2.0,
+      "evidence": ""
+    },
+    {
+      "source": "TH_CYBER",
+      "target": "IN_PLATFORM_SECURITY",
+      "relation": "intervention-point",
+      "weight": 2.0,
+      "evidence": ""
+    },
+    {
+      "source": "TH_CYBER",
+      "target": "IN_ACCESS",
+      "relation": "intervention-point",
+      "weight": 2.0,
+      "evidence": ""
+    },
+    {
+      "source": "TH_CYBER",
+      "target": "IN_EVIDENCE",
+      "relation": "intervention-point",
+      "weight": 2.0,
+      "evidence": ""
+    },
+    {
+      "source": "TH_GOVERNANCE",
+      "target": "LY_GOVERNANCE",
+      "relation": "threat-operates-through-layer",
+      "weight": 2.0,
+      "evidence": ""
+    },
+    {
+      "source": "TH_GOVERNANCE",
+      "target": "SG_GOVERNANCE",
+      "relation": "modelled-by-signal",
+      "weight": 2.0,
+      "evidence": ""
+    },
+    {
+      "source": "TH_GOVERNANCE",
+      "target": "IN_GOVERNANCE_AUDIT",
+      "relation": "intervention-point",
+      "weight": 2.0,
+      "evidence": ""
+    },
+    {
+      "source": "TH_GOVERNANCE",
+      "target": "IN_OFFRAMP",
+      "relation": "intervention-point",
+      "weight": 2.0,
+      "evidence": ""
+    },
+    {
+      "source": "TH_GOVERNANCE",
+      "target": "IN_EVIDENCE",
+      "relation": "intervention-point",
+      "weight": 2.0,
+      "evidence": ""
+    },
+    {
+      "source": "LY_PLATFORM",
+      "target": "LY_DETECTION",
+      "relation": "feeds-detection-and-intervention",
+      "weight": 1.2,
+      "evidence": ""
+    },
+    {
+      "source": "LY_IDENTITY",
+      "target": "LY_DETECTION",
+      "relation": "feeds-detection-and-intervention",
+      "weight": 1.2,
+      "evidence": ""
+    },
+    {
+      "source": "LY_ASSET",
+      "target": "LY_DETECTION",
+      "relation": "feeds-detection-and-intervention",
+      "weight": 1.2,
+      "evidence": ""
+    },
+    {
+      "source": "LY_TRANSACTION",
+      "target": "LY_DETECTION",
+      "relation": "feeds-detection-and-intervention",
+      "weight": 1.2,
+      "evidence": ""
+    },
+    {
+      "source": "LY_GOVERNANCE",
+      "target": "LY_DETECTION",
+      "relation": "feeds-detection-and-intervention",
+      "weight": 1.2,
+      "evidence": ""
+    },
+    {
+      "source": "LY_OPPORTUNITY",
+      "target": "LY_DETECTION",
+      "relation": "feeds-detection-and-intervention",
+      "weight": 1.2,
+      "evidence": ""
+    },
+    {
+      "source": "LY_DETECTION",
+      "target": "LY_DETECTION",
+      "relation": "feeds-detection-and-intervention",
+      "weight": 1.2,
+      "evidence": ""
+    },
+    {
+      "source": "SG_SCAM",
+      "target": "LY_DETECTION",
+      "relation": "analytical-signal",
+      "weight": 1.2,
+      "evidence": ""
+    },
+    {
+      "source": "SG_AVATAR",
+      "target": "LY_DETECTION",
+      "relation": "analytical-signal",
+      "weight": 1.2,
+      "evidence": ""
+    },
+    {
+      "source": "SG_NFT",
+      "target": "LY_DETECTION",
+      "relation": "analytical-signal",
+      "weight": 1.2,
+      "evidence": ""
+    },
+    {
+      "source": "SG_WALLET",
+      "target": "LY_DETECTION",
+      "relation": "analytical-signal",
+      "weight": 1.2,
+      "evidence": ""
+    },
+    {
+      "source": "SG_CONTRACT",
+      "target": "LY_DETECTION",
+      "relation": "analytical-signal",
+      "weight": 1.2,
+      "evidence": ""
+    },
+    {
+      "source": "SG_PRIVACY",
+      "target": "LY_DETECTION",
+      "relation": "analytical-signal",
+      "weight": 1.2,
+      "evidence": ""
+    },
+    {
+      "source": "SG_PAYMENT",
+      "target": "LY_DETECTION",
+      "relation": "analytical-signal",
+      "weight": 1.2,
+      "evidence": ""
+    },
+    {
+      "source": "SG_CYBER",
+      "target": "LY_DETECTION",
+      "relation": "analytical-signal",
+      "weight": 1.2,
+      "evidence": ""
+    },
+    {
+      "source": "SG_GOVERNANCE",
+      "target": "LY_DETECTION",
+      "relation": "analytical-signal",
+      "weight": 1.2,
+      "evidence": ""
+    },
+    {
+      "source": "LY_DETECTION",
+      "target": "IN_SCAM_MONITOR",
+      "relation": "converted-into-control",
+      "weight": 1.0,
+      "evidence": ""
+    },
+    {
+      "source": "LY_DETECTION",
+      "target": "IN_ONBOARDING",
+      "relation": "converted-into-control",
+      "weight": 1.0,
+      "evidence": ""
+    },
+    {
+      "source": "LY_DETECTION",
+      "target": "IN_ACCESS",
+      "relation": "converted-into-control",
+      "weight": 1.0,
+      "evidence": ""
+    },
+    {
+      "source": "LY_DETECTION",
+      "target": "IN_PLATFORM_SECURITY",
+      "relation": "converted-into-control",
+      "weight": 1.0,
+      "evidence": ""
+    },
+    {
+      "source": "LY_DETECTION",
+      "target": "IN_PROVENANCE",
+      "relation": "converted-into-control",
+      "weight": 1.0,
+      "evidence": ""
+    },
+    {
+      "source": "LY_DETECTION",
+      "target": "IN_MARKETPLACE",
+      "relation": "converted-into-control",
+      "weight": 1.0,
+      "evidence": ""
+    },
+    {
+      "source": "LY_DETECTION",
+      "target": "IN_VALUATION",
+      "relation": "converted-into-control",
+      "weight": 1.0,
+      "evidence": ""
+    },
+    {
+      "source": "LY_DETECTION",
+      "target": "IN_CHAIN_ANALYTICS",
+      "relation": "converted-into-control",
+      "weight": 1.0,
+      "evidence": ""
+    },
+    {
+      "source": "LY_DETECTION",
+      "target": "IN_PAYMENT_CONTROLS",
+      "relation": "converted-into-control",
+      "weight": 1.0,
+      "evidence": ""
+    },
+    {
+      "source": "LY_DETECTION",
+      "target": "IN_GOVERNANCE_AUDIT",
+      "relation": "converted-into-control",
+      "weight": 1.0,
+      "evidence": ""
+    },
+    {
+      "source": "LY_DETECTION",
+      "target": "IN_OFFRAMP",
+      "relation": "converted-into-control",
+      "weight": 1.0,
+      "evidence": ""
+    },
+    {
+      "source": "LY_DETECTION",
+      "target": "IN_EVIDENCE",
+      "relation": "converted-into-control",
+      "weight": 1.0,
+      "evidence": ""
+    },
+    {
+      "source": "LY_DETECTION",
+      "target": "IN_PRIVACY_BY_DESIGN",
+      "relation": "converted-into-control",
+      "weight": 1.0,
+      "evidence": ""
+    },
+    {
+      "source": "DOC_D001",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 2.4148,
+      "evidence": "243 keyword/evidence hits for Metaverse platform features",
+      "count": 243
+    },
+    {
+      "source": "DOC_D001",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.2154,
+      "evidence": "37 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 37
+    },
+    {
+      "source": "DOC_D001",
+      "target": "DIM_financial_crime_opportunities",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.2678,
+      "evidence": "46 keyword/evidence hits for Financial crime opportunities",
+      "count": 46
+    },
+    {
+      "source": "DOC_D001",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.2504,
+      "evidence": "43 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 43
+    },
+    {
+      "source": "DOC_D001",
+      "target": "TH_SCAM",
+      "relation": "document-indicates-threat",
+      "weight": 14.0,
+      "evidence": "13 keyword matches in title/evidence excerpts",
+      "count": 13
+    },
+    {
+      "source": "DOC_D001",
+      "target": "TH_IDENTITY",
+      "relation": "document-indicates-threat",
+      "weight": 7.0,
+      "evidence": "6 keyword matches in title/evidence excerpts",
+      "count": 6
+    },
+    {
+      "source": "DOC_D001",
+      "target": "TH_CYBER",
+      "relation": "document-indicates-threat",
+      "weight": 6.0,
+      "evidence": "5 keyword matches in title/evidence excerpts",
+      "count": 5
+    },
+    {
+      "source": "DOC_D002",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 3.4571,
+      "evidence": "422 keyword/evidence hits for Metaverse platform features",
+      "count": 422
+    },
+    {
+      "source": "DOC_D002",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.2445,
+      "evidence": "42 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 42
+    },
+    {
+      "source": "DOC_D002",
+      "target": "DIM_financial_crime_opportunities",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.524,
+      "evidence": "90 keyword/evidence hits for Financial crime opportunities",
+      "count": 90
+    },
+    {
+      "source": "DOC_D002",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.2096,
+      "evidence": "36 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 36
+    },
+    {
+      "source": "DOC_D002",
+      "target": "TH_CYBER",
+      "relation": "document-indicates-threat",
+      "weight": 5.0,
+      "evidence": "4 keyword matches in title/evidence excerpts",
+      "count": 4
+    },
+    {
+      "source": "DOC_D002",
+      "target": "TH_NFT",
+      "relation": "document-indicates-threat",
+      "weight": 5.0,
+      "evidence": "4 keyword matches in title/evidence excerpts",
+      "count": 4
+    },
+    {
+      "source": "DOC_D002",
+      "target": "TH_SCAM",
+      "relation": "document-indicates-threat",
+      "weight": 5.0,
+      "evidence": "4 keyword matches in title/evidence excerpts",
+      "count": 4
+    },
+    {
+      "source": "DOC_D003",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.1106,
+      "evidence": "19 keyword/evidence hits for Metaverse platform features",
+      "count": 19
+    },
+    {
+      "source": "DOC_D003",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.4309,
+      "evidence": "74 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 74
+    },
+    {
+      "source": "DOC_D003",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.0408,
+      "evidence": "7 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 7
+    },
+    {
+      "source": "DOC_D003",
+      "target": "TH_WALLET",
+      "relation": "document-indicates-threat",
+      "weight": 7.0,
+      "evidence": "6 keyword matches in title/evidence excerpts",
+      "count": 6
+    },
+    {
+      "source": "DOC_D003",
+      "target": "TH_DEFI",
+      "relation": "document-indicates-threat",
+      "weight": 5.0,
+      "evidence": "4 keyword matches in title/evidence excerpts",
+      "count": 4
+    },
+    {
+      "source": "DOC_D003",
+      "target": "TH_PAYMENT",
+      "relation": "document-indicates-threat",
+      "weight": 3.0,
+      "evidence": "2 keyword matches in title/evidence excerpts",
+      "count": 2
+    },
+    {
+      "source": "DOC_D004",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.3668,
+      "evidence": "63 keyword/evidence hits for Metaverse platform features",
+      "count": 63
+    },
+    {
+      "source": "DOC_D004",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.5007,
+      "evidence": "86 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 86
+    },
+    {
+      "source": "DOC_D004",
+      "target": "DIM_financial_crime_opportunities",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.0349,
+      "evidence": "6 keyword/evidence hits for Financial crime opportunities",
+      "count": 6
+    },
+    {
+      "source": "DOC_D004",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.3843,
+      "evidence": "66 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 66
+    },
+    {
+      "source": "DOC_D004",
+      "target": "TH_WALLET",
+      "relation": "document-indicates-threat",
+      "weight": 10.0,
+      "evidence": "9 keyword matches in title/evidence excerpts",
+      "count": 9
+    },
+    {
+      "source": "DOC_D004",
+      "target": "TH_SCAM",
+      "relation": "document-indicates-threat",
+      "weight": 4.0,
+      "evidence": "3 keyword matches in title/evidence excerpts",
+      "count": 3
+    },
+    {
+      "source": "DOC_D004",
+      "target": "TH_CYBER",
+      "relation": "document-indicates-threat",
+      "weight": 3.0,
+      "evidence": "2 keyword matches in title/evidence excerpts",
+      "count": 2
+    },
+    {
+      "source": "DOC_D005",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 2.1936,
+      "evidence": "205 keyword/evidence hits for Metaverse platform features",
+      "count": 205
+    },
+    {
+      "source": "DOC_D005",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.623,
+      "evidence": "107 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 107
+    },
+    {
+      "source": "DOC_D005",
+      "target": "DIM_financial_crime_opportunities",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.0233,
+      "evidence": "4 keyword/evidence hits for Financial crime opportunities",
+      "count": 4
+    },
+    {
+      "source": "DOC_D005",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.1805,
+      "evidence": "31 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 31
+    },
+    {
+      "source": "DOC_D005",
+      "target": "TH_IDENTITY",
+      "relation": "document-indicates-threat",
+      "weight": 5.0,
+      "evidence": "4 keyword matches in title/evidence excerpts",
+      "count": 4
+    },
+    {
+      "source": "DOC_D005",
+      "target": "TH_DEFI",
+      "relation": "document-indicates-threat",
+      "weight": 3.0,
+      "evidence": "2 keyword matches in title/evidence excerpts",
+      "count": 2
+    },
+    {
+      "source": "DOC_D005",
+      "target": "TH_CYBER",
+      "relation": "document-indicates-threat",
+      "weight": 2.0,
+      "evidence": "1 keyword matches in title/evidence excerpts",
+      "count": 1
+    },
+    {
+      "source": "DOC_D006",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 2.3683,
+      "evidence": "235 keyword/evidence hits for Metaverse platform features",
+      "count": 235
+    },
+    {
+      "source": "DOC_D006",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.0873,
+      "evidence": "15 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 15
+    },
+    {
+      "source": "DOC_D006",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.2504,
+      "evidence": "43 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 43
+    },
+    {
+      "source": "DOC_D006",
+      "target": "TH_IDENTITY",
+      "relation": "document-indicates-threat",
+      "weight": 5.0,
+      "evidence": "4 keyword matches in title/evidence excerpts",
+      "count": 4
+    },
+    {
+      "source": "DOC_D006",
+      "target": "TH_NFT",
+      "relation": "document-indicates-threat",
+      "weight": 5.0,
+      "evidence": "4 keyword matches in title/evidence excerpts",
+      "count": 4
+    },
+    {
+      "source": "DOC_D006",
+      "target": "TH_WALLET",
+      "relation": "document-indicates-threat",
+      "weight": 4.0,
+      "evidence": "3 keyword matches in title/evidence excerpts",
+      "count": 3
+    },
+    {
+      "source": "DOC_D007",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 2.5255,
+      "evidence": "262 keyword/evidence hits for Metaverse platform features",
+      "count": 262
+    },
+    {
+      "source": "DOC_D007",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.262,
+      "evidence": "45 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 45
+    },
+    {
+      "source": "DOC_D007",
+      "target": "DIM_financial_crime_opportunities",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.1572,
+      "evidence": "27 keyword/evidence hits for Financial crime opportunities",
+      "count": 27
+    },
+    {
+      "source": "DOC_D007",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.1863,
+      "evidence": "32 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 32
+    },
+    {
+      "source": "DOC_D007",
+      "target": "TH_NFT",
+      "relation": "document-indicates-threat",
+      "weight": 9.0,
+      "evidence": "8 keyword matches in title/evidence excerpts",
+      "count": 8
+    },
+    {
+      "source": "DOC_D007",
+      "target": "TH_SCAM",
+      "relation": "document-indicates-threat",
+      "weight": 7.0,
+      "evidence": "6 keyword matches in title/evidence excerpts",
+      "count": 6
+    },
+    {
+      "source": "DOC_D007",
+      "target": "TH_IDENTITY",
+      "relation": "document-indicates-threat",
+      "weight": 6.0,
+      "evidence": "5 keyword matches in title/evidence excerpts",
+      "count": 5
+    },
+    {
+      "source": "DOC_D008",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.984,
+      "evidence": "169 keyword/evidence hits for Metaverse platform features",
+      "count": 169
+    },
+    {
+      "source": "DOC_D008",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.8501,
+      "evidence": "146 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 146
+    },
+    {
+      "source": "DOC_D008",
+      "target": "DIM_financial_crime_opportunities",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.0524,
+      "evidence": "9 keyword/evidence hits for Financial crime opportunities",
+      "count": 9
+    },
+    {
+      "source": "DOC_D008",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.2911,
+      "evidence": "50 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 50
+    },
+    {
+      "source": "DOC_D008",
+      "target": "TH_NFT",
+      "relation": "document-indicates-threat",
+      "weight": 8.0,
+      "evidence": "7 keyword matches in title/evidence excerpts",
+      "count": 7
+    },
+    {
+      "source": "DOC_D008",
+      "target": "TH_CYBER",
+      "relation": "document-indicates-threat",
+      "weight": 3.0,
+      "evidence": "2 keyword matches in title/evidence excerpts",
+      "count": 2
+    },
+    {
+      "source": "DOC_D008",
+      "target": "TH_DEFI",
+      "relation": "document-indicates-threat",
+      "weight": 3.0,
+      "evidence": "2 keyword matches in title/evidence excerpts",
+      "count": 2
+    },
+    {
+      "source": "DOC_D009",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 9.0,
+      "evidence": "1374 keyword/evidence hits for Metaverse platform features",
+      "count": 1374
+    },
+    {
+      "source": "DOC_D009",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 2.1994,
+      "evidence": "206 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 206
+    },
+    {
+      "source": "DOC_D009",
+      "target": "DIM_financial_crime_opportunities",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.5298,
+      "evidence": "91 keyword/evidence hits for Financial crime opportunities",
+      "count": 91
+    },
+    {
+      "source": "DOC_D009",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 4.1849,
+      "evidence": "547 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 547
+    },
+    {
+      "source": "DOC_D009",
+      "target": "TH_CYBER",
+      "relation": "document-indicates-threat",
+      "weight": 9.0,
+      "evidence": "8 keyword matches in title/evidence excerpts",
+      "count": 8
+    },
+    {
+      "source": "DOC_D009",
+      "target": "TH_NFT",
+      "relation": "document-indicates-threat",
+      "weight": 6.0,
+      "evidence": "5 keyword matches in title/evidence excerpts",
+      "count": 5
+    },
+    {
+      "source": "DOC_D009",
+      "target": "TH_DEFI",
+      "relation": "document-indicates-threat",
+      "weight": 3.0,
+      "evidence": "2 keyword matches in title/evidence excerpts",
+      "count": 2
+    },
+    {
+      "source": "DOC_D009",
+      "target": "TH_CYBER",
+      "relation": "high-evidence-anchor",
+      "weight": 4.0,
+      "evidence": "High evidence score: 2218"
+    },
+    {
+      "source": "DOC_D010",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 7.9811,
+      "evidence": "1199 keyword/evidence hits for Metaverse platform features",
+      "count": 1199
+    },
+    {
+      "source": "DOC_D010",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 6.5895,
+      "evidence": "960 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 960
+    },
+    {
+      "source": "DOC_D010",
+      "target": "DIM_financial_crime_opportunities",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.2038,
+      "evidence": "35 keyword/evidence hits for Financial crime opportunities",
+      "count": 35
+    },
+    {
+      "source": "DOC_D010",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 2.7758,
+      "evidence": "305 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 305
+    },
+    {
+      "source": "DOC_D010",
+      "target": "TH_DEFI",
+      "relation": "document-indicates-threat",
+      "weight": 5.0,
+      "evidence": "4 keyword matches in title/evidence excerpts",
+      "count": 4
+    },
+    {
+      "source": "DOC_D010",
+      "target": "TH_CYBER",
+      "relation": "document-indicates-threat",
+      "weight": 4.0,
+      "evidence": "3 keyword matches in title/evidence excerpts",
+      "count": 3
+    },
+    {
+      "source": "DOC_D010",
+      "target": "TH_NFT",
+      "relation": "document-indicates-threat",
+      "weight": 4.0,
+      "evidence": "3 keyword matches in title/evidence excerpts",
+      "count": 3
+    },
+    {
+      "source": "DOC_D010",
+      "target": "TH_DEFI",
+      "relation": "high-evidence-anchor",
+      "weight": 4.0,
+      "evidence": "High evidence score: 2499"
+    },
+    {
+      "source": "DOC_D011",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.6987,
+      "evidence": "120 keyword/evidence hits for Metaverse platform features",
+      "count": 120
+    },
+    {
+      "source": "DOC_D011",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 2.4381,
+      "evidence": "247 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 247
+    },
+    {
+      "source": "DOC_D011",
+      "target": "DIM_financial_crime_opportunities",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.0058,
+      "evidence": "1 keyword/evidence hits for Financial crime opportunities",
+      "count": 1
+    },
+    {
+      "source": "DOC_D011",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.2329,
+      "evidence": "40 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 40
+    },
+    {
+      "source": "DOC_D011",
+      "target": "TH_DEFI",
+      "relation": "document-indicates-threat",
+      "weight": 7.0,
+      "evidence": "6 keyword matches in title/evidence excerpts",
+      "count": 6
+    },
+    {
+      "source": "DOC_D011",
+      "target": "TH_IDENTITY",
+      "relation": "document-indicates-threat",
+      "weight": 4.0,
+      "evidence": "3 keyword matches in title/evidence excerpts",
+      "count": 3
+    },
+    {
+      "source": "DOC_D011",
+      "target": "TH_PRIVACY",
+      "relation": "document-indicates-threat",
+      "weight": 4.0,
+      "evidence": "3 keyword matches in title/evidence excerpts",
+      "count": 3
+    },
+    {
+      "source": "DOC_D012",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 2.1004,
+      "evidence": "189 keyword/evidence hits for Metaverse platform features",
+      "count": 189
+    },
+    {
+      "source": "DOC_D012",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 2.6303,
+      "evidence": "280 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 280
+    },
+    {
+      "source": "DOC_D012",
+      "target": "DIM_financial_crime_opportunities",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.0116,
+      "evidence": "2 keyword/evidence hits for Financial crime opportunities",
+      "count": 2
+    },
+    {
+      "source": "DOC_D012",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.6812,
+      "evidence": "117 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 117
+    },
+    {
+      "source": "DOC_D012",
+      "target": "TH_PAYMENT",
+      "relation": "document-indicates-threat",
+      "weight": 12.0,
+      "evidence": "11 keyword matches in title/evidence excerpts",
+      "count": 11
+    },
+    {
+      "source": "DOC_D012",
+      "target": "TH_IDENTITY",
+      "relation": "document-indicates-threat",
+      "weight": 6.0,
+      "evidence": "5 keyword matches in title/evidence excerpts",
+      "count": 5
+    },
+    {
+      "source": "DOC_D012",
+      "target": "TH_DEFI",
+      "relation": "document-indicates-threat",
+      "weight": 3.0,
+      "evidence": "2 keyword matches in title/evidence excerpts",
+      "count": 2
+    },
+    {
+      "source": "DOC_D013",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.7162,
+      "evidence": "123 keyword/evidence hits for Metaverse platform features",
+      "count": 123
+    },
+    {
+      "source": "DOC_D013",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 2.5197,
+      "evidence": "261 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 261
+    },
+    {
+      "source": "DOC_D013",
+      "target": "DIM_financial_crime_opportunities",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.0116,
+      "evidence": "2 keyword/evidence hits for Financial crime opportunities",
+      "count": 2
+    },
+    {
+      "source": "DOC_D013",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.0524,
+      "evidence": "9 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 9
+    },
+    {
+      "source": "DOC_D013",
+      "target": "TH_PRIVACY",
+      "relation": "document-indicates-threat",
+      "weight": 4.0,
+      "evidence": "3 keyword matches in title/evidence excerpts",
+      "count": 3
+    },
+    {
+      "source": "DOC_D013",
+      "target": "TH_WALLET",
+      "relation": "document-indicates-threat",
+      "weight": 4.0,
+      "evidence": "3 keyword matches in title/evidence excerpts",
+      "count": 3
+    },
+    {
+      "source": "DOC_D013",
+      "target": "TH_DEFI",
+      "relation": "document-indicates-threat",
+      "weight": 3.0,
+      "evidence": "2 keyword matches in title/evidence excerpts",
+      "count": 2
+    },
+    {
+      "source": "DOC_D014",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.3843,
+      "evidence": "66 keyword/evidence hits for Metaverse platform features",
+      "count": 66
+    },
+    {
+      "source": "DOC_D014",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.3959,
+      "evidence": "68 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 68
+    },
+    {
+      "source": "DOC_D014",
+      "target": "DIM_financial_crime_opportunities",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.0058,
+      "evidence": "1 keyword/evidence hits for Financial crime opportunities",
+      "count": 1
+    },
+    {
+      "source": "DOC_D014",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.1514,
+      "evidence": "26 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 26
+    },
+    {
+      "source": "DOC_D014",
+      "target": "TH_CYBER",
+      "relation": "document-indicates-threat",
+      "weight": 4.0,
+      "evidence": "3 keyword matches in title/evidence excerpts",
+      "count": 3
+    },
+    {
+      "source": "DOC_D014",
+      "target": "TH_WALLET",
+      "relation": "document-indicates-threat",
+      "weight": 3.0,
+      "evidence": "2 keyword matches in title/evidence excerpts",
+      "count": 2
+    },
+    {
+      "source": "DOC_D014",
+      "target": "TH_PRIVACY",
+      "relation": "document-indicates-threat",
+      "weight": 2.0,
+      "evidence": "1 keyword matches in title/evidence excerpts",
+      "count": 1
+    },
+    {
+      "source": "DOC_D015",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 2.0015,
+      "evidence": "172 keyword/evidence hits for Metaverse platform features",
+      "count": 172
+    },
+    {
+      "source": "DOC_D015",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.6929,
+      "evidence": "119 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 119
+    },
+    {
+      "source": "DOC_D015",
+      "target": "DIM_financial_crime_opportunities",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.0582,
+      "evidence": "10 keyword/evidence hits for Financial crime opportunities",
+      "count": 10
+    },
+    {
+      "source": "DOC_D015",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.1164,
+      "evidence": "20 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 20
+    },
+    {
+      "source": "DOC_D015",
+      "target": "TH_CYBER",
+      "relation": "document-indicates-threat",
+      "weight": 4.0,
+      "evidence": "3 keyword matches in title/evidence excerpts",
+      "count": 3
+    },
+    {
+      "source": "DOC_D015",
+      "target": "TH_DEFI",
+      "relation": "document-indicates-threat",
+      "weight": 3.0,
+      "evidence": "2 keyword matches in title/evidence excerpts",
+      "count": 2
+    },
+    {
+      "source": "DOC_D015",
+      "target": "TH_WALLET",
+      "relation": "document-indicates-threat",
+      "weight": 3.0,
+      "evidence": "2 keyword matches in title/evidence excerpts",
+      "count": 2
+    },
+    {
+      "source": "DOC_D016",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.9491,
+      "evidence": "163 keyword/evidence hits for Metaverse platform features",
+      "count": 163
+    },
+    {
+      "source": "DOC_D016",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.5531,
+      "evidence": "95 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 95
+    },
+    {
+      "source": "DOC_D016",
+      "target": "DIM_financial_crime_opportunities",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.0349,
+      "evidence": "6 keyword/evidence hits for Financial crime opportunities",
+      "count": 6
+    },
+    {
+      "source": "DOC_D016",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.4949,
+      "evidence": "85 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 85
+    },
+    {
+      "source": "DOC_D016",
+      "target": "TH_DEFI",
+      "relation": "document-indicates-threat",
+      "weight": 6.0,
+      "evidence": "5 keyword matches in title/evidence excerpts",
+      "count": 5
+    },
+    {
+      "source": "DOC_D016",
+      "target": "TH_CYBER",
+      "relation": "document-indicates-threat",
+      "weight": 4.0,
+      "evidence": "3 keyword matches in title/evidence excerpts",
+      "count": 3
+    },
+    {
+      "source": "DOC_D016",
+      "target": "TH_GOVERNANCE",
+      "relation": "document-indicates-threat",
+      "weight": 4.0,
+      "evidence": "3 keyword matches in title/evidence excerpts",
+      "count": 3
+    },
+    {
+      "source": "DOC_D017",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 3.2183,
+      "evidence": "381 keyword/evidence hits for Metaverse platform features",
+      "count": 381
+    },
+    {
+      "source": "DOC_D017",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.6346,
+      "evidence": "109 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 109
+    },
+    {
+      "source": "DOC_D017",
+      "target": "DIM_financial_crime_opportunities",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.0466,
+      "evidence": "8 keyword/evidence hits for Financial crime opportunities",
+      "count": 8
+    },
+    {
+      "source": "DOC_D017",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.7103,
+      "evidence": "122 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 122
+    },
+    {
+      "source": "DOC_D017",
+      "target": "TH_DEFI",
+      "relation": "document-indicates-threat",
+      "weight": 8.0,
+      "evidence": "7 keyword matches in title/evidence excerpts",
+      "count": 7
+    },
+    {
+      "source": "DOC_D017",
+      "target": "TH_NFT",
+      "relation": "document-indicates-threat",
+      "weight": 7.0,
+      "evidence": "6 keyword matches in title/evidence excerpts",
+      "count": 6
+    },
+    {
+      "source": "DOC_D017",
+      "target": "TH_GOVERNANCE",
+      "relation": "document-indicates-threat",
+      "weight": 6.0,
+      "evidence": "5 keyword matches in title/evidence excerpts",
+      "count": 5
+    },
+    {
+      "source": "DOC_D018",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.2678,
+      "evidence": "46 keyword/evidence hits for Metaverse platform features",
+      "count": 46
+    },
+    {
+      "source": "DOC_D018",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 2.0015,
+      "evidence": "172 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 172
+    },
+    {
+      "source": "DOC_D018",
+      "target": "DIM_financial_crime_opportunities",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 2.1295,
+      "evidence": "194 keyword/evidence hits for Financial crime opportunities",
+      "count": 194
+    },
+    {
+      "source": "DOC_D018",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.1456,
+      "evidence": "25 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 25
+    },
+    {
+      "source": "DOC_D018",
+      "target": "TH_SCAM",
+      "relation": "document-indicates-threat",
+      "weight": 10.0,
+      "evidence": "9 keyword matches in title/evidence excerpts",
+      "count": 9
+    },
+    {
+      "source": "DOC_D018",
+      "target": "TH_WALLET",
+      "relation": "document-indicates-threat",
+      "weight": 8.0,
+      "evidence": "7 keyword matches in title/evidence excerpts",
+      "count": 7
+    },
+    {
+      "source": "DOC_D019",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.1747,
+      "evidence": "30 keyword/evidence hits for Metaverse platform features",
+      "count": 30
+    },
+    {
+      "source": "DOC_D019",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.9083,
+      "evidence": "156 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 156
+    },
+    {
+      "source": "DOC_D019",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.2387,
+      "evidence": "41 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 41
+    },
+    {
+      "source": "DOC_D019",
+      "target": "TH_DEFI",
+      "relation": "document-indicates-threat",
+      "weight": 10.0,
+      "evidence": "9 keyword matches in title/evidence excerpts",
+      "count": 9
+    },
+    {
+      "source": "DOC_D019",
+      "target": "TH_GOVERNANCE",
+      "relation": "document-indicates-threat",
+      "weight": 5.0,
+      "evidence": "4 keyword matches in title/evidence excerpts",
+      "count": 4
+    },
+    {
+      "source": "DOC_D019",
+      "target": "TH_CYBER",
+      "relation": "document-indicates-threat",
+      "weight": 2.0,
+      "evidence": "1 keyword matches in title/evidence excerpts",
+      "count": 1
+    },
+    {
+      "source": "DOC_D020",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 2.1528,
+      "evidence": "198 keyword/evidence hits for Metaverse platform features",
+      "count": 198
+    },
+    {
+      "source": "DOC_D020",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.1164,
+      "evidence": "20 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 20
+    },
+    {
+      "source": "DOC_D020",
+      "target": "DIM_financial_crime_opportunities",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.0116,
+      "evidence": "2 keyword/evidence hits for Financial crime opportunities",
+      "count": 2
+    },
+    {
+      "source": "DOC_D020",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.1805,
+      "evidence": "31 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 31
+    },
+    {
+      "source": "DOC_D020",
+      "target": "TH_NFT",
+      "relation": "document-indicates-threat",
+      "weight": 4.0,
+      "evidence": "3 keyword matches in title/evidence excerpts",
+      "count": 3
+    },
+    {
+      "source": "DOC_D020",
+      "target": "TH_WALLET",
+      "relation": "document-indicates-threat",
+      "weight": 3.0,
+      "evidence": "2 keyword matches in title/evidence excerpts",
+      "count": 2
+    },
+    {
+      "source": "DOC_D020",
+      "target": "TH_CYBER",
+      "relation": "document-indicates-threat",
+      "weight": 2.0,
+      "evidence": "1 keyword matches in title/evidence excerpts",
+      "count": 1
+    },
+    {
+      "source": "DOC_D021",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 2.1761,
+      "evidence": "202 keyword/evidence hits for Metaverse platform features",
+      "count": 202
+    },
+    {
+      "source": "DOC_D021",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.3959,
+      "evidence": "68 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 68
+    },
+    {
+      "source": "DOC_D021",
+      "target": "DIM_financial_crime_opportunities",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.0175,
+      "evidence": "3 keyword/evidence hits for Financial crime opportunities",
+      "count": 3
+    },
+    {
+      "source": "DOC_D021",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.0291,
+      "evidence": "5 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 5
+    },
+    {
+      "source": "DOC_D021",
+      "target": "TH_IDENTITY",
+      "relation": "document-indicates-threat",
+      "weight": 20.0,
+      "evidence": "19 keyword matches in title/evidence excerpts",
+      "count": 19
+    },
+    {
+      "source": "DOC_D021",
+      "target": "TH_CYBER",
+      "relation": "document-indicates-threat",
+      "weight": 2.0,
+      "evidence": "1 keyword matches in title/evidence excerpts",
+      "count": 1
+    },
+    {
+      "source": "DOC_D022",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.1689,
+      "evidence": "29 keyword/evidence hits for Metaverse platform features",
+      "count": 29
+    },
+    {
+      "source": "DOC_D022",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 2.5546,
+      "evidence": "267 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 267
+    },
+    {
+      "source": "DOC_D022",
+      "target": "DIM_financial_crime_opportunities",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.0524,
+      "evidence": "9 keyword/evidence hits for Financial crime opportunities",
+      "count": 9
+    },
+    {
+      "source": "DOC_D022",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.6812,
+      "evidence": "117 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 117
+    },
+    {
+      "source": "DOC_D022",
+      "target": "TH_DEFI",
+      "relation": "document-indicates-threat",
+      "weight": 7.0,
+      "evidence": "6 keyword matches in title/evidence excerpts",
+      "count": 6
+    },
+    {
+      "source": "DOC_D022",
+      "target": "TH_CYBER",
+      "relation": "document-indicates-threat",
+      "weight": 3.0,
+      "evidence": "2 keyword matches in title/evidence excerpts",
+      "count": 2
+    },
+    {
+      "source": "DOC_D022",
+      "target": "TH_NFT",
+      "relation": "document-indicates-threat",
+      "weight": 2.0,
+      "evidence": "1 keyword matches in title/evidence excerpts",
+      "count": 1
+    },
+    {
+      "source": "DOC_D023",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.7278,
+      "evidence": "125 keyword/evidence hits for Metaverse platform features",
+      "count": 125
+    },
+    {
+      "source": "DOC_D023",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 2.1121,
+      "evidence": "191 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 191
+    },
+    {
+      "source": "DOC_D023",
+      "target": "DIM_financial_crime_opportunities",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.0291,
+      "evidence": "5 keyword/evidence hits for Financial crime opportunities",
+      "count": 5
+    },
+    {
+      "source": "DOC_D023",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.2445,
+      "evidence": "42 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 42
+    },
+    {
+      "source": "DOC_D023",
+      "target": "TH_DEFI",
+      "relation": "document-indicates-threat",
+      "weight": 9.0,
+      "evidence": "8 keyword matches in title/evidence excerpts",
+      "count": 8
+    },
+    {
+      "source": "DOC_D023",
+      "target": "TH_NFT",
+      "relation": "document-indicates-threat",
+      "weight": 6.0,
+      "evidence": "5 keyword matches in title/evidence excerpts",
+      "count": 5
+    },
+    {
+      "source": "DOC_D023",
+      "target": "TH_IDENTITY",
+      "relation": "document-indicates-threat",
+      "weight": 5.0,
+      "evidence": "4 keyword matches in title/evidence excerpts",
+      "count": 4
+    },
+    {
+      "source": "DOC_D024",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.7103,
+      "evidence": "122 keyword/evidence hits for Metaverse platform features",
+      "count": 122
+    },
+    {
+      "source": "DOC_D024",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.3261,
+      "evidence": "56 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 56
+    },
+    {
+      "source": "DOC_D024",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.099,
+      "evidence": "17 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 17
+    },
+    {
+      "source": "DOC_D024",
+      "target": "TH_CYBER",
+      "relation": "document-indicates-threat",
+      "weight": 3.0,
+      "evidence": "2 keyword matches in title/evidence excerpts",
+      "count": 2
+    },
+    {
+      "source": "DOC_D024",
+      "target": "TH_PRIVACY",
+      "relation": "document-indicates-threat",
+      "weight": 3.0,
+      "evidence": "2 keyword matches in title/evidence excerpts",
+      "count": 2
+    },
+    {
+      "source": "DOC_D024",
+      "target": "TH_DEFI",
+      "relation": "document-indicates-threat",
+      "weight": 2.0,
+      "evidence": "1 keyword matches in title/evidence excerpts",
+      "count": 1
+    },
+    {
+      "source": "DOC_D025",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 2.5138,
+      "evidence": "260 keyword/evidence hits for Metaverse platform features",
+      "count": 260
+    },
+    {
+      "source": "DOC_D025",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.559,
+      "evidence": "96 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 96
+    },
+    {
+      "source": "DOC_D025",
+      "target": "DIM_financial_crime_opportunities",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.1223,
+      "evidence": "21 keyword/evidence hits for Financial crime opportunities",
+      "count": 21
+    },
+    {
+      "source": "DOC_D025",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.6463,
+      "evidence": "111 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 111
+    },
+    {
+      "source": "DOC_D025",
+      "target": "TH_NFT",
+      "relation": "document-indicates-threat",
+      "weight": 7.0,
+      "evidence": "6 keyword matches in title/evidence excerpts",
+      "count": 6
+    },
+    {
+      "source": "DOC_D025",
+      "target": "TH_CYBER",
+      "relation": "document-indicates-threat",
+      "weight": 6.0,
+      "evidence": "5 keyword matches in title/evidence excerpts",
+      "count": 5
+    },
+    {
+      "source": "DOC_D025",
+      "target": "TH_IDENTITY",
+      "relation": "document-indicates-threat",
+      "weight": 4.0,
+      "evidence": "3 keyword matches in title/evidence excerpts",
+      "count": 3
+    },
+    {
+      "source": "DOC_D026",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 2.7001,
+      "evidence": "292 keyword/evidence hits for Metaverse platform features",
+      "count": 292
+    },
+    {
+      "source": "DOC_D026",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.4658,
+      "evidence": "80 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 80
+    },
+    {
+      "source": "DOC_D026",
+      "target": "DIM_financial_crime_opportunities",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.0582,
+      "evidence": "10 keyword/evidence hits for Financial crime opportunities",
+      "count": 10
+    },
+    {
+      "source": "DOC_D026",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.1106,
+      "evidence": "19 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 19
+    },
+    {
+      "source": "DOC_D026",
+      "target": "TH_NFT",
+      "relation": "document-indicates-threat",
+      "weight": 21.0,
+      "evidence": "20 keyword matches in title/evidence excerpts",
+      "count": 20
+    },
+    {
+      "source": "DOC_D026",
+      "target": "TH_GOVERNANCE",
+      "relation": "document-indicates-threat",
+      "weight": 5.0,
+      "evidence": "4 keyword matches in title/evidence excerpts",
+      "count": 4
+    },
+    {
+      "source": "DOC_D026",
+      "target": "TH_DEFI",
+      "relation": "document-indicates-threat",
+      "weight": 3.0,
+      "evidence": "2 keyword matches in title/evidence excerpts",
+      "count": 2
+    },
+    {
+      "source": "DOC_D027",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 3.0844,
+      "evidence": "358 keyword/evidence hits for Metaverse platform features",
+      "count": 358
+    },
+    {
+      "source": "DOC_D027",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.4658,
+      "evidence": "80 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 80
+    },
+    {
+      "source": "DOC_D027",
+      "target": "DIM_financial_crime_opportunities",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.0699,
+      "evidence": "12 keyword/evidence hits for Financial crime opportunities",
+      "count": 12
+    },
+    {
+      "source": "DOC_D027",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.2504,
+      "evidence": "43 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 43
+    },
+    {
+      "source": "DOC_D027",
+      "target": "TH_NFT",
+      "relation": "document-indicates-threat",
+      "weight": 19.0,
+      "evidence": "18 keyword matches in title/evidence excerpts",
+      "count": 18
+    },
+    {
+      "source": "DOC_D027",
+      "target": "TH_GOVERNANCE",
+      "relation": "document-indicates-threat",
+      "weight": 4.0,
+      "evidence": "3 keyword matches in title/evidence excerpts",
+      "count": 3
+    },
+    {
+      "source": "DOC_D027",
+      "target": "TH_WALLET",
+      "relation": "document-indicates-threat",
+      "weight": 4.0,
+      "evidence": "3 keyword matches in title/evidence excerpts",
+      "count": 3
+    },
+    {
+      "source": "DOC_D028",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.4833,
+      "evidence": "83 keyword/evidence hits for Metaverse platform features",
+      "count": 83
+    },
+    {
+      "source": "DOC_D028",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.4774,
+      "evidence": "82 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 82
+    },
+    {
+      "source": "DOC_D028",
+      "target": "DIM_financial_crime_opportunities",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.559,
+      "evidence": "96 keyword/evidence hits for Financial crime opportunities",
+      "count": 96
+    },
+    {
+      "source": "DOC_D028",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.262,
+      "evidence": "45 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 45
+    },
+    {
+      "source": "DOC_D028",
+      "target": "TH_SCAM",
+      "relation": "document-indicates-threat",
+      "weight": 5.0,
+      "evidence": "4 keyword matches in title/evidence excerpts",
+      "count": 4
+    },
+    {
+      "source": "DOC_D028",
+      "target": "TH_WALLET",
+      "relation": "document-indicates-threat",
+      "weight": 4.0,
+      "evidence": "3 keyword matches in title/evidence excerpts",
+      "count": 3
+    },
+    {
+      "source": "DOC_D028",
+      "target": "TH_IDENTITY",
+      "relation": "document-indicates-threat",
+      "weight": 2.0,
+      "evidence": "1 keyword matches in title/evidence excerpts",
+      "count": 1
+    },
+    {
+      "source": "DOC_D029",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.2329,
+      "evidence": "40 keyword/evidence hits for Metaverse platform features",
+      "count": 40
+    },
+    {
+      "source": "DOC_D029",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.4716,
+      "evidence": "81 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 81
+    },
+    {
+      "source": "DOC_D029",
+      "target": "DIM_financial_crime_opportunities",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.0058,
+      "evidence": "1 keyword/evidence hits for Financial crime opportunities",
+      "count": 1
+    },
+    {
+      "source": "DOC_D029",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.0291,
+      "evidence": "5 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 5
+    },
+    {
+      "source": "DOC_D029",
+      "target": "TH_NFT",
+      "relation": "document-indicates-threat",
+      "weight": 13.0,
+      "evidence": "12 keyword matches in title/evidence excerpts",
+      "count": 12
+    },
+    {
+      "source": "DOC_D029",
+      "target": "TH_WALLET",
+      "relation": "document-indicates-threat",
+      "weight": 3.0,
+      "evidence": "2 keyword matches in title/evidence excerpts",
+      "count": 2
+    },
+    {
+      "source": "DOC_D029",
+      "target": "TH_CYBER",
+      "relation": "document-indicates-threat",
+      "weight": 2.0,
+      "evidence": "1 keyword matches in title/evidence excerpts",
+      "count": 1
+    },
+    {
+      "source": "DOC_D030",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 3.5095,
+      "evidence": "431 keyword/evidence hits for Metaverse platform features",
+      "count": 431
+    },
+    {
+      "source": "DOC_D030",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 2.4905,
+      "evidence": "256 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 256
+    },
+    {
+      "source": "DOC_D030",
+      "target": "DIM_financial_crime_opportunities",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.0349,
+      "evidence": "6 keyword/evidence hits for Financial crime opportunities",
+      "count": 6
+    },
+    {
+      "source": "DOC_D030",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.6754,
+      "evidence": "116 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 116
+    },
+    {
+      "source": "DOC_D030",
+      "target": "TH_CYBER",
+      "relation": "document-indicates-threat",
+      "weight": 4.0,
+      "evidence": "3 keyword matches in title/evidence excerpts",
+      "count": 3
+    },
+    {
+      "source": "DOC_D030",
+      "target": "TH_PRIVACY",
+      "relation": "document-indicates-threat",
+      "weight": 4.0,
+      "evidence": "3 keyword matches in title/evidence excerpts",
+      "count": 3
+    },
+    {
+      "source": "DOC_D030",
+      "target": "TH_IDENTITY",
+      "relation": "document-indicates-threat",
+      "weight": 2.0,
+      "evidence": "1 keyword matches in title/evidence excerpts",
+      "count": 1
+    },
+    {
+      "source": "DOC_D031",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.6812,
+      "evidence": "117 keyword/evidence hits for Metaverse platform features",
+      "count": 117
+    },
+    {
+      "source": "DOC_D031",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.0291,
+      "evidence": "5 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 5
+    },
+    {
+      "source": "DOC_D031",
+      "target": "DIM_financial_crime_opportunities",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.2038,
+      "evidence": "35 keyword/evidence hits for Financial crime opportunities",
+      "count": 35
+    },
+    {
+      "source": "DOC_D031",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.1223,
+      "evidence": "21 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 21
+    },
+    {
+      "source": "DOC_D031",
+      "target": "TH_IDENTITY",
+      "relation": "document-indicates-threat",
+      "weight": 6.0,
+      "evidence": "5 keyword matches in title/evidence excerpts",
+      "count": 5
+    },
+    {
+      "source": "DOC_D031",
+      "target": "TH_SCAM",
+      "relation": "document-indicates-threat",
+      "weight": 5.0,
+      "evidence": "4 keyword matches in title/evidence excerpts",
+      "count": 4
+    },
+    {
+      "source": "DOC_D031",
+      "target": "TH_GOVERNANCE",
+      "relation": "document-indicates-threat",
+      "weight": 4.0,
+      "evidence": "3 keyword matches in title/evidence excerpts",
+      "count": 3
+    },
+    {
+      "source": "DOC_D032",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.9956,
+      "evidence": "171 keyword/evidence hits for Metaverse platform features",
+      "count": 171
+    },
+    {
+      "source": "DOC_D032",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.099,
+      "evidence": "17 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 17
+    },
+    {
+      "source": "DOC_D032",
+      "target": "DIM_financial_crime_opportunities",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.0116,
+      "evidence": "2 keyword/evidence hits for Financial crime opportunities",
+      "count": 2
+    },
+    {
+      "source": "DOC_D032",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.0524,
+      "evidence": "9 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 9
+    },
+    {
+      "source": "DOC_D032",
+      "target": "TH_GOVERNANCE",
+      "relation": "document-indicates-threat",
+      "weight": 7.0,
+      "evidence": "6 keyword matches in title/evidence excerpts",
+      "count": 6
+    },
+    {
+      "source": "DOC_D032",
+      "target": "TH_NFT",
+      "relation": "document-indicates-threat",
+      "weight": 7.0,
+      "evidence": "6 keyword matches in title/evidence excerpts",
+      "count": 6
+    },
+    {
+      "source": "DOC_D032",
+      "target": "TH_DEFI",
+      "relation": "document-indicates-threat",
+      "weight": 4.0,
+      "evidence": "3 keyword matches in title/evidence excerpts",
+      "count": 3
+    },
+    {
+      "source": "DOC_D033",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.4192,
+      "evidence": "72 keyword/evidence hits for Metaverse platform features",
+      "count": 72
+    },
+    {
+      "source": "DOC_D033",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.6346,
+      "evidence": "109 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 109
+    },
+    {
+      "source": "DOC_D033",
+      "target": "DIM_financial_crime_opportunities",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.6055,
+      "evidence": "104 keyword/evidence hits for Financial crime opportunities",
+      "count": 104
+    },
+    {
+      "source": "DOC_D033",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.7918,
+      "evidence": "136 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 136
+    },
+    {
+      "source": "DOC_D033",
+      "target": "TH_SCAM",
+      "relation": "document-indicates-threat",
+      "weight": 7.0,
+      "evidence": "6 keyword matches in title/evidence excerpts",
+      "count": 6
+    },
+    {
+      "source": "DOC_D033",
+      "target": "TH_WALLET",
+      "relation": "document-indicates-threat",
+      "weight": 6.0,
+      "evidence": "5 keyword matches in title/evidence excerpts",
+      "count": 5
+    },
+    {
+      "source": "DOC_D033",
+      "target": "TH_GOVERNANCE",
+      "relation": "document-indicates-threat",
+      "weight": 5.0,
+      "evidence": "4 keyword matches in title/evidence excerpts",
+      "count": 4
+    },
+    {
+      "source": "DOC_D034",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 3.556,
+      "evidence": "439 keyword/evidence hits for Metaverse platform features",
+      "count": 439
+    },
+    {
+      "source": "DOC_D034",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.8734,
+      "evidence": "150 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 150
+    },
+    {
+      "source": "DOC_D034",
+      "target": "DIM_financial_crime_opportunities",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.0116,
+      "evidence": "2 keyword/evidence hits for Financial crime opportunities",
+      "count": 2
+    },
+    {
+      "source": "DOC_D034",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.4076,
+      "evidence": "70 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 70
+    },
+    {
+      "source": "DOC_D034",
+      "target": "TH_WALLET",
+      "relation": "document-indicates-threat",
+      "weight": 9.0,
+      "evidence": "8 keyword matches in title/evidence excerpts",
+      "count": 8
+    },
+    {
+      "source": "DOC_D034",
+      "target": "TH_PRIVACY",
+      "relation": "document-indicates-threat",
+      "weight": 4.0,
+      "evidence": "3 keyword matches in title/evidence excerpts",
+      "count": 3
+    },
+    {
+      "source": "DOC_D034",
+      "target": "TH_IDENTITY",
+      "relation": "document-indicates-threat",
+      "weight": 3.0,
+      "evidence": "2 keyword matches in title/evidence excerpts",
+      "count": 2
+    },
+    {
+      "source": "DOC_D035",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 2.0247,
+      "evidence": "176 keyword/evidence hits for Metaverse platform features",
+      "count": 176
+    },
+    {
+      "source": "DOC_D035",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.8617,
+      "evidence": "148 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 148
+    },
+    {
+      "source": "DOC_D035",
+      "target": "DIM_financial_crime_opportunities",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.0058,
+      "evidence": "1 keyword/evidence hits for Financial crime opportunities",
+      "count": 1
+    },
+    {
+      "source": "DOC_D035",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 2.1354,
+      "evidence": "195 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 195
+    },
+    {
+      "source": "DOC_D035",
+      "target": "TH_DEFI",
+      "relation": "document-indicates-threat",
+      "weight": 13.0,
+      "evidence": "12 keyword matches in title/evidence excerpts",
+      "count": 12
+    },
+    {
+      "source": "DOC_D035",
+      "target": "TH_GOVERNANCE",
+      "relation": "document-indicates-threat",
+      "weight": 7.0,
+      "evidence": "6 keyword matches in title/evidence excerpts",
+      "count": 6
+    },
+    {
+      "source": "DOC_D035",
+      "target": "TH_CYBER",
+      "relation": "document-indicates-threat",
+      "weight": 2.0,
+      "evidence": "1 keyword matches in title/evidence excerpts",
+      "count": 1
+    },
+    {
+      "source": "DOC_D036",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.3377,
+      "evidence": "58 keyword/evidence hits for Metaverse platform features",
+      "count": 58
+    },
+    {
+      "source": "DOC_D036",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.4367,
+      "evidence": "75 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 75
+    },
+    {
+      "source": "DOC_D036",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.1223,
+      "evidence": "21 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 21
+    },
+    {
+      "source": "DOC_D036",
+      "target": "TH_DEFI",
+      "relation": "document-indicates-threat",
+      "weight": 5.0,
+      "evidence": "4 keyword matches in title/evidence excerpts",
+      "count": 4
+    },
+    {
+      "source": "DOC_D036",
+      "target": "TH_CYBER",
+      "relation": "document-indicates-threat",
+      "weight": 4.0,
+      "evidence": "3 keyword matches in title/evidence excerpts",
+      "count": 3
+    },
+    {
+      "source": "DOC_D036",
+      "target": "TH_PRIVACY",
+      "relation": "document-indicates-threat",
+      "weight": 2.0,
+      "evidence": "1 keyword matches in title/evidence excerpts",
+      "count": 1
+    },
+    {
+      "source": "DOC_D037",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.6172,
+      "evidence": "106 keyword/evidence hits for Metaverse platform features",
+      "count": 106
+    },
+    {
+      "source": "DOC_D037",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.2213,
+      "evidence": "38 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 38
+    },
+    {
+      "source": "DOC_D037",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.0349,
+      "evidence": "6 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 6
+    },
+    {
+      "source": "DOC_D037",
+      "target": "TH_DEFI",
+      "relation": "document-indicates-threat",
+      "weight": 6.0,
+      "evidence": "5 keyword matches in title/evidence excerpts",
+      "count": 5
+    },
+    {
+      "source": "DOC_D037",
+      "target": "TH_NFT",
+      "relation": "document-indicates-threat",
+      "weight": 5.0,
+      "evidence": "4 keyword matches in title/evidence excerpts",
+      "count": 4
+    },
+    {
+      "source": "DOC_D037",
+      "target": "TH_CYBER",
+      "relation": "document-indicates-threat",
+      "weight": 2.0,
+      "evidence": "1 keyword matches in title/evidence excerpts",
+      "count": 1
+    },
+    {
+      "source": "DOC_D038",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.8326,
+      "evidence": "143 keyword/evidence hits for Metaverse platform features",
+      "count": 143
+    },
+    {
+      "source": "DOC_D038",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.2213,
+      "evidence": "38 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 38
+    },
+    {
+      "source": "DOC_D038",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.0466,
+      "evidence": "8 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 8
+    },
+    {
+      "source": "DOC_D038",
+      "target": "TH_NFT",
+      "relation": "document-indicates-threat",
+      "weight": 5.0,
+      "evidence": "4 keyword matches in title/evidence excerpts",
+      "count": 4
+    },
+    {
+      "source": "DOC_D038",
+      "target": "TH_CYBER",
+      "relation": "document-indicates-threat",
+      "weight": 4.0,
+      "evidence": "3 keyword matches in title/evidence excerpts",
+      "count": 3
+    },
+    {
+      "source": "DOC_D038",
+      "target": "TH_DEFI",
+      "relation": "document-indicates-threat",
+      "weight": 4.0,
+      "evidence": "3 keyword matches in title/evidence excerpts",
+      "count": 3
+    },
+    {
+      "source": "DOC_D039",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 2.0888,
+      "evidence": "187 keyword/evidence hits for Metaverse platform features",
+      "count": 187
+    },
+    {
+      "source": "DOC_D039",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.7977,
+      "evidence": "137 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 137
+    },
+    {
+      "source": "DOC_D039",
+      "target": "DIM_financial_crime_opportunities",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.0582,
+      "evidence": "10 keyword/evidence hits for Financial crime opportunities",
+      "count": 10
+    },
+    {
+      "source": "DOC_D039",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.9432,
+      "evidence": "162 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 162
+    },
+    {
+      "source": "DOC_D039",
+      "target": "TH_WALLET",
+      "relation": "document-indicates-threat",
+      "weight": 5.0,
+      "evidence": "4 keyword matches in title/evidence excerpts",
+      "count": 4
+    },
+    {
+      "source": "DOC_D039",
+      "target": "TH_CYBER",
+      "relation": "document-indicates-threat",
+      "weight": 2.0,
+      "evidence": "1 keyword matches in title/evidence excerpts",
+      "count": 1
+    },
+    {
+      "source": "DOC_D039",
+      "target": "TH_IDENTITY",
+      "relation": "document-indicates-threat",
+      "weight": 2.0,
+      "evidence": "1 keyword matches in title/evidence excerpts",
+      "count": 1
+    },
+    {
+      "source": "DOC_D040",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 2.6477,
+      "evidence": "283 keyword/evidence hits for Metaverse platform features",
+      "count": 283
+    },
+    {
+      "source": "DOC_D040",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.3785,
+      "evidence": "65 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 65
+    },
+    {
+      "source": "DOC_D040",
+      "target": "DIM_financial_crime_opportunities",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.0757,
+      "evidence": "13 keyword/evidence hits for Financial crime opportunities",
+      "count": 13
+    },
+    {
+      "source": "DOC_D040",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.0058,
+      "evidence": "1 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 1
+    },
+    {
+      "source": "DOC_D040",
+      "target": "TH_NFT",
+      "relation": "document-indicates-threat",
+      "weight": 9.0,
+      "evidence": "8 keyword matches in title/evidence excerpts",
+      "count": 8
+    },
+    {
+      "source": "DOC_D040",
+      "target": "TH_WALLET",
+      "relation": "document-indicates-threat",
+      "weight": 6.0,
+      "evidence": "5 keyword matches in title/evidence excerpts",
+      "count": 5
+    },
+    {
+      "source": "DOC_D040",
+      "target": "TH_CYBER",
+      "relation": "document-indicates-threat",
+      "weight": 2.0,
+      "evidence": "1 keyword matches in title/evidence excerpts",
+      "count": 1
+    },
+    {
+      "source": "DOC_D041",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 2.4265,
+      "evidence": "245 keyword/evidence hits for Metaverse platform features",
+      "count": 245
+    },
+    {
+      "source": "DOC_D041",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.3028,
+      "evidence": "52 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 52
+    },
+    {
+      "source": "DOC_D041",
+      "target": "DIM_financial_crime_opportunities",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.0349,
+      "evidence": "6 keyword/evidence hits for Financial crime opportunities",
+      "count": 6
+    },
+    {
+      "source": "DOC_D041",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.099,
+      "evidence": "17 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 17
+    },
+    {
+      "source": "DOC_D041",
+      "target": "TH_IDENTITY",
+      "relation": "document-indicates-threat",
+      "weight": 8.0,
+      "evidence": "7 keyword matches in title/evidence excerpts",
+      "count": 7
+    },
+    {
+      "source": "DOC_D041",
+      "target": "TH_CYBER",
+      "relation": "document-indicates-threat",
+      "weight": 5.0,
+      "evidence": "4 keyword matches in title/evidence excerpts",
+      "count": 4
+    },
+    {
+      "source": "DOC_D041",
+      "target": "TH_NFT",
+      "relation": "document-indicates-threat",
+      "weight": 4.0,
+      "evidence": "3 keyword matches in title/evidence excerpts",
+      "count": 3
+    },
+    {
+      "source": "DOC_D042",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 3.6667,
+      "evidence": "458 keyword/evidence hits for Metaverse platform features",
+      "count": 458
+    },
+    {
+      "source": "DOC_D042",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 3.0553,
+      "evidence": "353 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 353
+    },
+    {
+      "source": "DOC_D042",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.4425,
+      "evidence": "76 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 76
+    },
+    {
+      "source": "DOC_D042",
+      "target": "TH_NFT",
+      "relation": "document-indicates-threat",
+      "weight": 13.0,
+      "evidence": "12 keyword matches in title/evidence excerpts",
+      "count": 12
+    },
+    {
+      "source": "DOC_D042",
+      "target": "TH_WALLET",
+      "relation": "document-indicates-threat",
+      "weight": 9.0,
+      "evidence": "8 keyword matches in title/evidence excerpts",
+      "count": 8
+    },
+    {
+      "source": "DOC_D042",
+      "target": "TH_DEFI",
+      "relation": "document-indicates-threat",
+      "weight": 7.0,
+      "evidence": "6 keyword matches in title/evidence excerpts",
+      "count": 6
+    },
+    {
+      "source": "DOC_D043",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 2.6419,
+      "evidence": "282 keyword/evidence hits for Metaverse platform features",
+      "count": 282
+    },
+    {
+      "source": "DOC_D043",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 2.3159,
+      "evidence": "226 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 226
+    },
+    {
+      "source": "DOC_D043",
+      "target": "DIM_financial_crime_opportunities",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.0466,
+      "evidence": "8 keyword/evidence hits for Financial crime opportunities",
+      "count": 8
+    },
+    {
+      "source": "DOC_D043",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.3959,
+      "evidence": "68 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 68
+    },
+    {
+      "source": "DOC_D043",
+      "target": "TH_NFT",
+      "relation": "document-indicates-threat",
+      "weight": 15.0,
+      "evidence": "14 keyword matches in title/evidence excerpts",
+      "count": 14
+    },
+    {
+      "source": "DOC_D043",
+      "target": "TH_IDENTITY",
+      "relation": "document-indicates-threat",
+      "weight": 3.0,
+      "evidence": "2 keyword matches in title/evidence excerpts",
+      "count": 2
+    },
+    {
+      "source": "DOC_D043",
+      "target": "TH_PRIVACY",
+      "relation": "document-indicates-threat",
+      "weight": 3.0,
+      "evidence": "2 keyword matches in title/evidence excerpts",
+      "count": 2
+    },
+    {
+      "source": "DOC_D044",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.4017,
+      "evidence": "69 keyword/evidence hits for Metaverse platform features",
+      "count": 69
+    },
+    {
+      "source": "DOC_D044",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.4483,
+      "evidence": "77 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 77
+    },
+    {
+      "source": "DOC_D044",
+      "target": "DIM_financial_crime_opportunities",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.0349,
+      "evidence": "6 keyword/evidence hits for Financial crime opportunities",
+      "count": 6
+    },
+    {
+      "source": "DOC_D044",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.0757,
+      "evidence": "13 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 13
+    },
+    {
+      "source": "DOC_D044",
+      "target": "TH_WALLET",
+      "relation": "document-indicates-threat",
+      "weight": 9.0,
+      "evidence": "8 keyword matches in title/evidence excerpts",
+      "count": 8
+    },
+    {
+      "source": "DOC_D044",
+      "target": "TH_CYBER",
+      "relation": "document-indicates-threat",
+      "weight": 3.0,
+      "evidence": "2 keyword matches in title/evidence excerpts",
+      "count": 2
+    },
+    {
+      "source": "DOC_D044",
+      "target": "TH_GOVERNANCE",
+      "relation": "document-indicates-threat",
+      "weight": 3.0,
+      "evidence": "2 keyword matches in title/evidence excerpts",
+      "count": 2
+    },
+    {
+      "source": "DOC_D045",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 2.0364,
+      "evidence": "178 keyword/evidence hits for Metaverse platform features",
+      "count": 178
+    },
+    {
+      "source": "DOC_D045",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 4.2664,
+      "evidence": "561 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 561
+    },
+    {
+      "source": "DOC_D045",
+      "target": "DIM_financial_crime_opportunities",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 3.1601,
+      "evidence": "371 keyword/evidence hits for Financial crime opportunities",
+      "count": 371
+    },
+    {
+      "source": "DOC_D045",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 2.4381,
+      "evidence": "247 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 247
+    },
+    {
+      "source": "DOC_D045",
+      "target": "TH_PRIVACY",
+      "relation": "document-indicates-threat",
+      "weight": 11.0,
+      "evidence": "10 keyword matches in title/evidence excerpts",
+      "count": 10
+    },
+    {
+      "source": "DOC_D045",
+      "target": "TH_WALLET",
+      "relation": "document-indicates-threat",
+      "weight": 6.0,
+      "evidence": "5 keyword matches in title/evidence excerpts",
+      "count": 5
+    },
+    {
+      "source": "DOC_D045",
+      "target": "TH_DEFI",
+      "relation": "document-indicates-threat",
+      "weight": 4.0,
+      "evidence": "3 keyword matches in title/evidence excerpts",
+      "count": 3
+    },
+    {
+      "source": "DOC_D046",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.8035,
+      "evidence": "138 keyword/evidence hits for Metaverse platform features",
+      "count": 138
+    },
+    {
+      "source": "DOC_D046",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 2.2285,
+      "evidence": "211 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 211
+    },
+    {
+      "source": "DOC_D046",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.099,
+      "evidence": "17 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 17
+    },
+    {
+      "source": "DOC_D046",
+      "target": "TH_DEFI",
+      "relation": "document-indicates-threat",
+      "weight": 17.0,
+      "evidence": "16 keyword matches in title/evidence excerpts",
+      "count": 16
+    },
+    {
+      "source": "DOC_D046",
+      "target": "TH_NFT",
+      "relation": "document-indicates-threat",
+      "weight": 11.0,
+      "evidence": "10 keyword matches in title/evidence excerpts",
+      "count": 10
+    },
+    {
+      "source": "DOC_D046",
+      "target": "TH_WALLET",
+      "relation": "document-indicates-threat",
+      "weight": 7.0,
+      "evidence": "6 keyword matches in title/evidence excerpts",
+      "count": 6
+    },
+    {
+      "source": "DOC_D047",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.2911,
+      "evidence": "50 keyword/evidence hits for Metaverse platform features",
+      "count": 50
+    },
+    {
+      "source": "DOC_D047",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.6463,
+      "evidence": "111 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 111
+    },
+    {
+      "source": "DOC_D047",
+      "target": "DIM_financial_crime_opportunities",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.0349,
+      "evidence": "6 keyword/evidence hits for Financial crime opportunities",
+      "count": 6
+    },
+    {
+      "source": "DOC_D047",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.1223,
+      "evidence": "21 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 21
+    },
+    {
+      "source": "DOC_D047",
+      "target": "TH_CYBER",
+      "relation": "document-indicates-threat",
+      "weight": 3.0,
+      "evidence": "2 keyword matches in title/evidence excerpts",
+      "count": 2
+    },
+    {
+      "source": "DOC_D047",
+      "target": "TH_NFT",
+      "relation": "document-indicates-threat",
+      "weight": 3.0,
+      "evidence": "2 keyword matches in title/evidence excerpts",
+      "count": 2
+    },
+    {
+      "source": "DOC_D047",
+      "target": "TH_SCAM",
+      "relation": "document-indicates-threat",
+      "weight": 2.0,
+      "evidence": "1 keyword matches in title/evidence excerpts",
+      "count": 1
+    },
+    {
+      "source": "DOC_D048",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 4.5167,
+      "evidence": "604 keyword/evidence hits for Metaverse platform features",
+      "count": 604
+    },
+    {
+      "source": "DOC_D048",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 2.4498,
+      "evidence": "249 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 249
+    },
+    {
+      "source": "DOC_D048",
+      "target": "DIM_financial_crime_opportunities",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.1106,
+      "evidence": "19 keyword/evidence hits for Financial crime opportunities",
+      "count": 19
+    },
+    {
+      "source": "DOC_D048",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.3901,
+      "evidence": "67 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 67
+    },
+    {
+      "source": "DOC_D048",
+      "target": "TH_DEFI",
+      "relation": "document-indicates-threat",
+      "weight": 14.0,
+      "evidence": "13 keyword matches in title/evidence excerpts",
+      "count": 13
+    },
+    {
+      "source": "DOC_D048",
+      "target": "TH_NFT",
+      "relation": "document-indicates-threat",
+      "weight": 10.0,
+      "evidence": "9 keyword matches in title/evidence excerpts",
+      "count": 9
+    },
+    {
+      "source": "DOC_D048",
+      "target": "TH_GOVERNANCE",
+      "relation": "document-indicates-threat",
+      "weight": 2.0,
+      "evidence": "1 keyword matches in title/evidence excerpts",
+      "count": 1
+    },
+    {
+      "source": "DOC_D049",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 2.2868,
+      "evidence": "221 keyword/evidence hits for Metaverse platform features",
+      "count": 221
+    },
+    {
+      "source": "DOC_D049",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.4774,
+      "evidence": "82 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 82
+    },
+    {
+      "source": "DOC_D049",
+      "target": "DIM_financial_crime_opportunities",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.0757,
+      "evidence": "13 keyword/evidence hits for Financial crime opportunities",
+      "count": 13
+    },
+    {
+      "source": "DOC_D049",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.5182,
+      "evidence": "89 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 89
+    },
+    {
+      "source": "DOC_D049",
+      "target": "TH_PAYMENT",
+      "relation": "document-indicates-threat",
+      "weight": 4.0,
+      "evidence": "3 keyword matches in title/evidence excerpts",
+      "count": 3
+    },
+    {
+      "source": "DOC_D049",
+      "target": "TH_WALLET",
+      "relation": "document-indicates-threat",
+      "weight": 4.0,
+      "evidence": "3 keyword matches in title/evidence excerpts",
+      "count": 3
+    },
+    {
+      "source": "DOC_D049",
+      "target": "TH_CYBER",
+      "relation": "document-indicates-threat",
+      "weight": 3.0,
+      "evidence": "2 keyword matches in title/evidence excerpts",
+      "count": 2
+    },
+    {
+      "source": "DOC_D050",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 2.083,
+      "evidence": "186 keyword/evidence hits for Metaverse platform features",
+      "count": 186
+    },
+    {
+      "source": "DOC_D050",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.2911,
+      "evidence": "50 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 50
+    },
+    {
+      "source": "DOC_D050",
+      "target": "DIM_financial_crime_opportunities",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.0466,
+      "evidence": "8 keyword/evidence hits for Financial crime opportunities",
+      "count": 8
+    },
+    {
+      "source": "DOC_D050",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.0466,
+      "evidence": "8 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 8
+    },
+    {
+      "source": "DOC_D050",
+      "target": "TH_NFT",
+      "relation": "document-indicates-threat",
+      "weight": 4.0,
+      "evidence": "3 keyword matches in title/evidence excerpts",
+      "count": 3
+    },
+    {
+      "source": "DOC_D050",
+      "target": "TH_DEFI",
+      "relation": "document-indicates-threat",
+      "weight": 3.0,
+      "evidence": "2 keyword matches in title/evidence excerpts",
+      "count": 2
+    },
+    {
+      "source": "DOC_D050",
+      "target": "TH_SCAM",
+      "relation": "document-indicates-threat",
+      "weight": 3.0,
+      "evidence": "2 keyword matches in title/evidence excerpts",
+      "count": 2
+    },
+    {
+      "source": "DOC_D051",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.2562,
+      "evidence": "44 keyword/evidence hits for Metaverse platform features",
+      "count": 44
+    },
+    {
+      "source": "DOC_D051",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 2.5022,
+      "evidence": "258 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 258
+    },
+    {
+      "source": "DOC_D051",
+      "target": "DIM_financial_crime_opportunities",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.0582,
+      "evidence": "10 keyword/evidence hits for Financial crime opportunities",
+      "count": 10
+    },
+    {
+      "source": "DOC_D051",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.5007,
+      "evidence": "86 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 86
+    },
+    {
+      "source": "DOC_D051",
+      "target": "TH_SCAM",
+      "relation": "document-indicates-threat",
+      "weight": 7.0,
+      "evidence": "6 keyword matches in title/evidence excerpts",
+      "count": 6
+    },
+    {
+      "source": "DOC_D051",
+      "target": "TH_DEFI",
+      "relation": "document-indicates-threat",
+      "weight": 6.0,
+      "evidence": "5 keyword matches in title/evidence excerpts",
+      "count": 5
+    },
+    {
+      "source": "DOC_D051",
+      "target": "TH_CYBER",
+      "relation": "document-indicates-threat",
+      "weight": 3.0,
+      "evidence": "2 keyword matches in title/evidence excerpts",
+      "count": 2
+    },
+    {
+      "source": "DOC_D052",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 3.0029,
+      "evidence": "344 keyword/evidence hits for Metaverse platform features",
+      "count": 344
+    },
+    {
+      "source": "DOC_D052",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.6114,
+      "evidence": "105 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 105
+    },
+    {
+      "source": "DOC_D052",
+      "target": "DIM_financial_crime_opportunities",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.0175,
+      "evidence": "3 keyword/evidence hits for Financial crime opportunities",
+      "count": 3
+    },
+    {
+      "source": "DOC_D052",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.3785,
+      "evidence": "65 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 65
+    },
+    {
+      "source": "DOC_D052",
+      "target": "TH_DEFI",
+      "relation": "document-indicates-threat",
+      "weight": 3.0,
+      "evidence": "2 keyword matches in title/evidence excerpts",
+      "count": 2
+    },
+    {
+      "source": "DOC_D052",
+      "target": "TH_NFT",
+      "relation": "document-indicates-threat",
+      "weight": 3.0,
+      "evidence": "2 keyword matches in title/evidence excerpts",
+      "count": 2
+    },
+    {
+      "source": "DOC_D052",
+      "target": "TH_CYBER",
+      "relation": "document-indicates-threat",
+      "weight": 2.0,
+      "evidence": "1 keyword matches in title/evidence excerpts",
+      "count": 1
+    },
+    {
+      "source": "DOC_D053",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 2.5488,
+      "evidence": "266 keyword/evidence hits for Metaverse platform features",
+      "count": 266
+    },
+    {
+      "source": "DOC_D053",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.6346,
+      "evidence": "109 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 109
+    },
+    {
+      "source": "DOC_D053",
+      "target": "DIM_financial_crime_opportunities",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.0116,
+      "evidence": "2 keyword/evidence hits for Financial crime opportunities",
+      "count": 2
+    },
+    {
+      "source": "DOC_D053",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.0757,
+      "evidence": "13 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 13
+    },
+    {
+      "source": "DOC_D053",
+      "target": "TH_WALLET",
+      "relation": "document-indicates-threat",
+      "weight": 11.0,
+      "evidence": "10 keyword matches in title/evidence excerpts",
+      "count": 10
+    },
+    {
+      "source": "DOC_D053",
+      "target": "TH_NFT",
+      "relation": "document-indicates-threat",
+      "weight": 9.0,
+      "evidence": "8 keyword matches in title/evidence excerpts",
+      "count": 8
+    },
+    {
+      "source": "DOC_D053",
+      "target": "TH_DEFI",
+      "relation": "document-indicates-threat",
+      "weight": 8.0,
+      "evidence": "7 keyword matches in title/evidence excerpts",
+      "count": 7
+    },
+    {
+      "source": "DOC_D054",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.6754,
+      "evidence": "116 keyword/evidence hits for Metaverse platform features",
+      "count": 116
+    },
+    {
+      "source": "DOC_D054",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 4.4643,
+      "evidence": "595 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 595
+    },
+    {
+      "source": "DOC_D054",
+      "target": "DIM_financial_crime_opportunities",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.0932,
+      "evidence": "16 keyword/evidence hits for Financial crime opportunities",
+      "count": 16
+    },
+    {
+      "source": "DOC_D054",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.7453,
+      "evidence": "128 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 128
+    },
+    {
+      "source": "DOC_D054",
+      "target": "TH_WALLET",
+      "relation": "document-indicates-threat",
+      "weight": 18.0,
+      "evidence": "17 keyword matches in title/evidence excerpts",
+      "count": 17
+    },
+    {
+      "source": "DOC_D054",
+      "target": "TH_DEFI",
+      "relation": "document-indicates-threat",
+      "weight": 4.0,
+      "evidence": "3 keyword matches in title/evidence excerpts",
+      "count": 3
+    },
+    {
+      "source": "DOC_D054",
+      "target": "TH_GOVERNANCE",
+      "relation": "document-indicates-threat",
+      "weight": 4.0,
+      "evidence": "3 keyword matches in title/evidence excerpts",
+      "count": 3
+    },
+    {
+      "source": "DOC_D055",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.8908,
+      "evidence": "153 keyword/evidence hits for Metaverse platform features",
+      "count": 153
+    },
+    {
+      "source": "DOC_D055",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.2562,
+      "evidence": "44 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 44
+    },
+    {
+      "source": "DOC_D055",
+      "target": "DIM_financial_crime_opportunities",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.1048,
+      "evidence": "18 keyword/evidence hits for Financial crime opportunities",
+      "count": 18
+    },
+    {
+      "source": "DOC_D055",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.1747,
+      "evidence": "30 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 30
+    },
+    {
+      "source": "DOC_D055",
+      "target": "TH_SCAM",
+      "relation": "document-indicates-threat",
+      "weight": 3.0,
+      "evidence": "2 keyword matches in title/evidence excerpts",
+      "count": 2
+    },
+    {
+      "source": "DOC_D055",
+      "target": "TH_WALLET",
+      "relation": "document-indicates-threat",
+      "weight": 3.0,
+      "evidence": "2 keyword matches in title/evidence excerpts",
+      "count": 2
+    },
+    {
+      "source": "DOC_D055",
+      "target": "TH_DEFI",
+      "relation": "document-indicates-threat",
+      "weight": 2.0,
+      "evidence": "1 keyword matches in title/evidence excerpts",
+      "count": 1
+    },
+    {
+      "source": "DOC_D056",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 2.4323,
+      "evidence": "246 keyword/evidence hits for Metaverse platform features",
+      "count": 246
+    },
+    {
+      "source": "DOC_D056",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.1863,
+      "evidence": "32 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 32
+    },
+    {
+      "source": "DOC_D056",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.2504,
+      "evidence": "43 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 43
+    },
+    {
+      "source": "DOC_D056",
+      "target": "TH_NFT",
+      "relation": "document-indicates-threat",
+      "weight": 5.0,
+      "evidence": "4 keyword matches in title/evidence excerpts",
+      "count": 4
+    },
+    {
+      "source": "DOC_D056",
+      "target": "TH_DEFI",
+      "relation": "document-indicates-threat",
+      "weight": 3.0,
+      "evidence": "2 keyword matches in title/evidence excerpts",
+      "count": 2
+    },
+    {
+      "source": "DOC_D056",
+      "target": "TH_CYBER",
+      "relation": "document-indicates-threat",
+      "weight": 2.0,
+      "evidence": "1 keyword matches in title/evidence excerpts",
+      "count": 1
+    },
+    {
+      "source": "DOC_D057",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 2.1587,
+      "evidence": "199 keyword/evidence hits for Metaverse platform features",
+      "count": 199
+    },
+    {
+      "source": "DOC_D057",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 2.409,
+      "evidence": "242 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 242
+    },
+    {
+      "source": "DOC_D057",
+      "target": "DIM_financial_crime_opportunities",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.0233,
+      "evidence": "4 keyword/evidence hits for Financial crime opportunities",
+      "count": 4
+    },
+    {
+      "source": "DOC_D057",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.9432,
+      "evidence": "162 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 162
+    },
+    {
+      "source": "DOC_D057",
+      "target": "TH_PAYMENT",
+      "relation": "document-indicates-threat",
+      "weight": 6.0,
+      "evidence": "5 keyword matches in title/evidence excerpts",
+      "count": 5
+    },
+    {
+      "source": "DOC_D057",
+      "target": "TH_CYBER",
+      "relation": "document-indicates-threat",
+      "weight": 4.0,
+      "evidence": "3 keyword matches in title/evidence excerpts",
+      "count": 3
+    },
+    {
+      "source": "DOC_D057",
+      "target": "TH_DEFI",
+      "relation": "document-indicates-threat",
+      "weight": 4.0,
+      "evidence": "3 keyword matches in title/evidence excerpts",
+      "count": 3
+    },
+    {
+      "source": "DOC_D058",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 3.9403,
+      "evidence": "505 keyword/evidence hits for Metaverse platform features",
+      "count": 505
+    },
+    {
+      "source": "DOC_D058",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.5415,
+      "evidence": "93 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 93
+    },
+    {
+      "source": "DOC_D058",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 2.3683,
+      "evidence": "235 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 235
+    },
+    {
+      "source": "DOC_D058",
+      "target": "TH_PAYMENT",
+      "relation": "document-indicates-threat",
+      "weight": 7.0,
+      "evidence": "6 keyword matches in title/evidence excerpts",
+      "count": 6
+    },
+    {
+      "source": "DOC_D058",
+      "target": "TH_CYBER",
+      "relation": "document-indicates-threat",
+      "weight": 3.0,
+      "evidence": "2 keyword matches in title/evidence excerpts",
+      "count": 2
+    },
+    {
+      "source": "DOC_D058",
+      "target": "TH_DEFI",
+      "relation": "document-indicates-threat",
+      "weight": 2.0,
+      "evidence": "1 keyword matches in title/evidence excerpts",
+      "count": 1
+    },
+    {
+      "source": "DOC_D059",
+      "target": "DIM_metaverse_platform_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 6.8457,
+      "evidence": "1004 keyword/evidence hits for Metaverse platform features",
+      "count": 1004
+    },
+    {
+      "source": "DOC_D059",
+      "target": "DIM_crypto_ecosystem_features",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 2.6769,
+      "evidence": "288 keyword/evidence hits for Cryptocurrency ecosystem features",
+      "count": 288
+    },
+    {
+      "source": "DOC_D059",
+      "target": "DIM_financial_crime_opportunities",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 1.4425,
+      "evidence": "76 keyword/evidence hits for Financial crime opportunities",
+      "count": 76
+    },
+    {
+      "source": "DOC_D059",
+      "target": "DIM_modelling_analysis_intervention",
+      "relation": "document-supports-evidence-dimension",
+      "weight": 2.147,
+      "evidence": "197 keyword/evidence hits for Modelling, analysis, and intervention",
+      "count": 197
+    },
+    {
+      "source": "DOC_D059",
+      "target": "TH_CYBER",
+      "relation": "document-indicates-threat",
+      "weight": 3.0,
+      "evidence": "2 keyword matches in title/evidence excerpts",
+      "count": 2
+    },
+    {
+      "source": "DOC_D059",
+      "target": "TH_PRIVACY",
+      "relation": "document-indicates-threat",
+      "weight": 3.0,
+      "evidence": "2 keyword matches in title/evidence excerpts",
+      "count": 2
+    },
+    {
+      "source": "DOC_D059",
+      "target": "TH_WALLET",
+      "relation": "document-indicates-threat",
+      "weight": 3.0,
+      "evidence": "2 keyword matches in title/evidence excerpts",
+      "count": 2
+    },
+    {
+      "source": "DOC_D059",
+      "target": "TH_CYBER",
+      "relation": "high-evidence-anchor",
+      "weight": 4.0,
+      "evidence": "High evidence score: 1565"
+    }
+  ]
+}

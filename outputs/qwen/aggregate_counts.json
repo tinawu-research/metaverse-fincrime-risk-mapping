@@ -1,0 +1,16 @@
+{
+  "document_count": 59,
+  "total_extracted_words_reported": 545779,
+  "category_totals": {
+    "metaverse_platform_features": 14681,
+    "crypto_ecosystem_features": 9022,
+    "financial_crime_opportunities": 1430,
+    "modelling_analysis_intervention": 4407
+  },
+  "relevance_counts": {
+    "primary financial-crime/crypto evidence": 14,
+    "highly relevant platform/security evidence": 45
+  },
+  "model": "qwen2.5:7b",
+  "cost_boundary": "Local Ollama/Qwen only. No paid API and no Zep graph build."
+}

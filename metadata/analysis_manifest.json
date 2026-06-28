@@ -1,0 +1,19 @@
+{
+  "input_file": "C:\\Users\\mtiwar05\\OneDrive - Charles Sturt University\\CSU\\Metaverse and Cryptocurrencies\\Analysis\\Codex\\Results\\Round 5\\all_extracted_text_by_pdf.txt",
+  "input_size_bytes": 4277288,
+  "document_count": 59,
+  "total_extracted_words_reported": 545779,
+  "category_totals": {
+    "metaverse_platform_features": 14681,
+    "crypto_ecosystem_features": 9022,
+    "financial_crime_opportunities": 1430,
+    "modelling_analysis_intervention": 4407
+  },
+  "relevance_counts": {
+    "primary financial-crime/crypto evidence": 14,
+    "highly relevant platform/security evidence": 45
+  },
+  "analysis_question": "How do the combined features of metaverse platforms and cryptocurrency ecosystems generate new money laundering and other financial crime opportunities, and subsequently help model, analyse, and identify intervention points within these emerging financial crime environments?",
+  "model": "qwen2.5:7b",
+  "cost_boundary": "Local Ollama/Qwen only. No paid API and no Zep graph build."
+}

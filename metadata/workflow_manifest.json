@@ -1,0 +1,159 @@
+{
+  "package_dir": "C:\\Users\\mtiwar05\\OneDrive - Charles Sturt University\\CSU\\Metaverse and Cryptocurrencies\\Analysis\\Codex\\Results\\Round 5\\mirofish_local_qwen_free_analysis_20260527-112059\\journal_reproducibility_package",
+  "analysis_output_dir": "C:\\Users\\mtiwar05\\OneDrive - Charles Sturt University\\CSU\\Metaverse and Cryptocurrencies\\Analysis\\Codex\\Results\\Round 5\\mirofish_local_qwen_free_analysis_20260527-112059",
+  "cost_boundary": "Local/free only. No paid API and no Zep Cloud graph build.",
+  "input_file": "C:\\Users\\mtiwar05\\OneDrive - Charles Sturt University\\CSU\\Metaverse and Cryptocurrencies\\Analysis\\Codex\\Results\\Round 5\\all_extracted_text_by_pdf.txt",
+  "input_size_bytes": 4277288,
+  "document_count": 59,
+  "reported_extracted_words": 545779,
+  "model": "qwen2.5:7b",
+  "qwen_model_tag": "qwen2.5:7b",
+  "ollama_model_id": "845dbda0ea48",
+  "qwen_model_layer_digest": "sha256:2bada8a7450677000f678be90653b85d364de7db25eb5ea54136ada5f3933730",
+  "manifest_config_digest": "sha256:2f15b3218f0552c60647ce60ada83632d2c09755b16259b13e3e4458e9ae419d",
+  "ollama_registry_source": "https://ollama.com/v2/library/qwen2.5/manifests/7b",
+  "ollama_version_note": "The original Ollama version for the May 2026 run was not captured in the saved artefacts and could not be reliably recovered later.",
+  "graph_summary": {
+    "documents": 59,
+    "nodes": 108,
+    "edges": 498,
+    "topics": 7,
+    "threat_environments": 9,
+    "interventions": 13
+  },
+  "code_files": [
+    {
+      "source": "C:\\tmp\\codex_local_qwen_metaverse_fincrime_analysis.py",
+      "package_path": "code/01_local_qwen_metaverse_fincrime_analysis.py",
+      "purpose": "Parses the 4.28 MB extracted text corpus, computes evidence counts, runs local qwen2.5:7b through Ollama, and writes the first complete analysis report.",
+      "bytes": 16463,
+      "sha256": "c6f5c4edfae08ab063b75bb75cab936cf211b745b6fae6879efa67049c201764"
+    },
+    {
+      "source": "C:\\tmp\\write_enhanced_metaverse_fincrime_report.py",
+      "package_path": "code/02_write_enhanced_metaverse_fincrime_report.py",
+      "purpose": "Uses the manifest and document evidence table to produce the enhanced journal-facing analysis report.",
+      "bytes": 24639,
+      "sha256": "7c23ebe58230eb90bbc920fd44d201fa291a46085c2339a070c1f959f2a42bca"
+    },
+    {
+      "source": "C:\\tmp\\markdown_to_docx_simple.py",
+      "package_path": "code/03_markdown_to_docx_simple.py",
+      "purpose": "Converts the enhanced markdown report into a Word document.",
+      "bytes": 2181,
+      "sha256": "c433f234b4b34602b825e18e5a7f702ffa4e503fdf9d23533669ec7a9088f6bd"
+    },
+    {
+      "source": "C:\\tmp\\write_topic_model_intervention_focus.py",
+      "package_path": "code/04_write_topic_model_intervention_focus.py",
+      "purpose": "Builds the topic-modelling intervention focus report and the Mermaid/SVG framework figure.",
+      "bytes": 22887,
+      "sha256": "5daa6437b44cd7009c5e1f0682558173540ebf2edbb73c80e54880f3ca619875"
+    },
+    {
+      "source": "C:\\tmp\\build_free_graph_pack.py",
+      "package_path": "code/05_build_free_graph_pack.py",
+      "purpose": "Builds the fully local/free graph pack: interactive HTML, SVG graphs, JSON, CSV, GraphML, and intervention matrix.",
+      "bytes": 48995,
+      "sha256": "c297851c3232e76bcb2f2bd8257e14757c9c938294d48f0f168a5388b973c015"
+    }
+  ],
+  "expected_outputs_found": [
+    {
+      "path": "complete_analysis_report.md",
+      "bytes": 152067,
+      "sha256": "158988ff95ca12c21c3ee3328fe037a4f4ede8041259a67354854d74a6e18e84"
+    },
+    {
+      "path": "enhanced_complete_analysis_report.md",
+      "bytes": 28455,
+      "sha256": "1b333b8cf5d4ee1e89421ac5bb5cfcb582c688266554e7cf31516bfc957e7663"
+    },
+    {
+      "path": "enhanced_complete_analysis_report.docx",
+      "bytes": 45561,
+      "sha256": "277be2f8fa395039983315b027860349763657f139f28d7c33fd626ac574286d"
+    },
+    {
+      "path": "document_evidence_table.csv",
+      "bytes": 80880,
+      "sha256": "77e503170f0baba001a21d76f82c04e10955addce8886acd1d5a6840cca3368c"
+    },
+    {
+      "path": "document_evidence.json",
+      "bytes": 382235,
+      "sha256": "ae275c6a279fd2cd2910df704e7ac87ae52e2e73aaea8dea3c9a3c4dc6484507"
+    },
+    {
+      "path": "manifest.json",
+      "bytes": 1036,
+      "sha256": "9e1ba5c881f230bb673a6a8ad9a422e82aa373bc10e7940f6f5cf163752c2b56"
+    },
+    {
+      "path": "qwen_batch_summaries.md",
+      "bytes": 46546,
+      "sha256": "ab0b7e6249aa7cf48817e14c2ee7f622e19e9fa5b8b8d03df0a18ed8523f642f"
+    },
+    {
+      "path": "topic_model_emerging_threats_modelling_intervention_focus.md",
+      "bytes": 16001,
+      "sha256": "b9e3ac1ef421e21708d13c457eabde4bd4d6519c4696210b9042950162d34f39"
+    },
+    {
+      "path": "topic_model_emerging_threats_modelling_intervention_focus.docx",
+      "bytes": 40901,
+      "sha256": "e6a8e87e09697a5df80e8bf3af7feaa254cba643595b453904646152259627b2"
+    },
+    {
+      "path": "topic_model_threat_intervention_framework.svg",
+      "bytes": 4498,
+      "sha256": "f247116676ceb2e9ca43ff1006ab80409682ba3efb4003786415a42b489f2b91"
+    },
+    {
+      "path": "free_full_graph_pack/full_interactive_graph_pack.html",
+      "bytes": 475645,
+      "sha256": "073bfa09a4f1c5849ffb25bcc2ade1e98a10b1657708e158e5cfa3392ec3684a"
+    },
+    {
+      "path": "free_full_graph_pack/topic_threat_intervention_full.svg",
+      "bytes": 48582,
+      "sha256": "307c553c35005732950f5111e9dc3e221c505c06b5d36d2434df7cb922954909"
+    },
+    {
+      "path": "free_full_graph_pack/document_evidence_network_full.svg",
+      "bytes": 144395,
+      "sha256": "045f306768971e86295f087f80e7dfacf27840cef2e2e1195ec035f9f11497b3"
+    },
+    {
+      "path": "free_full_graph_pack/intervention_lifecycle_map.svg",
+      "bytes": 12723,
+      "sha256": "3c3b4c6cf5dec21827e97be2b833ede7d1689a3e2c47454cbb46eaabbb7f6c86"
+    },
+    {
+      "path": "free_full_graph_pack/graph_data.json",
+      "bytes": 277682,
+      "sha256": "8c515d70e21626d6034d9fd2f951ae55dfa5a74a225d50f4a29daa89488cf2ac"
+    },
+    {
+      "path": "free_full_graph_pack/graph_nodes.csv",
+      "bytes": 53779,
+      "sha256": "073042b5caaf85c4c8f41f12ce4b28ba1431aaf46f5a17f94107eb5ed8a3e71a"
+    },
+    {
+      "path": "free_full_graph_pack/graph_edges.csv",
+      "bytes": 56620,
+      "sha256": "3feb31ae082ce33b3cfd7c4aa9674662930cdaaa6a7cea7878dd087fb6df5bf9"
+    },
+    {
+      "path": "free_full_graph_pack/graph_data.graphml",
+      "bytes": 180769,
+      "sha256": "8b173330030629cc67fc58b0c48d8746929bf3af1a6dbe60f8cfc694b127c7d8"
+    },
+    {
+      "path": "free_full_graph_pack/intervention_matrix.csv",
+      "bytes": 3298,
+      "sha256": "1187b3116e490792847aaa5dd97614b511c432a0274a5dba3a7fab9efebc0a1e"
+    }
+  ],
+  "missing_expected_outputs": []
+}

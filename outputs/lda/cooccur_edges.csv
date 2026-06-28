@@ -1,0 +1,154 @@
+source,target,chunk_cooccurrence_count
+blockchain,metaverse,242
+metaverse,virtual world,237
+metaverse,security,225
+blockchain,security,218
+blockchain,virtual world,214
+blockchain,transaction,201
+metaverse,transaction,196
+security,virtual world,196
+blockchain,digital asset,182
+digital asset,metaverse,181
+security,transaction,178
+transaction,virtual world,174
+digital asset,virtual world,170
+digital asset,transaction,164
+digital asset,security,163
+identity,metaverse,149
+blockchain,cryptocurrency,147
+blockchain,identity,143
+cryptocurrency,metaverse,143
+blockchain,smart contract,140
+avatar,metaverse,135
+metaverse,privacy,135
+metaverse,smart contract,134
+blockchain,privacy,132
+security,smart contract,131
+cryptocurrency,virtual world,131
+metaverse,risk,130
+identity,security,128
+cryptocurrency,transaction,128
+blockchain,risk,127
+privacy,security,126
+cryptocurrency,digital asset,126
+identity,virtual world,124
+avatar,virtual world,122
+avatar,blockchain,122
+market,metaverse,121
+smart contract,transaction,121
+risk,security,119
+identity,transaction,119
+smart contract,virtual world,117
+privacy,virtual world,117
+cryptocurrency,security,116
+risk,virtual world,114
+game,metaverse,113
+blockchain,token,113
+market,virtual world,111
+blockchain,market,111
+avatar,security,110
+digital asset,identity,108
+game,virtual world,107
+risk,transaction,106
+digital asset,risk,105
+privacy,transaction,105
+blockchain,game,104
+metaverse,token,103
+digital asset,privacy,102
+digital asset,market,101
+market,transaction,100
+digital asset,smart contract,98
+metaverse,trust,97
+avatar,digital asset,97
+token,transaction,96
+security,token,95
+digital asset,game,95
+cryptocurrency,market,95
+token,virtual world,93
+avatar,transaction,92
+blockchain,trust,90
+identity,privacy,90
+digital asset,token,90
+avatar,identity,90
+market,security,89
+cryptocurrency,risk,88
+security,trust,87
+trust,virtual world,86
+game,security,84
+identity,smart contract,83
+game,transaction,82
+transaction,trust,80
+cryptocurrency,privacy,78
+smart contract,token,76
+cryptocurrency,game,76
+cryptocurrency,token,76
+market,risk,75
+cryptocurrency,identity,75
+identity,risk,73
+privacy,smart contract,72
+avatar,privacy,72
+privacy,risk,71
+cryptocurrency,smart contract,71
+game,market,70
+avatar,cryptocurrency,70
+digital asset,trust,70
+governance,metaverse,69
+blockchain,governance,68
+governance,virtual world,68
+avatar,game,67
+risk,smart contract,66
+avatar,risk,65
+identity,trust,65
+identity,token,63
+governance,security,63
+risk,token,61
+blockchain,decentralization,61
+avatar,smart contract,60
+game,identity,60
+game,smart contract,60
+game,risk,59
+decentralization,metaverse,59
+digital asset,governance,58
+privacy,token,58
+market,token,58
+decentralization,virtual world,57
+avatar,market,56
+risk,trust,56
+smart contract,trust,56
+game,token,56
+game,privacy,55
+governance,transaction,55
+identity,market,55
+decentralization,transaction,54
+decentralization,security,52
+market,smart contract,51
+decentralization,digital asset,51
+market,privacy,51
+governance,privacy,51
+avatar,token,47
+governance,smart contract,46
+privacy,trust,46
+avatar,trust,44
+cryptocurrency,trust,43
+cryptocurrency,governance,42
+governance,identity,40
+governance,risk,38
+decentralization,risk,38
+decentralization,identity,37
+governance,token,37
+decentralization,privacy,37
+token,trust,37
+decentralization,smart contract,37
+game,trust,35
+cryptocurrency,decentralization,35
+governance,market,34
+avatar,governance,34
+decentralization,game,33
+market,trust,31
+decentralization,market,30
+game,governance,30
+decentralization,governance,28
+decentralization,token,28
+decentralization,trust,28
+governance,trust,26
+avatar,decentralization,26
