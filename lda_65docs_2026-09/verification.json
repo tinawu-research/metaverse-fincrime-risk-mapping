@@ -1,0 +1,20 @@
+{
+  "checks": {
+    "all_document_rows_present": true,
+    "document_probabilities_sum_to_one": true,
+    "mean_prevalence_sums_to_one": true,
+    "nonnegative_counts": true,
+    "training_units_no_replacement": true,
+    "validation_has_no_group_leakage": true,
+    "every_document_validated_once": true,
+    "topic_word_probabilities_sum_to_one": true,
+    "display_keyword_weights_sum_to_one": true,
+    "cosine_similarity_symmetric": true,
+    "js_similarity_symmetric": true,
+    "requested_tables_exist": true,
+    "interactive_lda_created": true
+  },
+  "all_pass": true,
+  "validation_scope": "Software consistency, not substantive topic validity",
+  "profile": "see run_config.json"
+}

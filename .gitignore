@@ -20,3 +20,21 @@ document_evidence_table.csv
 full_interactive_graph_pack.html
 graph_data.json
 document_evidence_network_full.svg
+
+# Revised analysis: never commit model caches, fitted models or extracted text.
+private/
+*.joblib
+*.gensim
+*.npz
+run_*/
+
+# Revised Qwen/graph work: never commit excerpt-bearing or host-specific files.
+preflight/
+ollama_runtime/
+*_request.json
+*_response.json
+*.sbatch
+*.log
+all_extracted_text_65docs.txt
+document_evidence_65.json
+document_evidence_table_65.csv

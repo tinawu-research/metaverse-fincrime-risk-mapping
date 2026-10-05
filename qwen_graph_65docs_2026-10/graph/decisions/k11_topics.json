@@ -1,0 +1,146 @@
+[
+  {
+    "topic_id": "T01",
+    "label": "Perceived trust, equality and consumer issues",
+    "prevalence_pct_2dp": 2.97,
+    "mean_document_prevalence": 0.029724017338781394,
+    "dominant_document_count": 2,
+    "approved_threats": [
+      "TH_PRIVACY"
+    ],
+    "approved_link_count": 1,
+    "note": ""
+  },
+  {
+    "topic_id": "T02",
+    "label": "Data-driven attack detection and authentication",
+    "prevalence_pct_2dp": 14.39,
+    "mean_document_prevalence": 0.14390719952749403,
+    "dominant_document_count": 11,
+    "approved_threats": [
+      "TH_PAYMENT",
+      "TH_CYBER",
+      "TH_IDENTITY",
+      "TH_PRIVACY"
+    ],
+    "approved_link_count": 4,
+    "note": ""
+  },
+  {
+    "topic_id": "T03",
+    "label": "Gameplay and review/research methods",
+    "prevalence_pct_2dp": 6.17,
+    "mean_document_prevalence": 0.06170852926822192,
+    "dominant_document_count": 2,
+    "approved_threats": [],
+    "approved_link_count": 0,
+    "note": "No approved topic-threat link. Insufficient reviewed support, not proof that associated publications lack threat discussion."
+  },
+  {
+    "topic_id": "T04",
+    "label": "Technical trust, reputation and authenticity",
+    "prevalence_pct_2dp": 3.25,
+    "mean_document_prevalence": 0.03250205307597585,
+    "dominant_document_count": 2,
+    "approved_threats": [
+      "TH_CYBER"
+    ],
+    "approved_link_count": 1,
+    "note": ""
+  },
+  {
+    "topic_id": "T05",
+    "label": "Governance of data and assets",
+    "prevalence_pct_2dp": 7.57,
+    "mean_document_prevalence": 0.07567458418013731,
+    "dominant_document_count": 4,
+    "approved_threats": [
+      "TH_SCAM",
+      "TH_GOVERNANCE",
+      "TH_PRIVACY"
+    ],
+    "approved_link_count": 3,
+    "note": ""
+  },
+  {
+    "topic_id": "T06",
+    "label": "NFT ownership and digital-asset markets",
+    "prevalence_pct_2dp": 8.86,
+    "mean_document_prevalence": 0.0886311464178697,
+    "dominant_document_count": 4,
+    "approved_threats": [
+      "TH_SCAM"
+    ],
+    "approved_link_count": 1,
+    "note": "Distinct from T09; not merged (conceptual overlap does not require merging endpoints)."
+  },
+  {
+    "topic_id": "T07",
+    "label": "Transaction and authentication protocols",
+    "prevalence_pct_2dp": 9.65,
+    "mean_document_prevalence": 0.09648541859125996,
+    "dominant_document_count": 6,
+    "approved_threats": [
+      "TH_IDENTITY"
+    ],
+    "approved_link_count": 1,
+    "note": ""
+  },
+  {
+    "topic_id": "T08",
+    "label": "Cryptoasset crime and scams",
+    "prevalence_pct_2dp": 8.57,
+    "mean_document_prevalence": 0.08573743468445293,
+    "dominant_document_count": 6,
+    "approved_threats": [
+      "TH_SCAM",
+      "TH_DEFI",
+      "TH_GOVERNANCE",
+      "TH_WALLET"
+    ],
+    "approved_link_count": 4,
+    "note": ""
+  },
+  {
+    "topic_id": "T09",
+    "label": "NFT markets, value and financial perceptions",
+    "prevalence_pct_2dp": 3.2,
+    "mean_document_prevalence": 0.0319745734386825,
+    "dominant_document_count": 2,
+    "approved_threats": [
+      "TH_NFT"
+    ],
+    "approved_link_count": 1,
+    "note": "Distinct from T06; not merged."
+  },
+  {
+    "topic_id": "T10",
+    "label": "Encryption, access control and network methods",
+    "prevalence_pct_2dp": 7.19,
+    "mean_document_prevalence": 0.07185549130041426,
+    "dominant_document_count": 5,
+    "approved_threats": [
+      "TH_PRIVACY",
+      "TH_CYBER"
+    ],
+    "approved_link_count": 2,
+    "note": ""
+  },
+  {
+    "topic_id": "T11",
+    "label": "Broad metaverse-platform security",
+    "prevalence_pct_2dp": 28.18,
+    "mean_document_prevalence": 0.28179955217671027,
+    "dominant_document_count": 21,
+    "approved_threats": [
+      "TH_CYBER",
+      "TH_IDENTITY",
+      "TH_SCAM",
+      "TH_PRIVACY",
+      "TH_DEFI",
+      "TH_GOVERNANCE"
+    ],
+    "approved_link_count": 6,
+    "note": "Largest topic (28.18%). Malve et al. has T11 as its own strongest topic (0.6376) but is not the highest-loading T11 document."
+  }
+]

@@ -1,0 +1,961 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="edge" attr.name="npmi" attr.type="double" />
+  <key id="d4" for="edge" attr.name="cooccurring_documents" attr.type="long" />
+  <key id="d3" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d2" for="node" attr.name="community" attr.type="long" />
+  <key id="d1" for="node" attr.name="normalized_frequency" attr.type="double" />
+  <key id="d0" for="node" attr.name="document_frequency" attr.type="long" />
+  <graph edgedefault="undirected">
+    <node id="nft">
+      <data key="d0">51</data>
+      <data key="d1">106.60419079622017</data>
+      <data key="d2">2</data>
+    </node>
+    <node id="smart_contract">
+      <data key="d0">53</data>
+      <data key="d1">35.4905064386608</data>
+      <data key="d2">3</data>
+    </node>
+    <node id="network">
+      <data key="d0">55</data>
+      <data key="d1">34.80679684117261</data>
+      <data key="d2">3</data>
+    </node>
+    <node id="asset">
+      <data key="d0">57</data>
+      <data key="d1">27.099079667431297</data>
+      <data key="d2">2</data>
+    </node>
+    <node id="attack">
+      <data key="d0">41</data>
+      <data key="d1">25.294034418314347</data>
+      <data key="d2">4</data>
+    </node>
+    <node id="avatar">
+      <data key="d0">50</data>
+      <data key="d1">25.160066677970654</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="decentralized">
+      <data key="d0">58</data>
+      <data key="d1">24.48274907910835</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="cryptocurrency">
+      <data key="d0">51</data>
+      <data key="d1">23.318548605650616</data>
+      <data key="d2">2</data>
+    </node>
+    <node id="token">
+      <data key="d0">43</data>
+      <data key="d1">23.065808986082853</data>
+      <data key="d2">5</data>
+    </node>
+    <node id="algorithm">
+      <data key="d0">43</data>
+      <data key="d1">22.68783655534002</data>
+      <data key="d2">3</data>
+    </node>
+    <node id="protocol">
+      <data key="d0">43</data>
+      <data key="d1">22.646020386642302</data>
+      <data key="d2">3</data>
+    </node>
+    <node id="service">
+      <data key="d0">55</data>
+      <data key="d1">22.579887605584815</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="financial">
+      <data key="d0">49</data>
+      <data key="d1">21.763939123819707</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="privacy">
+      <data key="d0">49</data>
+      <data key="d1">20.136088920343813</data>
+      <data key="d2">3</data>
+    </node>
+    <node id="access">
+      <data key="d0">58</data>
+      <data key="d1">19.08884160789833</data>
+      <data key="d2">2</data>
+    </node>
+    <node id="risk">
+      <data key="d0">52</data>
+      <data key="d1">19.01546064029927</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="secure">
+      <data key="d0">53</data>
+      <data key="d1">18.813158564204358</data>
+      <data key="d2">3</data>
+    </node>
+    <node id="identity">
+      <data key="d0">53</data>
+      <data key="d1">18.687850162976638</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="business">
+      <data key="d0">49</data>
+      <data key="d1">18.65956524674427</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="ownership">
+      <data key="d0">50</data>
+      <data key="d1">18.594451415809115</data>
+      <data key="d2">2</data>
+    </node>
+    <node id="virtual_world">
+      <data key="d0">53</data>
+      <data key="d1">18.37033385508859</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="digital_asset">
+      <data key="d0">51</data>
+      <data key="d1">18.09097041713572</data>
+      <data key="d2">2</data>
+    </node>
+    <node id="interaction">
+      <data key="d0">57</data>
+      <data key="d1">17.55059437244192</data>
+      <data key="d2">3</data>
+    </node>
+    <node id="number">
+      <data key="d0">56</data>
+      <data key="d1">17.412000448170087</data>
+      <data key="d2">3</data>
+    </node>
+    <node id="node">
+      <data key="d0">39</data>
+      <data key="d1">17.18335748429079</data>
+      <data key="d2">6</data>
+    </node>
+    <node id="example">
+      <data key="d0">55</data>
+      <data key="d1">16.794222584429292</data>
+      <data key="d2">2</data>
+    </node>
+    <node id="game">
+      <data key="d0">41</data>
+      <data key="d1">16.701270279640323</data>
+      <data key="d2">7</data>
+    </node>
+    <node id="key">
+      <data key="d0">56</data>
+      <data key="d1">16.450948828017303</data>
+      <data key="d2">2</data>
+    </node>
+    <node id="ethereum">
+      <data key="d0">40</data>
+      <data key="d1">16.423273061128</data>
+      <data key="d2">8</data>
+    </node>
+    <node id="trust">
+      <data key="d0">40</data>
+      <data key="d1">16.23833479342824</data>
+      <data key="d2">9</data>
+    </node>
+    <node id="market">
+      <data key="d0">47</data>
+      <data key="d1">16.000865482480148</data>
+      <data key="d2">2</data>
+    </node>
+    <node id="function">
+      <data key="d0">46</data>
+      <data key="d1">15.765552091909548</data>
+      <data key="d2">3</data>
+    </node>
+    <node id="solution">
+      <data key="d0">50</data>
+      <data key="d1">15.401909609250053</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="world">
+      <data key="d0">54</data>
+      <data key="d1">15.348686507218506</data>
+      <data key="d2">2</data>
+    </node>
+    <node id="make">
+      <data key="d0">55</data>
+      <data key="d1">15.157393576256101</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="contract">
+      <data key="d0">43</data>
+      <data key="d1">15.151890002873376</data>
+      <data key="d2">10</data>
+    </node>
+    <node id="feature">
+      <data key="d0">56</data>
+      <data key="d1">14.675204975642677</data>
+      <data key="d2">3</data>
+    </node>
+    <node id="experience">
+      <data key="d0">53</data>
+      <data key="d1">14.671191997149208</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="type">
+      <data key="d0">55</data>
+      <data key="d1">13.908658267887668</data>
+      <data key="d2">3</data>
+    </node>
+    <node id="activity">
+      <data key="d0">51</data>
+      <data key="d1">13.881393214987051</data>
+      <data key="d2">2</data>
+    </node>
+    <edge source="nft" target="ownership">
+      <data key="d3">0.8363636363636363</data>
+      <data key="d4">46</data>
+      <data key="d5">0.4603960321027172</data>
+    </edge>
+    <edge source="nft" target="asset">
+      <data key="d3">0.8</data>
+      <data key="d4">48</data>
+      <data key="d5">0.2332275231758115</data>
+    </edge>
+    <edge source="nft" target="market">
+      <data key="d3">0.7818181818181819</data>
+      <data key="d4">43</data>
+      <data key="d5">0.37177862281673996</data>
+    </edge>
+    <edge source="nft" target="cryptocurrency">
+      <data key="d3">0.7586206896551724</data>
+      <data key="d4">44</data>
+      <data key="d5">0.2432757905554061</data>
+    </edge>
+    <edge source="nft" target="example">
+      <data key="d3">0.7377049180327869</data>
+      <data key="d4">45</data>
+      <data key="d5">0.11391927869229825</data>
+    </edge>
+    <edge source="nft" target="virtual_world">
+      <data key="d3">0.7333333333333333</data>
+      <data key="d4">44</data>
+      <data key="d5">0.14469425832381086</data>
+    </edge>
+    <edge source="nft" target="key">
+      <data key="d3">0.7258064516129032</data>
+      <data key="d4">45</data>
+      <data key="d5">0.0649193024151004</data>
+    </edge>
+    <edge source="nft" target="world">
+      <data key="d3">0.7213114754098361</data>
+      <data key="d4">44</data>
+      <data key="d5">0.09678998805489399</data>
+    </edge>
+    <edge source="smart_contract" target="network">
+      <data key="d3">0.8305084745762712</data>
+      <data key="d4">49</data>
+      <data key="d5">0.31349194374022066</data>
+    </edge>
+    <edge source="smart_contract" target="decentralized">
+      <data key="d3">0.819672131147541</data>
+      <data key="d4">50</data>
+      <data key="d5">0.2122063053756339</data>
+    </edge>
+    <edge source="smart_contract" target="feature">
+      <data key="d3">0.7868852459016393</data>
+      <data key="d4">48</data>
+      <data key="d5">0.16473265207667503</data>
+    </edge>
+    <edge source="smart_contract" target="asset">
+      <data key="d3">0.7741935483870968</data>
+      <data key="d4">48</data>
+      <data key="d5">0.10635409244638373</data>
+    </edge>
+    <edge source="smart_contract" target="number">
+      <data key="d3">0.7580645161290323</data>
+      <data key="d4">47</data>
+      <data key="d5">0.08910466594077768</data>
+    </edge>
+    <edge source="smart_contract" target="type">
+      <data key="d3">0.7419354838709677</data>
+      <data key="d4">46</data>
+      <data key="d5">0.07347468055032698</data>
+    </edge>
+    <edge source="smart_contract" target="secure">
+      <data key="d3">0.7377049180327869</data>
+      <data key="d4">45</data>
+      <data key="d5">0.11004407303723943</data>
+    </edge>
+    <edge source="smart_contract" target="function">
+      <data key="d3">0.7368421052631579</data>
+      <data key="d4">42</data>
+      <data key="d5">0.2590313849695801</data>
+    </edge>
+    <edge source="smart_contract" target="privacy">
+      <data key="d3">0.7288135593220338</data>
+      <data key="d4">43</data>
+      <data key="d5">0.1778254071531882</data>
+    </edge>
+    <edge source="smart_contract" target="solution">
+      <data key="d3">0.7166666666666667</data>
+      <data key="d4">43</data>
+      <data key="d5">0.12893059735075435</data>
+    </edge>
+    <edge source="smart_contract" target="algorithm">
+      <data key="d3">0.7142857142857143</data>
+      <data key="d4">40</data>
+      <data key="d5">0.27141621716577957</data>
+    </edge>
+    <edge source="network" target="decentralized">
+      <data key="d3">0.8524590163934426</data>
+      <data key="d4">52</data>
+      <data key="d5">0.25927163190438124</data>
+    </edge>
+    <edge source="network" target="feature">
+      <data key="d3">0.819672131147541</data>
+      <data key="d4">50</data>
+      <data key="d5">0.20477407418730253</data>
+    </edge>
+    <edge source="network" target="identity">
+      <data key="d3">0.8</data>
+      <data key="d4">48</data>
+      <data key="d5">0.22416313406104055</data>
+    </edge>
+    <edge source="network" target="secure">
+      <data key="d3">0.8</data>
+      <data key="d4">48</data>
+      <data key="d5">0.22416313406104055</data>
+    </edge>
+    <edge source="network" target="key">
+      <data key="d3">0.7903225806451613</data>
+      <data key="d4">49</data>
+      <data key="d5">0.11863627170180735</data>
+    </edge>
+    <edge source="network" target="protocol">
+      <data key="d3">0.7818181818181819</data>
+      <data key="d4">43</data>
+      <data key="d5">0.40430609462138845</data>
+    </edge>
+    <edge source="network" target="asset">
+      <data key="d3">0.7777777777777778</data>
+      <data key="d4">49</data>
+      <data key="d5">0.05599775104388912</data>
+    </edge>
+    <edge source="network" target="interaction">
+      <data key="d3">0.7777777777777778</data>
+      <data key="d4">49</data>
+      <data key="d5">0.05599775104388912</data>
+    </edge>
+    <edge source="network" target="type">
+      <data key="d3">0.7741935483870968</data>
+      <data key="d4">48</data>
+      <data key="d5">0.10198981458403142</data>
+    </edge>
+    <edge source="network" target="privacy">
+      <data key="d3">0.7333333333333333</data>
+      <data key="d4">44</data>
+      <data key="d5">0.15229057019260425</data>
+    </edge>
+    <edge source="network" target="risk">
+      <data key="d3">0.7258064516129032</data>
+      <data key="d4">45</data>
+      <data key="d5">0.06111324845826279</data>
+    </edge>
+    <edge source="network" target="solution">
+      <data key="d3">0.7213114754098361</data>
+      <data key="d4">44</data>
+      <data key="d5">0.1005149942926753</data>
+    </edge>
+    <edge source="network" target="function">
+      <data key="d3">0.711864406779661</data>
+      <data key="d4">42</data>
+      <data key="d5">0.1742139484780608</data>
+    </edge>
+    <edge source="asset" target="decentralized">
+      <data key="d3">0.8548387096774194</data>
+      <data key="d4">53</data>
+      <data key="d5">0.20179246507436788</data>
+    </edge>
+    <edge source="asset" target="feature">
+      <data key="d3">0.7936507936507936</data>
+      <data key="d4">50</data>
+      <data key="d5">0.0686347921300657</data>
+    </edge>
+    <edge source="asset" target="world">
+      <data key="d3">0.7903225806451613</data>
+      <data key="d4">49</data>
+      <data key="d5">0.12093505971900699</data>
+    </edge>
+    <edge source="asset" target="ownership">
+      <data key="d3">0.7833333333333333</data>
+      <data key="d4">47</data>
+      <data key="d5">0.21422609618278945</data>
+    </edge>
+    <edge source="asset" target="type">
+      <data key="d3">0.7777777777777778</data>
+      <data key="d4">49</data>
+      <data key="d5">0.05599775104388912</data>
+    </edge>
+    <edge source="asset" target="cryptocurrency">
+      <data key="d3">0.7704918032786885</data>
+      <data key="d4">47</data>
+      <data key="d5">0.15315205361731993</data>
+    </edge>
+    <edge source="asset" target="digital_asset">
+      <data key="d3">0.7704918032786885</data>
+      <data key="d4">47</data>
+      <data key="d5">0.15315205361731993</data>
+    </edge>
+    <edge source="asset" target="activity">
+      <data key="d3">0.7419354838709677</data>
+      <data key="d4">46</data>
+      <data key="d5">0.0814232880019202</data>
+    </edge>
+    <edge source="asset" target="financial">
+      <data key="d3">0.7377049180327869</data>
+      <data key="d4">45</data>
+      <data key="d5">0.12557813945811053</data>
+    </edge>
+    <edge source="asset" target="solution">
+      <data key="d3">0.7258064516129032</data>
+      <data key="d4">45</data>
+      <data key="d5">0.07063838992413919</data>
+    </edge>
+    <edge source="asset" target="business">
+      <data key="d3">0.7096774193548387</data>
+      <data key="d4">44</data>
+      <data key="d5">0.06075213092807157</data>
+    </edge>
+    <edge source="avatar" target="virtual_world">
+      <data key="d3">0.7758620689655172</data>
+      <data key="d4">45</data>
+      <data key="d5">0.26850200482012954</data>
+    </edge>
+    <edge source="avatar" target="interaction">
+      <data key="d3">0.7540983606557377</data>
+      <data key="d4">46</data>
+      <data key="d5">0.13869838170316878</data>
+    </edge>
+    <edge source="avatar" target="make">
+      <data key="d3">0.75</data>
+      <data key="d4">45</data>
+      <data key="d5">0.16777104057092734</data>
+    </edge>
+    <edge source="avatar" target="identity">
+      <data key="d3">0.7457627118644068</data>
+      <data key="d4">44</data>
+      <data key="d5">0.19544450760858048</data>
+    </edge>
+    <edge source="avatar" target="world">
+      <data key="d3">0.7333333333333333</data>
+      <data key="d4">44</data>
+      <data key="d5">0.14754023733966415</data>
+    </edge>
+    <edge source="avatar" target="experience">
+      <data key="d3">0.7166666666666667</data>
+      <data key="d4">43</data>
+      <data key="d5">0.12893059735075435</data>
+    </edge>
+    <edge source="decentralized" target="key">
+      <data key="d3">0.8688524590163934</data>
+      <data key="d4">53</data>
+      <data key="d5">0.2885145611401427</data>
+    </edge>
+    <edge source="decentralized" target="feature">
+      <data key="d3">0.8387096774193549</data>
+      <data key="d4">52</data>
+      <data key="d5">0.17852313885334814</data>
+    </edge>
+    <edge source="decentralized" target="identity">
+      <data key="d3">0.819672131147541</data>
+      <data key="d4">50</data>
+      <data key="d5">0.2122063053756339</data>
+    </edge>
+    <edge source="decentralized" target="world">
+      <data key="d3">0.8064516129032258</data>
+      <data key="d4">50</data>
+      <data key="d5">0.1409613397165679</data>
+    </edge>
+    <edge source="decentralized" target="service">
+      <data key="d3">0.7936507936507936</data>
+      <data key="d4">50</data>
+      <data key="d5">0.0710236951770606</data>
+    </edge>
+    <edge source="decentralized" target="experience">
+      <data key="d3">0.7903225806451613</data>
+      <data key="d4">49</data>
+      <data key="d5">0.1255371202219332</data>
+    </edge>
+    <edge source="decentralized" target="risk">
+      <data key="d3">0.7741935483870968</data>
+      <data key="d4">48</data>
+      <data key="d5">0.11181757309473452</data>
+    </edge>
+    <edge source="decentralized" target="ownership">
+      <data key="d3">0.7704918032786885</data>
+      <data key="d4">47</data>
+      <data key="d5">0.16058755525659074</data>
+    </edge>
+    <edge source="decentralized" target="solution">
+      <data key="d3">0.7704918032786885</data>
+      <data key="d4">47</data>
+      <data key="d5">0.16058755525659074</data>
+    </edge>
+    <edge source="decentralized" target="activity">
+      <data key="d3">0.7580645161290323</data>
+      <data key="d4">47</data>
+      <data key="d5">0.0995135126911213</data>
+    </edge>
+    <edge source="decentralized" target="digital_asset">
+      <data key="d3">0.7580645161290323</data>
+      <data key="d4">47</data>
+      <data key="d5">0.0995135126911213</data>
+    </edge>
+    <edge source="decentralized" target="financial">
+      <data key="d3">0.7258064516129032</data>
+      <data key="d4">45</data>
+      <data key="d5">0.07828259765115797</data>
+    </edge>
+    <edge source="cryptocurrency" target="world">
+      <data key="d3">0.8103448275862069</data>
+      <data key="d4">47</data>
+      <data key="d5">0.31990284500824345</data>
+    </edge>
+    <edge source="cryptocurrency" target="market">
+      <data key="d3">0.7818181818181819</data>
+      <data key="d4">43</data>
+      <data key="d5">0.37177862281673996</data>
+    </edge>
+    <edge source="cryptocurrency" target="example">
+      <data key="d3">0.7666666666666667</data>
+      <data key="d4">46</data>
+      <data key="d5">0.18473061673489483</data>
+    </edge>
+    <edge source="cryptocurrency" target="access">
+      <data key="d3">0.7580645161290323</data>
+      <data key="d4">47</data>
+      <data key="d5">0.0995135126911213</data>
+    </edge>
+    <edge source="cryptocurrency" target="ownership">
+      <data key="d3">0.7413793103448276</data>
+      <data key="d4">43</data>
+      <data key="d5">0.22202710443379792</data>
+    </edge>
+    <edge source="cryptocurrency" target="virtual_world">
+      <data key="d3">0.7333333333333333</data>
+      <data key="d4">44</data>
+      <data key="d5">0.14469425832381086</data>
+    </edge>
+    <edge source="cryptocurrency" target="digital_asset">
+      <data key="d3">0.7288135593220338</data>
+      <data key="d4">43</data>
+      <data key="d5">0.17410057260726614</data>
+    </edge>
+    <edge source="cryptocurrency" target="key">
+      <data key="d3">0.7258064516129032</data>
+      <data key="d4">45</data>
+      <data key="d5">0.0649193024151004</data>
+    </edge>
+    <edge source="cryptocurrency" target="financial">
+      <data key="d3">0.7241379310344828</data>
+      <data key="d4">42</data>
+      <data key="d5">0.2024442039786083</data>
+    </edge>
+    <edge source="service" target="interaction">
+      <data key="d3">0.7777777777777778</data>
+      <data key="d4">49</data>
+      <data key="d5">0.05599775104388912</data>
+    </edge>
+    <edge source="service" target="experience">
+      <data key="d3">0.7419354838709677</data>
+      <data key="d4">46</data>
+      <data key="d5">0.07347468055032698</data>
+    </edge>
+    <edge source="service" target="identity">
+      <data key="d3">0.7419354838709677</data>
+      <data key="d4">46</data>
+      <data key="d5">0.07347468055032698</data>
+    </edge>
+    <edge source="service" target="virtual_world">
+      <data key="d3">0.7419354838709677</data>
+      <data key="d4">46</data>
+      <data key="d5">0.07347468055032698</data>
+    </edge>
+    <edge source="service" target="business">
+      <data key="d3">0.7333333333333333</data>
+      <data key="d4">44</data>
+      <data key="d5">0.15229057019260425</data>
+    </edge>
+    <edge source="service" target="financial">
+      <data key="d3">0.7333333333333333</data>
+      <data key="d4">44</data>
+      <data key="d5">0.15229057019260425</data>
+    </edge>
+    <edge source="service" target="risk">
+      <data key="d3">0.7258064516129032</data>
+      <data key="d4">45</data>
+      <data key="d5">0.06111324845826279</data>
+    </edge>
+    <edge source="financial" target="example">
+      <data key="d3">0.7931034482758621</data>
+      <data key="d4">46</data>
+      <data key="d5">0.30043795466936474</data>
+    </edge>
+    <edge source="financial" target="make">
+      <data key="d3">0.7333333333333333</data>
+      <data key="d4">44</data>
+      <data key="d5">0.15229057019260425</data>
+    </edge>
+    <edge source="financial" target="type">
+      <data key="d3">0.7333333333333333</data>
+      <data key="d4">44</data>
+      <data key="d5">0.15229057019260425</data>
+    </edge>
+    <edge source="financial" target="experience">
+      <data key="d3">0.7288135593220338</data>
+      <data key="d4">43</data>
+      <data key="d5">0.1778254071531882</data>
+    </edge>
+    <edge source="financial" target="virtual_world">
+      <data key="d3">0.7288135593220338</data>
+      <data key="d4">43</data>
+      <data key="d5">0.1778254071531882</data>
+    </edge>
+    <edge source="financial" target="activity">
+      <data key="d3">0.7241379310344828</data>
+      <data key="d4">42</data>
+      <data key="d5">0.2024442039786083</data>
+    </edge>
+    <edge source="financial" target="market">
+      <data key="d3">0.7142857142857143</data>
+      <data key="d4">40</data>
+      <data key="d5">0.24983907621258133</data>
+    </edge>
+    <edge source="financial" target="interaction">
+      <data key="d3">0.7096774193548387</data>
+      <data key="d4">44</data>
+      <data key="d5">0.06075213092807157</data>
+    </edge>
+    <edge source="privacy" target="interaction">
+      <data key="d3">0.7377049180327869</data>
+      <data key="d4">45</data>
+      <data key="d5">0.12557813945811053</data>
+    </edge>
+    <edge source="privacy" target="key">
+      <data key="d3">0.7213114754098361</data>
+      <data key="d4">44</data>
+      <data key="d5">0.10611267509197116</data>
+    </edge>
+    <edge source="access" target="example">
+      <data key="d3">0.8225806451612904</data>
+      <data key="d4">51</data>
+      <data key="d5">0.15846160707567408</data>
+    </edge>
+    <edge source="access" target="feature">
+      <data key="d3">0.8095238095238095</data>
+      <data key="d4">51</data>
+      <data key="d5">0.08417737271444029</data>
+    </edge>
+    <edge source="access" target="key">
+      <data key="d3">0.8095238095238095</data>
+      <data key="d4">51</data>
+      <data key="d5">0.08417737271444029</data>
+    </edge>
+    <edge source="access" target="identity">
+      <data key="d3">0.7903225806451613</data>
+      <data key="d4">49</data>
+      <data key="d5">0.1255371202219332</data>
+    </edge>
+    <edge source="access" target="activity">
+      <data key="d3">0.7868852459016393</data>
+      <data key="d4">48</data>
+      <data key="d5">0.17586429447957874</data>
+    </edge>
+    <edge source="access" target="world">
+      <data key="d3">0.7777777777777778</data>
+      <data key="d4">49</data>
+      <data key="d5">0.05938596004184539</data>
+    </edge>
+    <edge source="access" target="digital_asset">
+      <data key="d3">0.7580645161290323</data>
+      <data key="d4">47</data>
+      <data key="d5">0.0995135126911213</data>
+    </edge>
+    <edge source="access" target="ownership">
+      <data key="d3">0.7419354838709677</data>
+      <data key="d4">46</data>
+      <data key="d5">0.08839628397886867</data>
+    </edge>
+    <edge source="access" target="solution">
+      <data key="d3">0.7419354838709677</data>
+      <data key="d4">46</data>
+      <data key="d5">0.08839628397886867</data>
+    </edge>
+    <edge source="access" target="market">
+      <data key="d3">0.7213114754098361</data>
+      <data key="d4">44</data>
+      <data key="d5">0.12297945229017884</data>
+    </edge>
+    <edge source="risk" target="experience">
+      <data key="d3">0.7796610169491526</data>
+      <data key="d4">46</data>
+      <data key="d5">0.23570211684163755</data>
+    </edge>
+    <edge source="risk" target="solution">
+      <data key="d3">0.7288135593220338</data>
+      <data key="d4">43</data>
+      <data key="d5">0.17503124393905212</data>
+    </edge>
+    <edge source="risk" target="identity">
+      <data key="d3">0.7213114754098361</data>
+      <data key="d4">44</data>
+      <data key="d5">0.09492951331590531</data>
+    </edge>
+    <edge source="risk" target="business">
+      <data key="d3">0.711864406779661</data>
+      <data key="d4">42</data>
+      <data key="d5">0.1579804966257819</data>
+    </edge>
+    <edge source="secure" target="interaction">
+      <data key="d3">0.8032786885245902</data>
+      <data key="d4">49</data>
+      <data key="d5">0.1870862198990947</data>
+    </edge>
+    <edge source="secure" target="feature">
+      <data key="d3">0.7580645161290323</data>
+      <data key="d4">47</data>
+      <data key="d5">0.08910466594077768</data>
+    </edge>
+    <edge source="identity" target="key">
+      <data key="d3">0.7868852459016393</data>
+      <data key="d4">48</data>
+      <data key="d5">0.16473265207667503</data>
+    </edge>
+    <edge source="identity" target="example">
+      <data key="d3">0.7704918032786885</data>
+      <data key="d4">47</data>
+      <data key="d5">0.1446762300356602</data>
+    </edge>
+    <edge source="identity" target="feature">
+      <data key="d3">0.7580645161290323</data>
+      <data key="d4">47</data>
+      <data key="d5">0.08910466594077768</data>
+    </edge>
+    <edge source="identity" target="world">
+      <data key="d3">0.7540983606557377</data>
+      <data key="d4">46</data>
+      <data key="d5">0.12654585241250219</data>
+    </edge>
+    <edge source="identity" target="make">
+      <data key="d3">0.7419354838709677</data>
+      <data key="d4">46</data>
+      <data key="d5">0.07347468055032698</data>
+    </edge>
+    <edge source="identity" target="experience">
+      <data key="d3">0.7377049180327869</data>
+      <data key="d4">45</data>
+      <data key="d5">0.11004407303723943</data>
+    </edge>
+    <edge source="identity" target="virtual_world">
+      <data key="d3">0.7377049180327869</data>
+      <data key="d4">45</data>
+      <data key="d5">0.11004407303723943</data>
+    </edge>
+    <edge source="identity" target="activity">
+      <data key="d3">0.7333333333333333</data>
+      <data key="d4">44</data>
+      <data key="d5">0.14469425832381086</data>
+    </edge>
+    <edge source="identity" target="solution">
+      <data key="d3">0.7166666666666667</data>
+      <data key="d4">43</data>
+      <data key="d5">0.12893059735075435</data>
+    </edge>
+    <edge source="business" target="market">
+      <data key="d3">0.7142857142857143</data>
+      <data key="d4">40</data>
+      <data key="d5">0.24983907621258133</data>
+    </edge>
+    <edge source="ownership" target="market">
+      <data key="d3">0.7636363636363637</data>
+      <data key="d4">42</data>
+      <data key="d5">0.3432109521734523</data>
+    </edge>
+    <edge source="ownership" target="activity">
+      <data key="d3">0.7413793103448276</data>
+      <data key="d4">43</data>
+      <data key="d5">0.22202710443379792</data>
+    </edge>
+    <edge source="ownership" target="key">
+      <data key="d3">0.7377049180327869</data>
+      <data key="d4">45</data>
+      <data key="d5">0.11877106429372898</data>
+    </edge>
+    <edge source="ownership" target="world">
+      <data key="d3">0.7333333333333333</data>
+      <data key="d4">44</data>
+      <data key="d5">0.14754023733966415</data>
+    </edge>
+    <edge source="virtual_world" target="interaction">
+      <data key="d3">0.7741935483870968</data>
+      <data key="d4">48</data>
+      <data key="d5">0.10635409244638373</data>
+    </edge>
+    <edge source="virtual_world" target="make">
+      <data key="d3">0.7704918032786885</data>
+      <data key="d4">47</data>
+      <data key="d5">0.1446762300356602</data>
+    </edge>
+    <edge source="virtual_world" target="experience">
+      <data key="d3">0.7377049180327869</data>
+      <data key="d4">45</data>
+      <data key="d5">0.11004407303723943</data>
+    </edge>
+    <edge source="digital_asset" target="interaction">
+      <data key="d3">0.7704918032786885</data>
+      <data key="d4">47</data>
+      <data key="d5">0.15315205361731993</data>
+    </edge>
+    <edge source="digital_asset" target="number">
+      <data key="d3">0.7258064516129032</data>
+      <data key="d4">45</data>
+      <data key="d5">0.0649193024151004</data>
+    </edge>
+    <edge source="digital_asset" target="world">
+      <data key="d3">0.7213114754098361</data>
+      <data key="d4">44</data>
+      <data key="d5">0.09678998805489399</data>
+    </edge>
+    <edge source="digital_asset" target="solution">
+      <data key="d3">0.711864406779661</data>
+      <data key="d4">42</data>
+      <data key="d5">0.15618386336051088</data>
+    </edge>
+    <edge source="number" target="type">
+      <data key="d3">0.819672131147541</data>
+      <data key="d4">50</data>
+      <data key="d5">0.20477407418730253</data>
+    </edge>
+    <edge source="number" target="feature">
+      <data key="d3">0.8064516129032258</data>
+      <data key="d4">50</data>
+      <data key="d5">0.13609663620141765</data>
+    </edge>
+    <edge source="number" target="make">
+      <data key="d3">0.7903225806451613</data>
+      <data key="d4">49</data>
+      <data key="d5">0.11863627170180735</data>
+    </edge>
+    <edge source="number" target="function">
+      <data key="d3">0.7894736842105263</data>
+      <data key="d4">45</data>
+      <data key="d5">0.34552110520920726</data>
+    </edge>
+    <edge source="number" target="experience">
+      <data key="d3">0.7580645161290323</data>
+      <data key="d4">47</data>
+      <data key="d5">0.08910466594077768</data>
+    </edge>
+    <edge source="example" target="make">
+      <data key="d3">0.8333333333333334</data>
+      <data key="d4">50</data>
+      <data key="d5">0.2734515121731868</data>
+    </edge>
+    <edge source="example" target="type">
+      <data key="d3">0.7741935483870968</data>
+      <data key="d4">48</data>
+      <data key="d5">0.10198981458403142</data>
+    </edge>
+    <edge source="example" target="activity">
+      <data key="d3">0.7377049180327869</data>
+      <data key="d4">45</data>
+      <data key="d5">0.11391927869229825</data>
+    </edge>
+    <edge source="key" target="feature">
+      <data key="d3">0.8064516129032258</data>
+      <data key="d4">50</data>
+      <data key="d5">0.13609663620141765</data>
+    </edge>
+    <edge source="key" target="world">
+      <data key="d3">0.7741935483870968</data>
+      <data key="d4">48</data>
+      <data key="d5">0.10308034278482076</data>
+    </edge>
+    <edge source="key" target="experience">
+      <data key="d3">0.7580645161290323</data>
+      <data key="d4">47</data>
+      <data key="d5">0.08910466594077768</data>
+    </edge>
+    <edge source="key" target="activity">
+      <data key="d3">0.7258064516129032</data>
+      <data key="d4">45</data>
+      <data key="d5">0.0649193024151004</data>
+    </edge>
+    <edge source="key" target="market">
+      <data key="d3">0.7166666666666667</data>
+      <data key="d4">43</data>
+      <data key="d5">0.1454258500848864</data>
+    </edge>
+    <edge source="market" target="world">
+      <data key="d3">0.7413793103448276</data>
+      <data key="d4">43</data>
+      <data key="d5">0.23344321413170913</data>
+    </edge>
+    <edge source="function" target="type">
+      <data key="d3">0.7413793103448276</data>
+      <data key="d4">43</data>
+      <data key="d5">0.24108398059954325</data>
+    </edge>
+    <edge source="world" target="make">
+      <data key="d3">0.7580645161290323</data>
+      <data key="d4">47</data>
+      <data key="d5">0.08702710549530898</data>
+    </edge>
+    <edge source="world" target="type">
+      <data key="d3">0.7580645161290323</data>
+      <data key="d4">47</data>
+      <data key="d5">0.08702710549530898</data>
+    </edge>
+    <edge source="world" target="experience">
+      <data key="d3">0.7540983606557377</data>
+      <data key="d4">46</data>
+      <data key="d5">0.12654585241250219</data>
+    </edge>
+    <edge source="world" target="activity">
+      <data key="d3">0.7213114754098361</data>
+      <data key="d4">44</data>
+      <data key="d5">0.09678998805489399</data>
+    </edge>
+    <edge source="make" target="experience">
+      <data key="d3">0.8</data>
+      <data key="d4">48</data>
+      <data key="d5">0.22416313406104055</data>
+    </edge>
+    <edge source="make" target="type">
+      <data key="d3">0.7741935483870968</data>
+      <data key="d4">48</data>
+      <data key="d5">0.10198981458403142</data>
+    </edge>
+    <edge source="make" target="activity">
+      <data key="d3">0.7377049180327869</data>
+      <data key="d4">45</data>
+      <data key="d5">0.11391927869229825</data>
+    </edge>
+    <edge source="feature" target="type">
+      <data key="d3">0.7903225806451613</data>
+      <data key="d4">49</data>
+      <data key="d5">0.11863627170180735</data>
+    </edge>
+    <edge source="feature" target="experience">
+      <data key="d3">0.7580645161290323</data>
+      <data key="d4">47</data>
+      <data key="d5">0.08910466594077768</data>
+    </edge>
+    <edge source="feature" target="activity">
+      <data key="d3">0.7258064516129032</data>
+      <data key="d4">45</data>
+      <data key="d5">0.0649193024151004</data>
+    </edge>
+    <edge source="experience" target="activity">
+      <data key="d3">0.7333333333333333</data>
+      <data key="d4">44</data>
+      <data key="d5">0.14469425832381086</data>
+    </edge>
+  </graph>
+</graphml>

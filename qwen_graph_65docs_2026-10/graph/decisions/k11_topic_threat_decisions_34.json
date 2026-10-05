@@ -1,0 +1,988 @@
+{
+  "n_pairs_reviewed": 34,
+  "n_retained": 24,
+  "n_excluded": 10,
+  "decision_date": "2026-10-01",
+  "decision_provenance": "Reviewer A confirmed agreement with all recommendations on behalf of themself and Reviewer B, 1 October 2026 (as recorded in the Guide and Checklist).",
+  "records": [
+    {
+      "pair_key": "T02>TH_PAYMENT",
+      "topic_id": "T02",
+      "threat_id": "TH_PAYMENT",
+      "original_status": "Proposed source-discussed",
+      "joint_decision": "Modify",
+      "graph_action": "Include with stated qualifications",
+      "retained": true,
+      "exclusion_class": "",
+      "agreed_explanation": "Modify: retain as “ML-based detection/classification of suspected fraudulent or malicious Ethereum/Bitcoin transactions”. Correct the seven-algorithm-ensemble description.",
+      "limits": "Classification results and stated aims do not demonstrate a reduction in actual fraud or operational deployment.",
+      "qualifier_flags": [
+        "ml_classifier_comparison_not_seven_algorithm_ensemble"
+      ],
+      "evidence_anchors": [
+        {
+          "doc_id": "D7d7f6f621da1",
+          "doc_name": "Hudnurkar et al.",
+          "physical_pdf_pages": "1; 7-11",
+          "source_check_status": "author_checked_20261001",
+          "note": "",
+          "server_check_trail": []
+        },
+        {
+          "doc_id": "D24774522d751",
+          "doc_name": "Choksi et al.",
+          "physical_pdf_pages": "1",
+          "source_check_status": "author_checked_20261001",
+          "note": "",
+          "server_check_trail": []
+        }
+      ],
+      "pair_source_check_status": "author_checked_this_round",
+      "guide_evidence_text": "Checked: Hudnurkar et al., D7d7f6f621da1, p.1 and pp.7-11; Choksi et al., D24774522d751, p.1. Both address classifying fraudulent/malicious cryptocurrency transactions.",
+      "source": "K11_Topic_Threat_Decision_Guide 1.md (cross-checked with K11_Joint_Review_Checklist 1.md)"
+    },
+    {
+      "pair_key": "T02>TH_CYBER",
+      "topic_id": "T02",
+      "threat_id": "TH_CYBER",
+      "original_status": "Proposed source-discussed",
+      "joint_decision": "Modify",
+      "graph_action": "Include with stated qualifications",
+      "retained": true,
+      "exclusion_class": "",
+      "agreed_explanation": "Modify: retain as “smart-contract vulnerability and project-anomaly detection”.",
+      "limits": "A proposed/evaluated technical method; does not establish prevention in live use or cover all cyberattack types.",
+      "qualifier_flags": [],
+      "evidence_anchors": [
+        {
+          "doc_id": "Dcb7f93f9aa99",
+          "doc_name": "Su et al.",
+          "physical_pdf_pages": "1",
+          "source_check_status": "author_checked_20261001",
+          "note": "",
+          "server_check_trail": []
+        }
+      ],
+      "pair_source_check_status": "author_checked_this_round",
+      "guide_evidence_text": "Checked: Su et al., Dcb7f93f9aa99, p.1, discuss detecting smart-contract-project vulnerabilities, anomalies and malicious intent.",
+      "source": "K11_Topic_Threat_Decision_Guide 1.md (cross-checked with K11_Joint_Review_Checklist 1.md)"
+    },
+    {
+      "pair_key": "T05>TH_SCAM",
+      "topic_id": "T05",
+      "threat_id": "TH_SCAM",
+      "original_status": "Proposed source-discussed",
+      "joint_decision": "Accept",
+      "graph_action": "Include with stated qualifications",
+      "retained": true,
+      "exclusion_class": "",
+      "agreed_explanation": "Accept on Author C’s supplied passage: retain as a general fraud concern motivating audit controls. The independent source-check limitation remains recorded.",
+      "limits": "A general fraud concern; no specific scam mechanism, incident rate or laundering pathway is established.",
+      "qualifier_flags": [
+        "general_fraud_concern_only",
+        "source_check_limitation_recorded"
+      ],
+      "evidence_anchors": [
+        {
+          "doc_id": "D28078c8a10cc",
+          "doc_name": "Zadorozhnyi et al. (Innovative Accounting and Auditing)",
+          "physical_pdf_pages": "8",
+          "source_check_status": "table_excerpt_author_not_located",
+          "note": "",
+          "server_check_trail": [
+            "server_pdf_opened_20260928",
+            "server_pdf_page_text_rechecked_20261002"
+          ]
+        }
+      ],
+      "pair_source_check_status": "table_excerpt_only_author_could_not_locate_pdf",
+      "guide_evidence_text": "Table excerpt: Zadorozhnyi et al., D28078c8a10cc, p.8, name fraud as a concern motivating audit control.",
+      "source": "K11_Topic_Threat_Decision_Guide 1.md (cross-checked with K11_Joint_Review_Checklist 1.md)"
+    },
+    {
+      "pair_key": "T05>TH_GOVERNANCE",
+      "topic_id": "T05",
+      "threat_id": "TH_GOVERNANCE",
+      "original_status": "Proposed source-discussed",
+      "joint_decision": "Modify",
+      "graph_action": "Include with stated qualifications",
+      "retained": true,
+      "exclusion_class": "",
+      "agreed_explanation": "Modify: retain as “audit/compliance governance and jurisdictional accountability challenges”; add the jurisdiction chapter when discussing actual gaps.",
+      "limits": "Recommendations do not establish control effectiveness. The chapter supplies the authors' legal analysis, not an independent verification of current law.",
+      "qualifier_flags": [],
+      "evidence_anchors": [
+        {
+          "doc_id": "D28078c8a10cc",
+          "doc_name": "Zadorozhnyi et al. (Innovative Accounting and Auditing)",
+          "physical_pdf_pages": "8",
+          "source_check_status": "table_excerpt_author_not_located",
+          "note": "",
+          "server_check_trail": [
+            "server_pdf_opened_20260928",
+            "server_pdf_page_text_rechecked_20261002"
+          ]
+        },
+        {
+          "doc_id": "D21cf0acb1a9a",
+          "doc_name": "Jurisdictional Challenges in Metaverse (chapter)",
+          "physical_pdf_pages": "8-9",
+          "source_check_status": "author_checked_20261001",
+          "note": "",
+          "server_check_trail": []
+        }
+      ],
+      "pair_source_check_status": "mixed_author_checked_plus_table_excerpt",
+      "guide_evidence_text": "Table excerpt: D28078c8a10cc, p.8, recommends audit/legal compliance. Additional checked anchor: D21cf0acb1a9a, pp.8-9, discusses jurisdictional coverage and unclear applicable-law/dispute arrangements. T05 weight 0.5024.",
+      "source": "K11_Topic_Threat_Decision_Guide 1.md (cross-checked with K11_Joint_Review_Checklist 1.md)"
+    },
+    {
+      "pair_key": "T06>TH_SCAM",
+      "topic_id": "T06",
+      "threat_id": "TH_SCAM",
+      "original_status": "Proposed source-discussed",
+      "joint_decision": "Accept",
+      "graph_action": "Include with stated qualifications",
+      "retained": true,
+      "exclusion_class": "",
+      "agreed_explanation": "Accept with the stated perception caveat: “interviewed artists' perceived scam and suspicious-activity risks in NFT markets”.",
+      "limits": "Interviews do not independently establish that alleged crimes occurred or measure their incidence. Keep the perception qualification visible.",
+      "qualifier_flags": [
+        "perception_evidence",
+        "interviews_do_not_establish_crimes_or_incidence"
+      ],
+      "evidence_anchors": [
+        {
+          "doc_id": "Dfed6d84a0e4f",
+          "doc_name": "O'Connor and O'Reilly (Is the metaverse failing)",
+          "physical_pdf_pages": "6",
+          "source_check_status": "table_excerpt_author_not_located",
+          "note": "Publisher abstract (exploratory study of NFT resistance) was checked by the authors; the p.6 interview passage was not.",
+          "server_check_trail": [
+            "server_pdf_opened_20260928",
+            "server_pdf_page_text_rechecked_20261002"
+          ]
+        }
+      ],
+      "pair_source_check_status": "table_excerpt_only_author_could_not_locate_pdf",
+      "guide_evidence_text": "Table excerpt: O'Connor and O'Reilly, Dfed6d84a0e4f, p.6, report artists' views that NFT markets resemble scams/Ponzi schemes or laundering. The publisher abstract confirms an exploratory study of NFT resistance.",
+      "source": "K11_Topic_Threat_Decision_Guide 1.md (cross-checked with K11_Joint_Review_Checklist 1.md)"
+    },
+    {
+      "pair_key": "T06>TH_NFT",
+      "topic_id": "T06",
+      "threat_id": "TH_NFT",
+      "original_status": "Proposed source-discussed",
+      "joint_decision": "Reject",
+      "graph_action": "Exclude",
+      "retained": false,
+      "exclusion_class": "rejected",
+      "agreed_explanation": "Reject on the supplied evidence: it does not identify value-manipulation mechanisms. Retention would require another reviewed passage supporting manipulation specifically.",
+      "limits": "General NFT-market discussion, distrust, financial loss or perceived scams are insufficient for a value-manipulation category.",
+      "qualifier_flags": [],
+      "evidence_anchors": [
+        {
+          "doc_id": "Dfed6d84a0e4f",
+          "doc_name": "O'Connor and O'Reilly (Is the metaverse failing)",
+          "physical_pdf_pages": "6",
+          "source_check_status": "table_excerpt_author_not_located",
+          "note": "Guide says 'the same p.6 material' as T06>TH_SCAM; DOC_ID inferred from that.",
+          "server_check_trail": [
+            "server_pdf_opened_20260928",
+            "server_pdf_page_text_rechecked_20261002"
+          ]
+        }
+      ],
+      "pair_source_check_status": "table_excerpt_only_author_could_not_locate_pdf",
+      "guide_evidence_text": "Table excerpt: the same p.6 material describes perceived scams and financial harm.",
+      "source": "K11_Topic_Threat_Decision_Guide 1.md (cross-checked with K11_Joint_Review_Checklist 1.md)"
+    },
+    {
+      "pair_key": "T07>TH_IDENTITY",
+      "topic_id": "T07",
+      "threat_id": "TH_IDENTITY",
+      "original_status": "Proposed source-discussed",
+      "joint_decision": "Accept",
+      "graph_action": "Include with stated qualifications",
+      "retained": true,
+      "exclusion_class": "",
+      "agreed_explanation": "Accept: “identity/impersonation risks motivating avatar authentication”.",
+      "limits": "A motivating risk, not an incident-frequency estimate. Supports the authentication strand more directly than the transaction-protocol strand.",
+      "qualifier_flags": [],
+      "evidence_anchors": [
+        {
+          "doc_id": "D1095d64c71c1",
+          "doc_name": "Ryu et al.",
+          "physical_pdf_pages": "2",
+          "source_check_status": "author_checked_20261001",
+          "note": "",
+          "server_check_trail": []
+        }
+      ],
+      "pair_source_check_status": "author_checked_this_round",
+      "guide_evidence_text": "Checked: Ryu et al., D1095d64c71c1, p.2, explicitly discuss malicious avatars, identity leakage/theft and virtual-asset fraud as motivation for authentication.",
+      "source": "K11_Topic_Threat_Decision_Guide 1.md (cross-checked with K11_Joint_Review_Checklist 1.md)"
+    },
+    {
+      "pair_key": "T08>TH_SCAM",
+      "topic_id": "T08",
+      "threat_id": "TH_SCAM",
+      "original_status": "Proposed source-discussed",
+      "joint_decision": "Accept",
+      "graph_action": "Include with stated qualifications",
+      "retained": true,
+      "exclusion_class": "",
+      "agreed_explanation": "Accept: retain as literature discussion of cryptoasset fraud/scams. The Manning anchor supplies independently checked support even while Shim's PDF is unlocated.",
+      "limits": "Review/case-synthesis material; not new measurement by this project. Maintain attribution to the cited literature.",
+      "qualifier_flags": [
+        "review_case_synthesis_not_new_measurement"
+      ],
+      "evidence_anchors": [
+        {
+          "doc_id": "Dfdc0a7ab21ac",
+          "doc_name": "Manning et al.",
+          "physical_pdf_pages": "3",
+          "source_check_status": "author_checked_20261001",
+          "note": "",
+          "server_check_trail": []
+        },
+        {
+          "doc_id": "Db80703b6ee6c",
+          "doc_name": "Shim (Classification of NFT Security Issues and Threats)",
+          "physical_pdf_pages": "2",
+          "source_check_status": "table_excerpt_author_not_located",
+          "note": "",
+          "server_check_trail": [
+            "server_pdf_opened_20260928",
+            "server_pdf_page_text_rechecked_20261002"
+          ]
+        }
+      ],
+      "pair_source_check_status": "mixed_author_checked_plus_table_excerpt",
+      "guide_evidence_text": "Checked: Manning et al., Dfdc0a7ab21ac, p.3, discuss fraud-related NFT/cryptoasset risks in secondary literature. Table excerpt: Shim, Db80703b6ee6c, p.2, names transaction fraud, phishing and smishing.",
+      "source": "K11_Topic_Threat_Decision_Guide 1.md (cross-checked with K11_Joint_Review_Checklist 1.md)"
+    },
+    {
+      "pair_key": "T08>TH_DEFI",
+      "topic_id": "T08",
+      "threat_id": "TH_DEFI",
+      "original_status": "Proposed source-discussed",
+      "joint_decision": "Accept",
+      "graph_action": "Include with stated qualifications",
+      "retained": true,
+      "exclusion_class": "",
+      "agreed_explanation": "Accept: describe literature-discussed DeFi-related laundering/concealment mechanisms.",
+      "limits": "Keep the p.11 finding that NFTs did not prompt an en masse switch away from established methods. That NFT-specific finding does not establish that all DeFi laundering is rare. No adoption-frequency estimate follows from the edge.",
+      "qualifier_flags": [
+        "manning_nft_specific_finding_no_en_masse_switch_p11",
+        "no_adoption_frequency_estimate"
+      ],
+      "evidence_anchors": [
+        {
+          "doc_id": "Dfdc0a7ab21ac",
+          "doc_name": "Manning et al.",
+          "physical_pdf_pages": "3; 8; 17",
+          "source_check_status": "author_checked_20261001",
+          "note": "",
+          "server_check_trail": []
+        }
+      ],
+      "pair_source_check_status": "author_checked_this_round",
+      "guide_evidence_text": "Checked: Manning et al., Dfdc0a7ab21ac, pp.3, 8 and 17, discuss illicit-fund concealment and DeFi-related chain/asset hopping.",
+      "source": "K11_Topic_Threat_Decision_Guide 1.md (cross-checked with K11_Joint_Review_Checklist 1.md)"
+    },
+    {
+      "pair_key": "T08>TH_GOVERNANCE",
+      "topic_id": "T08",
+      "threat_id": "TH_GOVERNANCE",
+      "original_status": "Proposed source-discussed",
+      "joint_decision": "Accept",
+      "graph_action": "Include with stated qualifications",
+      "retained": true,
+      "exclusion_class": "",
+      "agreed_explanation": "Accept with a narrow regulatory explanation: “supervisory and cross-jurisdiction governance challenges concerning DeFi/DEX activity”.",
+      "limits": "A descriptive analysis of regulation and supervisory challenges; does not demonstrate effectiveness of particular measures.",
+      "qualifier_flags": [],
+      "evidence_anchors": [
+        {
+          "doc_id": "D399d99db36b3",
+          "doc_name": "Chao et al.",
+          "physical_pdf_pages": "3; 6",
+          "source_check_status": "author_checked_20261001",
+          "note": "",
+          "server_check_trail": []
+        }
+      ],
+      "pair_source_check_status": "author_checked_this_round",
+      "guide_evidence_text": "Checked: Chao et al., D399d99db36b3, pp.3 and 6, discuss AML/CFT/KYC supervision and regulatory approaches; p.3 explicitly describes cross-international decentralised-governance challenges to supervision.",
+      "source": "K11_Topic_Threat_Decision_Guide 1.md (cross-checked with K11_Joint_Review_Checklist 1.md)"
+    },
+    {
+      "pair_key": "T09>TH_NFT",
+      "topic_id": "T09",
+      "threat_id": "TH_NFT",
+      "original_status": "Proposed source-discussed",
+      "joint_decision": "Accept",
+      "graph_action": "Include with stated qualifications",
+      "retained": true,
+      "exclusion_class": "",
+      "agreed_explanation": "Accept: “NFT-market manipulation risks discussed in the source”.",
+      "limits": "Monetary and incident claims are attributed to other references. The relationship can be accepted without repeating the unverified monetary figure.",
+      "qualifier_flags": [],
+      "evidence_anchors": [
+        {
+          "doc_id": "D2590938a004e",
+          "doc_name": "Chan et al.",
+          "physical_pdf_pages": "6",
+          "source_check_status": "author_checked_20261001",
+          "note": "",
+          "server_check_trail": []
+        }
+      ],
+      "pair_source_check_status": "author_checked_this_round",
+      "guide_evidence_text": "Checked: Chan et al., D2590938a004e, p.6, explicitly discuss pump-and-dump activity, NFT-price manipulation and insider trading.",
+      "source": "K11_Topic_Threat_Decision_Guide 1.md (cross-checked with K11_Joint_Review_Checklist 1.md)"
+    },
+    {
+      "pair_key": "T10>TH_PRIVACY",
+      "topic_id": "T10",
+      "threat_id": "TH_PRIVACY",
+      "original_status": "Proposed source-discussed",
+      "joint_decision": "Accept",
+      "graph_action": "Include with stated qualifications",
+      "retained": true,
+      "exclusion_class": "",
+      "agreed_explanation": "Accept: “privacy/data-protection concerns motivating encryption and access control”.",
+      "limits": "A technical research motivation and proposed scheme; not measurement of actual breaches or proof of operational prevention.",
+      "qualifier_flags": [],
+      "evidence_anchors": [
+        {
+          "doc_id": "De395cd4ff88c",
+          "doc_name": "Pan et al.",
+          "physical_pdf_pages": "1",
+          "source_check_status": "author_checked_20261001",
+          "note": "",
+          "server_check_trail": []
+        }
+      ],
+      "pair_source_check_status": "author_checked_this_round",
+      "guide_evidence_text": "Checked: Pan et al., De395cd4ff88c, p.1, explicitly describe privacy-breach concerns motivating cryptographic access control.",
+      "source": "K11_Topic_Threat_Decision_Guide 1.md (cross-checked with K11_Joint_Review_Checklist 1.md)"
+    },
+    {
+      "pair_key": "T11>TH_CYBER",
+      "topic_id": "T11",
+      "threat_id": "TH_CYBER",
+      "original_status": "Proposed source-discussed",
+      "joint_decision": "Accept",
+      "graph_action": "Include with stated qualifications",
+      "retained": true,
+      "exclusion_class": "",
+      "agreed_explanation": "Accept: general platform-security threat discussion.",
+      "limits": "A threat-landscape overview, not an incident-prevalence study.",
+      "qualifier_flags": [],
+      "evidence_anchors": [
+        {
+          "doc_id": "D74bc17aea3dd",
+          "doc_name": "Malve et al.",
+          "physical_pdf_pages": "8",
+          "source_check_status": "author_checked_20261001",
+          "note": "",
+          "server_check_trail": []
+        }
+      ],
+      "pair_source_check_status": "author_checked_this_round",
+      "guide_evidence_text": "Checked: Malve et al., D74bc17aea3dd, p.8, explicitly identify malware, ransomware, cross-platform exploits and other cyber threats.",
+      "source": "K11_Topic_Threat_Decision_Guide 1.md (cross-checked with K11_Joint_Review_Checklist 1.md)"
+    },
+    {
+      "pair_key": "T11>TH_IDENTITY",
+      "topic_id": "T11",
+      "threat_id": "TH_IDENTITY",
+      "original_status": "Proposed source-discussed",
+      "joint_decision": "Accept",
+      "graph_action": "Include with stated qualifications",
+      "retained": true,
+      "exclusion_class": "",
+      "agreed_explanation": "Accept: identity theft, impersonation and identity-related access risks.",
+      "limits": "Multiple supporting discussions do not establish incident frequency or independent empirical confirmation of particular cases.",
+      "qualifier_flags": [],
+      "evidence_anchors": [
+        {
+          "doc_id": "D74bc17aea3dd",
+          "doc_name": "Malve et al.",
+          "physical_pdf_pages": "7",
+          "source_check_status": "author_checked_20261001",
+          "note": "",
+          "server_check_trail": []
+        },
+        {
+          "doc_id": "D957f80b1f6a0",
+          "doc_name": "Aloudat et al.",
+          "physical_pdf_pages": "1; 4",
+          "source_check_status": "author_checked_20261001",
+          "note": "",
+          "server_check_trail": []
+        },
+        {
+          "doc_id": "D5279c89a9098",
+          "doc_name": "Yousafzai et al.",
+          "physical_pdf_pages": "27",
+          "source_check_status": "author_checked_20261001",
+          "note": "",
+          "server_check_trail": []
+        }
+      ],
+      "pair_source_check_status": "author_checked_this_round",
+      "guide_evidence_text": "Checked: Malve et al., D74bc17aea3dd, p.7; Aloudat et al., D957f80b1f6a0, pp.1 and 4; Yousafzai et al., D5279c89a9098, p.27. The passages discuss stolen identities, identity-related fraud, unauthorised access or protection of digital identity against theft/fraud.",
+      "source": "K11_Topic_Threat_Decision_Guide 1.md (cross-checked with K11_Joint_Review_Checklist 1.md)"
+    },
+    {
+      "pair_key": "T11>TH_SCAM",
+      "topic_id": "T11",
+      "threat_id": "TH_SCAM",
+      "original_status": "Proposed source-discussed",
+      "joint_decision": "Accept",
+      "graph_action": "Include with stated qualifications",
+      "retained": true,
+      "exclusion_class": "",
+      "agreed_explanation": "Accept: phishing/social-engineering pathways involving metaverse impersonation.",
+      "limits": "A described threat pathway, not measured frequency.",
+      "qualifier_flags": [],
+      "evidence_anchors": [
+        {
+          "doc_id": "D74bc17aea3dd",
+          "doc_name": "Malve et al.",
+          "physical_pdf_pages": "7",
+          "source_check_status": "author_checked_20261001",
+          "note": "",
+          "server_check_trail": []
+        },
+        {
+          "doc_id": "D6486a0b043d4",
+          "doc_name": "Bhaskar et al.",
+          "physical_pdf_pages": "10",
+          "source_check_status": "author_checked_20261001",
+          "note": "",
+          "server_check_trail": []
+        }
+      ],
+      "pair_source_check_status": "author_checked_this_round",
+      "guide_evidence_text": "Checked: Malve et al., D74bc17aea3dd, p.7; Bhaskar et al., D6486a0b043d4, p.10. Deceptive avatars/impersonation can solicit credentials or funds through phishing.",
+      "source": "K11_Topic_Threat_Decision_Guide 1.md (cross-checked with K11_Joint_Review_Checklist 1.md)"
+    },
+    {
+      "pair_key": "T11>TH_PRIVACY",
+      "topic_id": "T11",
+      "threat_id": "TH_PRIVACY",
+      "original_status": "Proposed source-discussed",
+      "joint_decision": "Accept",
+      "graph_action": "Include with stated qualifications",
+      "retained": true,
+      "exclusion_class": "",
+      "agreed_explanation": "Accept: privacy/data-protection concerns and their regulatory context.",
+      "limits": "Regulatory discussion is not evidence of a documented breach.",
+      "qualifier_flags": [],
+      "evidence_anchors": [
+        {
+          "doc_id": "D74bc17aea3dd",
+          "doc_name": "Malve et al.",
+          "physical_pdf_pages": "9",
+          "source_check_status": "author_checked_20261001",
+          "note": "",
+          "server_check_trail": []
+        }
+      ],
+      "pair_source_check_status": "author_checked_this_round",
+      "guide_evidence_text": "Checked: Malve et al., D74bc17aea3dd, p.9, discusses personal-data collection and data-protection regulation.",
+      "source": "K11_Topic_Threat_Decision_Guide 1.md (cross-checked with K11_Joint_Review_Checklist 1.md)"
+    },
+    {
+      "pair_key": "T11>TH_DEFI",
+      "topic_id": "T11",
+      "threat_id": "TH_DEFI",
+      "original_status": "Proposed source-discussed",
+      "joint_decision": "Modify",
+      "graph_action": "Include with stated qualifications",
+      "retained": true,
+      "exclusion_class": "",
+      "agreed_explanation": "Modify: retain specifically as “exploitation of smart-contract vulnerabilities”.",
+      "limits": "Do not extend the entry to all DeFi/DAO/governance misuse. It is a threat-table entry, not a detailed case study.",
+      "qualifier_flags": [
+        "smart_contract_vulnerability_exploitation_only"
+      ],
+      "evidence_anchors": [
+        {
+          "doc_id": "D74bc17aea3dd",
+          "doc_name": "Malve et al.",
+          "physical_pdf_pages": "8",
+          "source_check_status": "author_checked_20261001",
+          "note": "",
+          "server_check_trail": []
+        }
+      ],
+      "pair_source_check_status": "author_checked_this_round",
+      "guide_evidence_text": "Checked: Malve et al., D74bc17aea3dd, p.8, lists exploitation of weaknesses in blockchain smart contracts.",
+      "source": "K11_Topic_Threat_Decision_Guide 1.md (cross-checked with K11_Joint_Review_Checklist 1.md)"
+    },
+    {
+      "pair_key": "T11>TH_GOVERNANCE",
+      "topic_id": "T11",
+      "threat_id": "TH_GOVERNANCE",
+      "original_status": "Proposed source-discussed",
+      "joint_decision": "Accept",
+      "graph_action": "Include with stated qualifications",
+      "retained": true,
+      "exclusion_class": "",
+      "agreed_explanation": "Accept: general legal/compliance and cross-border governance challenges.",
+      "limits": "Does not establish a particular accountability-gap incident or evaluate a governance intervention.",
+      "qualifier_flags": [],
+      "evidence_anchors": [
+        {
+          "doc_id": "D74bc17aea3dd",
+          "doc_name": "Malve et al.",
+          "physical_pdf_pages": "9",
+          "source_check_status": "author_checked_20261001",
+          "note": "",
+          "server_check_trail": []
+        }
+      ],
+      "pair_source_check_status": "author_checked_this_round",
+      "guide_evidence_text": "Checked: Malve et al., D74bc17aea3dd, p.9, explicitly discusses legal/regulatory obstacles, updated compliance needs, consent and cross-border data flows.",
+      "source": "K11_Topic_Threat_Decision_Guide 1.md (cross-checked with K11_Joint_Review_Checklist 1.md)"
+    },
+    {
+      "pair_key": "T02>TH_IDENTITY",
+      "topic_id": "T02",
+      "threat_id": "TH_IDENTITY",
+      "original_status": "Conceptual/pending",
+      "joint_decision": "Promote",
+      "graph_action": "Include with stated qualifications",
+      "retained": true,
+      "exclusion_class": "",
+      "agreed_explanation": "Avatar-cloning/impersonation risks addressed by a proposed detection/privacy-awareness framework.",
+      "limits": "Described scenarios and a test-bed do not establish real-world victimisation or preventive effectiveness.",
+      "qualifier_flags": [],
+      "evidence_anchors": [
+        {
+          "doc_id": "Dc3ba77443e3f",
+          "doc_name": "NFT-avatar privacy awareness framework",
+          "physical_pdf_pages": "2",
+          "source_check_status": "author_checked_20261001",
+          "note": "",
+          "server_check_trail": []
+        }
+      ],
+      "pair_source_check_status": "author_checked_this_round",
+      "guide_evidence_text": "Checked: Dc3ba77443e3f, p.2, describes visually identical malicious NFT-avatar clones impersonating users for financial gain or extraction of sensitive information. T02 weight 0.5940.",
+      "source": "K11_Topic_Threat_Decision_Guide 1.md (cross-checked with K11_Joint_Review_Checklist 1.md)"
+    },
+    {
+      "pair_key": "T02>TH_PRIVACY",
+      "topic_id": "T02",
+      "threat_id": "TH_PRIVACY",
+      "original_status": "Conceptual/pending",
+      "joint_decision": "Promote",
+      "graph_action": "Include with stated qualifications",
+      "retained": true,
+      "exclusion_class": "",
+      "agreed_explanation": "Personal-information and behavioural-data privacy exposure addressed by the proposed NFT-avatar framework; replace the generic “data” keyword rationale.",
+      "limits": "Do not claim measured breaches or field-proven prevention.",
+      "qualifier_flags": [],
+      "evidence_anchors": [
+        {
+          "doc_id": "Dc3ba77443e3f",
+          "doc_name": "NFT-avatar privacy awareness framework",
+          "physical_pdf_pages": "1-2",
+          "source_check_status": "author_checked_20261001",
+          "note": "",
+          "server_check_trail": []
+        }
+      ],
+      "pair_source_check_status": "author_checked_this_round",
+      "guide_evidence_text": "Checked: Dc3ba77443e3f, pp.1-2, explicitly discusses personal information, behavioural footprints and extraction of sensitive information through avatar impersonation.",
+      "source": "K11_Topic_Threat_Decision_Guide 1.md (cross-checked with K11_Joint_Review_Checklist 1.md)"
+    },
+    {
+      "pair_key": "T04>TH_CYBER",
+      "topic_id": "T04",
+      "threat_id": "TH_CYBER",
+      "original_status": "Conceptual/pending",
+      "joint_decision": "Promote",
+      "graph_action": "Include with stated qualifications",
+      "retained": true,
+      "exclusion_class": "",
+      "agreed_explanation": "Attacks on avatar/virtual-entity trust and reputation systems, including Sybil, on/off and reputation manipulation.",
+      "limits": "Included under the agreed scope covering associated platform-security risks. A direct financial-offence mechanism is not established.",
+      "qualifier_flags": [
+        "trust_reputation_system_attacks_only",
+        "no_payment_specific_or_financial_offence_mechanism"
+      ],
+      "evidence_anchors": [
+        {
+          "doc_id": "D6bbb4f6b30f4",
+          "doc_name": "Awan et al. (Blockchain-based trust management)",
+          "physical_pdf_pages": "1; 12",
+          "source_check_status": "author_checked_20261001",
+          "note": "",
+          "server_check_trail": []
+        }
+      ],
+      "pair_source_check_status": "author_checked_this_round",
+      "guide_evidence_text": "Checked: D6bbb4f6b30f4, pp.1 and 12, explicitly describes Sybil, on/off and reputation-manipulation attacks. T04 weight 0.3366; it is the highest-loading document for T04.",
+      "source": "K11_Topic_Threat_Decision_Guide 1.md (cross-checked with K11_Joint_Review_Checklist 1.md)"
+    },
+    {
+      "pair_key": "T04>TH_PAYMENT",
+      "topic_id": "T04",
+      "threat_id": "TH_PAYMENT",
+      "original_status": "Conceptual/pending",
+      "joint_decision": "Drop",
+      "graph_action": "Exclude",
+      "retained": false,
+      "exclusion_class": "dropped",
+      "agreed_explanation": "Sybil terminology alone is insufficient for payment relevance.",
+      "limits": "Exclude from the graph; current support is insufficient for this category.",
+      "qualifier_flags": [],
+      "evidence_anchors": [
+        {
+          "doc_id": "",
+          "doc_name": "",
+          "physical_pdf_pages": "",
+          "source_check_status": "author_checked_support_insufficient",
+          "note": "Guide: checked passages concern general trust/reputation mechanisms; no document/page is cited for a payment-specific attack.",
+          "server_check_trail": []
+        }
+      ],
+      "pair_source_check_status": "author_checked_this_round",
+      "guide_evidence_text": "The checked passages concern general trust/reputation mechanisms. A payment-specific attack connection is not established.",
+      "source": "K11_Topic_Threat_Decision_Guide 1.md (cross-checked with K11_Joint_Review_Checklist 1.md)"
+    },
+    {
+      "pair_key": "T04>TH_IDENTITY",
+      "topic_id": "T04",
+      "threat_id": "TH_IDENTITY",
+      "original_status": "Conceptual/pending",
+      "joint_decision": "Leave conceptual",
+      "graph_action": "Exclude — remains conceptual",
+      "retained": false,
+      "exclusion_class": "leave_conceptual",
+      "agreed_explanation": "If the full taxonomy includes fabricated/Sybil identities as identity abuse, review that precise interpretation separately. Otherwise the cyber connection already captures the supported mechanism.",
+      "limits": "Exclude from the current graph. Any future promotion requires specific evidence and a further author decision.",
+      "qualifier_flags": [],
+      "evidence_anchors": [
+        {
+          "doc_id": "D6bbb4f6b30f4",
+          "doc_name": "Awan et al. (Blockchain-based trust management)",
+          "physical_pdf_pages": "12",
+          "source_check_status": "author_checked_support_insufficient",
+          "note": "Guide cites 'p.12' without a DOC_ID; DOC_ID inferred from the T04>TH_CYBER anchor, which cites the same page (p.12, Sybil attack) in D6bbb4f6b30f4.",
+          "server_check_trail": []
+        }
+      ],
+      "pair_source_check_status": "author_checked_this_round",
+      "guide_evidence_text": "Checked: p.12 discusses fabricated network identities in a Sybil attack. It does not describe victim identity theft, biometric misuse or account takeover.",
+      "source": "K11_Topic_Threat_Decision_Guide 1.md (cross-checked with K11_Joint_Review_Checklist 1.md)"
+    },
+    {
+      "pair_key": "T05>TH_CYBER",
+      "topic_id": "T05",
+      "threat_id": "TH_CYBER",
+      "original_status": "Conceptual/pending",
+      "joint_decision": "Leave conceptual",
+      "graph_action": "Exclude — remains conceptual",
+      "retained": false,
+      "exclusion_class": "leave_conceptual",
+      "agreed_explanation": "The current support does not establish the narrower category.",
+      "limits": "Exclude from the current graph. Any future promotion requires specific evidence and a further author decision.",
+      "qualifier_flags": [],
+      "evidence_anchors": [
+        {
+          "doc_id": "D28078c8a10cc",
+          "doc_name": "Zadorozhnyi et al. (Innovative Accounting and Auditing)",
+          "physical_pdf_pages": "8",
+          "source_check_status": "table_excerpt_author_not_located",
+          "note": "Guide cites only 'the audit excerpt'; document and page taken from the 09 review table (same p.8 passage).",
+          "server_check_trail": [
+            "server_pdf_opened_20260928",
+            "server_pdf_page_text_rechecked_20261002"
+          ]
+        }
+      ],
+      "pair_source_check_status": "table_excerpt_only_author_could_not_locate_pdf",
+      "guide_evidence_text": "The audit excerpt names generic cybercrime but supplies no specific platform/infrastructure attack mechanism.",
+      "source": "K11_Topic_Threat_Decision_Guide 1.md (cross-checked with K11_Joint_Review_Checklist 1.md)"
+    },
+    {
+      "pair_key": "T05>TH_PRIVACY",
+      "topic_id": "T05",
+      "threat_id": "TH_PRIVACY",
+      "original_status": "Conceptual/pending",
+      "joint_decision": "Promote",
+      "graph_action": "Include with stated qualifications",
+      "retained": true,
+      "exclusion_class": "",
+      "agreed_explanation": "Observed data-collection/disclosure inconsistencies and associated privacy exposure in the applications studied by METAseen.",
+      "limits": "Do not generalise to all metaverse applications or imply proven legal violations or crime incidence.",
+      "qualifier_flags": [
+        "metaseen_applications_only_no_legal_violation_claim"
+      ],
+      "evidence_anchors": [
+        {
+          "doc_id": "De11ad817ca1d",
+          "doc_name": "METAseen",
+          "physical_pdf_pages": "9",
+          "source_check_status": "author_checked_20261001",
+          "note": "",
+          "server_check_trail": []
+        }
+      ],
+      "pair_source_check_status": "author_checked_this_round",
+      "guide_evidence_text": "Checked: METAseen, De11ad817ca1d, p.9, reports undisclosed data types/third-party flows and privacy-policy discrepancies in the analysed applications. T05 weight 0.6164.",
+      "source": "K11_Topic_Threat_Decision_Guide 1.md (cross-checked with K11_Joint_Review_Checklist 1.md)"
+    },
+    {
+      "pair_key": "T05>TH_DEFI",
+      "topic_id": "T05",
+      "threat_id": "TH_DEFI",
+      "original_status": "Conceptual/pending",
+      "joint_decision": "Leave conceptual",
+      "graph_action": "Exclude — remains conceptual",
+      "retained": false,
+      "exclusion_class": "leave_conceptual",
+      "agreed_explanation": "Governance or use of a DAO does not itself establish misuse.",
+      "limits": "Exclude from the current graph. Any future promotion requires specific evidence and a further author decision.",
+      "qualifier_flags": [],
+      "evidence_anchors": [
+        {
+          "doc_id": "",
+          "doc_name": "",
+          "physical_pdf_pages": "",
+          "source_check_status": "no_supporting_passage_supplied",
+          "note": "DAO terminology only; no reviewed passage.",
+          "server_check_trail": []
+        }
+      ],
+      "pair_source_check_status": "no_passage_to_check",
+      "guide_evidence_text": "DAO terminology is recorded, but no reviewed passage demonstrates DAO/DeFi/smart-contract misuse for this pair.",
+      "source": "K11_Topic_Threat_Decision_Guide 1.md (cross-checked with K11_Joint_Review_Checklist 1.md)"
+    },
+    {
+      "pair_key": "T05>TH_IDENTITY",
+      "topic_id": "T05",
+      "threat_id": "TH_IDENTITY",
+      "original_status": "Conceptual/pending",
+      "joint_decision": "Drop",
+      "graph_action": "Exclude",
+      "retained": false,
+      "exclusion_class": "dropped",
+      "agreed_explanation": "General avatar content is insufficient.",
+      "limits": "Exclude from the graph; current support is insufficient for this category.",
+      "qualifier_flags": [],
+      "evidence_anchors": [
+        {
+          "doc_id": "",
+          "doc_name": "",
+          "physical_pdf_pages": "",
+          "source_check_status": "no_supporting_passage_supplied",
+          "note": "Avatar terminology only; no supporting passage supplied.",
+          "server_check_trail": []
+        }
+      ],
+      "pair_source_check_status": "no_passage_to_check",
+      "guide_evidence_text": "Avatar terminology is recorded, but no specific supporting identity-abuse passage was supplied for this pair.",
+      "source": "K11_Topic_Threat_Decision_Guide 1.md (cross-checked with K11_Joint_Review_Checklist 1.md)"
+    },
+    {
+      "pair_key": "T05>TH_NFT",
+      "topic_id": "T05",
+      "threat_id": "TH_NFT",
+      "original_status": "Conceptual/pending",
+      "joint_decision": "Drop",
+      "graph_action": "Exclude",
+      "retained": false,
+      "exclusion_class": "dropped",
+      "agreed_explanation": "General assets or ownership are insufficient.",
+      "limits": "Exclude from the graph; current support is insufficient for this category.",
+      "qualifier_flags": [],
+      "evidence_anchors": [
+        {
+          "doc_id": "",
+          "doc_name": "",
+          "physical_pdf_pages": "",
+          "source_check_status": "no_supporting_passage_supplied",
+          "note": "Asset terminology only; no supporting passage supplied.",
+          "server_check_trail": []
+        }
+      ],
+      "pair_source_check_status": "no_passage_to_check",
+      "guide_evidence_text": "Asset terminology is recorded, but no specific NFT/gaming/property value-manipulation passage was supplied for this pair.",
+      "source": "K11_Topic_Threat_Decision_Guide 1.md (cross-checked with K11_Joint_Review_Checklist 1.md)"
+    },
+    {
+      "pair_key": "T07>TH_DEFI",
+      "topic_id": "T07",
+      "threat_id": "TH_DEFI",
+      "original_status": "Conceptual/pending",
+      "joint_decision": "Leave conceptual",
+      "graph_action": "Exclude — remains conceptual",
+      "retained": false,
+      "exclusion_class": "leave_conceptual",
+      "agreed_explanation": "The presence of tokens and smart contracts, or their defensive use, is insufficient for this category.",
+      "limits": "Exclude from the current graph. Any future promotion requires specific evidence and a further author decision.",
+      "qualifier_flags": [],
+      "evidence_anchors": [
+        {
+          "doc_id": "D569a973fcbb6",
+          "doc_name": "Blockchain-based signature exchange protocol",
+          "physical_pdf_pages": "1-5",
+          "source_check_status": "author_checked_support_insufficient",
+          "note": "",
+          "server_check_trail": []
+        }
+      ],
+      "pair_source_check_status": "author_checked_this_round",
+      "guide_evidence_text": "Checked additional source: D569a973fcbb6, pp.1-5, describes fair signature exchange, malicious-counterparty cheating and a protective blockchain/smart-contract protocol. It does not establish the required DeFi/smart-contract misuse connection on those pages.",
+      "source": "K11_Topic_Threat_Decision_Guide 1.md (cross-checked with K11_Joint_Review_Checklist 1.md)"
+    },
+    {
+      "pair_key": "T08>TH_WALLET",
+      "topic_id": "T08",
+      "threat_id": "TH_WALLET",
+      "original_status": "Conceptual/pending",
+      "joint_decision": "Promote",
+      "graph_action": "Include with stated qualifications",
+      "retained": true,
+      "exclusion_class": "",
+      "agreed_explanation": "Cross-chain/asset-hopping laundering exposure using bridges and decentralised exchanges; replace the Shim wallet-credential-theft rationale with Manning p.8, §9.1.",
+      "limits": "Source support overlaps the DeFi edge and is not an additional independent incident finding. Credential theft alone does not establish laundering.",
+      "qualifier_flags": [
+        "support_overlaps_T08_DEFI_edge_not_independent",
+        "credential_theft_alone_not_laundering"
+      ],
+      "evidence_anchors": [
+        {
+          "doc_id": "Dfdc0a7ab21ac",
+          "doc_name": "Manning et al.",
+          "physical_pdf_pages": "8 (section 9.1)",
+          "source_check_status": "author_checked_20261001",
+          "note": "",
+          "server_check_trail": []
+        }
+      ],
+      "pair_source_check_status": "author_checked_this_round",
+      "guide_evidence_text": "Checked replacement anchor: Manning et al., Dfdc0a7ab21ac, p.8, section 9.1, describes illicit-fund conversion across chains/assets, using bridges/DEXs to impede tracing.",
+      "source": "K11_Topic_Threat_Decision_Guide 1.md (cross-checked with K11_Joint_Review_Checklist 1.md)"
+    },
+    {
+      "pair_key": "T10>TH_WALLET",
+      "topic_id": "T10",
+      "threat_id": "TH_WALLET",
+      "original_status": "Conceptual/pending",
+      "joint_decision": "Drop",
+      "graph_action": "Exclude",
+      "retained": false,
+      "exclusion_class": "dropped",
+      "agreed_explanation": "Network terminology does not establish illicit-fund movement.",
+      "limits": "Exclude from the graph; current support is insufficient for this category.",
+      "qualifier_flags": [],
+      "evidence_anchors": [
+        {
+          "doc_id": "",
+          "doc_name": "",
+          "physical_pdf_pages": "",
+          "source_check_status": "no_supporting_passage_supplied",
+          "note": "Network terminology only; no reviewed passage.",
+          "server_check_trail": []
+        }
+      ],
+      "pair_source_check_status": "no_passage_to_check",
+      "guide_evidence_text": "Bitcoin/network/node terminology is recorded, but no reviewed passage supports wallet/exchange/cross-chain laundering exposure for this pair.",
+      "source": "K11_Topic_Threat_Decision_Guide 1.md (cross-checked with K11_Joint_Review_Checklist 1.md)"
+    },
+    {
+      "pair_key": "T10>TH_CYBER",
+      "topic_id": "T10",
+      "threat_id": "TH_CYBER",
+      "original_status": "Conceptual/pending",
+      "joint_decision": "Promote",
+      "graph_action": "Include with stated qualifications",
+      "retained": true,
+      "exclusion_class": "",
+      "agreed_explanation": "Potential quantum attacks on encryption/access-control security and the proposed post-quantum response.",
+      "limits": "Retain the potential/future-risk framing; do not imply observed operational quantum attacks, measured crime incidence or field-proven protection.",
+      "qualifier_flags": [
+        "potential_future_quantum_risk_only",
+        "no_observed_operational_quantum_attacks"
+      ],
+      "evidence_anchors": [
+        {
+          "doc_id": "De395cd4ff88c",
+          "doc_name": "Pan et al.",
+          "physical_pdf_pages": "1-2",
+          "source_check_status": "author_checked_20261001",
+          "note": "",
+          "server_check_trail": []
+        }
+      ],
+      "pair_source_check_status": "author_checked_this_round",
+      "guide_evidence_text": "Checked: Pan et al., De395cd4ff88c, pp.1-2, explicitly discuss potential quantum attacks on conventional encryption and a proposed post-quantum response.",
+      "source": "K11_Topic_Threat_Decision_Guide 1.md (cross-checked with K11_Joint_Review_Checklist 1.md)"
+    },
+    {
+      "pair_key": "T04>TH_DEFI",
+      "topic_id": "T04",
+      "threat_id": "TH_DEFI",
+      "original_status": "Previously removed",
+      "joint_decision": "Drop",
+      "graph_action": "Exclude",
+      "retained": false,
+      "exclusion_class": "dropped",
+      "agreed_explanation": "Drop entirely on the current evidence: a defensive use of smart contracts does not establish smart-contract/DeFi misuse.",
+      "limits": "Do not restore as a retained or conceptual connection using this passage.",
+      "qualifier_flags": [],
+      "evidence_anchors": [
+        {
+          "doc_id": "D6bbb4f6b30f4",
+          "doc_name": "Awan et al. (Blockchain-based trust management)",
+          "physical_pdf_pages": "1",
+          "source_check_status": "author_checked_support_insufficient",
+          "note": "Guide: smart contracts described as defensive trust regulators.",
+          "server_check_trail": []
+        }
+      ],
+      "pair_source_check_status": "author_checked_this_round",
+      "guide_evidence_text": "Checked: Awan et al., D6bbb4f6b30f4, p.1, describes smart contracts as defensive trust regulators.",
+      "source": "K11_Topic_Threat_Decision_Guide 1.md (cross-checked with K11_Joint_Review_Checklist 1.md)"
+    },
+    {
+      "pair_key": "T01>TH_PRIVACY",
+      "topic_id": "T01",
+      "threat_id": "TH_PRIVACY",
+      "original_status": "Additional candidate identified in source review",
+      "joint_decision": "Accept",
+      "graph_action": "Include with stated qualifications",
+      "retained": true,
+      "exclusion_class": "",
+      "agreed_explanation": "Perceived personal-information privacy risks associated with adoption of metaverse business/finance services.",
+      "limits": "Perception/adoption evidence does not establish actual privacy breaches. The human-identity-threat construct on p.8 concerns AI/workplace existential issues, not identity theft.",
+      "qualifier_flags": [
+        "perception_evidence",
+        "p8_human_identity_construct_is_not_identity_theft"
+      ],
+      "evidence_anchors": [
+        {
+          "doc_id": "D1a5520aa7ae7",
+          "doc_name": "Jin and Ryu",
+          "physical_pdf_pages": "6-7",
+          "source_check_status": "author_checked_20261001",
+          "note": "",
+          "server_check_trail": []
+        }
+      ],
+      "pair_source_check_status": "author_checked_this_round",
+      "guide_evidence_text": "Checked: Jin and Ryu, D1a5520aa7ae7, physical pp.6–7, discusses perceived personal-information privacy risks in virtual business/finance. T01 document weight 0.4712.",
+      "source": "K11_Topic_Threat_Decision_Guide 1.md (cross-checked with K11_Joint_Review_Checklist 1.md)"
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "all_files_byte_identical": true,
+  "n_files_compared": 18,
+  "validation_report_identical": true,
+  "rerun_validation_all_pass": true,
+  "rerun_summary": {
+    "documents": 65,
+    "nodes": 118,
+    "edges": 544,
+    "nodes_by_type": {
+      "dimension": 4,
+      "document": 65,
+      "intervention": 13,
+      "layer": 7,
+      "signal": 9,
+      "threat": 9,
+      "topic": 11
+    },
+    "edges_by_origin": {
+      "author_reviewed_k11_20261001": 24,
+      "legacy_fixed_concept": 73,
+      "rule_65docs": 447
+    },
+    "edges_by_relation": {
+      "analytical-signal": 9,
+      "converted-into-control": 13,
+      "document-keyword-matches-threat": 193,
+      "document-supports-evidence-dimension": 251,
+      "feeds-detection-and-intervention": 6,
+      "high-score-keyword-anchor": 3,
+      "intervention-point": 27,
+      "modelled-by-signal": 9,
+      "threat-operates-through-layer": 9,
+      "topic-associated-with-threat": 24
+    },
+    "multi_relation_pairs": {
+      "DOC_D5279c89a9098>TH_DEFI": [
+        "document-keyword-matches-threat",
+        "high-score-keyword-anchor"
+      ],
+      "DOC_Dc35d9a0e2a20>TH_CYBER": [
+        "document-keyword-matches-threat",
+        "high-score-keyword-anchor"
+      ],
+      "DOC_Dced739924e6e>TH_IDENTITY": [
+        "document-keyword-matches-threat",
+        "high-score-keyword-anchor"
+      ]
+    },
+    "approved_topic_threat_edges": 24
+  },
+  "files": [
+    {
+      "file": "decisions/input_consistency_check.json",
+      "same": true,
+      "sha256_main": "5960d02dd04f74d0638f6c70b0c95dde0de914e29c9ddba633509773a0774772",
+      "sha256_rerun": "5960d02dd04f74d0638f6c70b0c95dde0de914e29c9ddba633509773a0774772"
+    },
+    {
+      "file": "decisions/k11_approved_edges_24.csv",
+      "same": true,
+      "sha256_main": "d03225206e66d604cb754abe449c0fedb66fb076e528e6bb15cbf6bf978c7c10",
+      "sha256_rerun": "d03225206e66d604cb754abe449c0fedb66fb076e528e6bb15cbf6bf978c7c10"
+    },
+    {
+      "file": "decisions/k11_topic_threat_decisions_34.csv",
+      "same": true,
+      "sha256_main": "ef0bc12b918ddaad6c682a3956f589cb09974bf96d5690bcd6e12c05bab156d2",
+      "sha256_rerun": "ef0bc12b918ddaad6c682a3956f589cb09974bf96d5690bcd6e12c05bab156d2"
+    },
+    {
+      "file": "decisions/k11_topic_threat_decisions_34.json",
+      "same": true,
+      "sha256_main": "2d8be8d7a1477bc1a0080f466fe051792fa2ede9a7311c89ea7cc051e5f28cba",
+      "sha256_rerun": "2d8be8d7a1477bc1a0080f466fe051792fa2ede9a7311c89ea7cc051e5f28cba"
+    },
+    {
+      "file": "decisions/k11_topics.json",
+      "same": true,
+      "sha256_main": "13bbcb9987cc454a483d7203ddea7a1536212bd1cbdb3efa18bd37b81e33c8b4",
+      "sha256_rerun": "13bbcb9987cc454a483d7203ddea7a1536212bd1cbdb3efa18bd37b81e33c8b4"
+    },
+    {
+      "file": "graph_pack/README.md",
+      "same": true,
+      "sha256_main": "496e617ae1778721bd891800018e6289230fb22e34bcb50c314a98eaab652d7d",
+      "sha256_rerun": "496e617ae1778721bd891800018e6289230fb22e34bcb50c314a98eaab652d7d"
+    },
+    {
+      "file": "graph_pack/document_evidence_network_full.svg",
+      "same": true,
+      "sha256_main": "26c833e6b7571fc74bbfb8dce6a868bc8dbcd577d15f10f9c3c9a594e8fe6634",
+      "sha256_rerun": "26c833e6b7571fc74bbfb8dce6a868bc8dbcd577d15f10f9c3c9a594e8fe6634"
+    },
+    {
+      "file": "graph_pack/full_interactive_graph_pack.html",
+      "same": true,
+      "sha256_main": "c74c7850ecd4c0941604a3da9964337ab0989162c2444da63ead9ff5e68919d0",
+      "sha256_rerun": "c74c7850ecd4c0941604a3da9964337ab0989162c2444da63ead9ff5e68919d0"
+    },
+    {
+      "file": "graph_pack/graph_data.graphml",
+      "same": true,
+      "sha256_main": "ff2f1b04b89599f5c2859369d7b8eda68e76db2a9909582ef01ea323d54bd6fc",
+      "sha256_rerun": "ff2f1b04b89599f5c2859369d7b8eda68e76db2a9909582ef01ea323d54bd6fc"
+    },
+    {
+      "file": "graph_pack/graph_data.json",
+      "same": true,
+      "sha256_main": "744379bd44c191564693887a46025bd76a528e9bad2d3871197392f0e4b94e3f",
+      "sha256_rerun": "744379bd44c191564693887a46025bd76a528e9bad2d3871197392f0e4b94e3f"
+    },
+    {
+      "file": "graph_pack/graph_edges.csv",
+      "same": true,
+      "sha256_main": "bee8563591464bcf954c885512587a2147468b78e648b84aa9d31b7a2922a173",
+      "sha256_rerun": "bee8563591464bcf954c885512587a2147468b78e648b84aa9d31b7a2922a173"
+    },
+    {
+      "file": "graph_pack/graph_nodes.csv",
+      "same": true,
+      "sha256_main": "2fd4e96fe15f2bcbc7f5ff3da24667b3b2c4730bb1115fda46a296d5f12472e6",
+      "sha256_rerun": "2fd4e96fe15f2bcbc7f5ff3da24667b3b2c4730bb1115fda46a296d5f12472e6"
+    },
+    {
+      "file": "graph_pack/intervention_lifecycle_map.svg",
+      "same": true,
+      "sha256_main": "1053d3bfc62410dfb13b80276bac8e8f3942dc3f388811877bc0460d1ed5cd52",
+      "sha256_rerun": "1053d3bfc62410dfb13b80276bac8e8f3942dc3f388811877bc0460d1ed5cd52"
+    },
+    {
+      "file": "graph_pack/intervention_matrix.csv",
+      "same": true,
+      "sha256_main": "498daf0502b166f84f820fe08a8d9057f41d07ef0824a6dd6b9aa105ed7bc7ec",
+      "sha256_rerun": "498daf0502b166f84f820fe08a8d9057f41d07ef0824a6dd6b9aa105ed7bc7ec"
+    },
+    {
+      "file": "graph_pack/topic_threat_intervention_full.svg",
+      "same": true,
+      "sha256_main": "78e5777d4c4cd325525682490be3162f7828eb2b6d8b7c89688ab8d3cf4ec1ed",
+      "sha256_rerun": "78e5777d4c4cd325525682490be3162f7828eb2b6d8b7c89688ab8d3cf4ec1ed"
+    },
+    {
+      "file": "figures/Figure_K11_topic_threat_associations.pdf",
+      "same": true,
+      "sha256_main": "530535787e096b62cf9974948030b59434a9385126d30c3327486b59ff017729",
+      "sha256_rerun": "530535787e096b62cf9974948030b59434a9385126d30c3327486b59ff017729"
+    },
+    {
+      "file": "figures/Figure_K11_topic_threat_associations.png",
+      "same": true,
+      "sha256_main": "bb605dac2a4607336ac7065a04f350d953cb91a29c7ed0c84f49bda35bcb16aa",
+      "sha256_rerun": "bb605dac2a4607336ac7065a04f350d953cb91a29c7ed0c84f49bda35bcb16aa"
+    },
+    {
+      "file": "figures/Figure_K11_topic_threat_associations.svg",
+      "same": true,
+      "sha256_main": "4bb08be99bb959a6ea2c1717bd7904ab8db815275ee985e4bf36ace1b4b32f83",
+      "sha256_rerun": "4bb08be99bb959a6ea2c1717bd7904ab8db815275ee985e4bf36ace1b4b32f83"
+    }
+  ]
+}

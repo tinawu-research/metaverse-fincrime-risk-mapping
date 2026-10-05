@@ -1,0 +1,12 @@
+{
+  "executed_pipeline_version": "1.0.1",
+  "executed_source_sha256": "67cdd428d650cb9781cc98875a8476b7efc76bb86b0d5fe33bd354b706034e5b",
+  "distributed_source_sha256": "0e42f078db4650d92eef9c92bb5df69f23e4e0c51f4fb66c4bd330af641252fc",
+  "recorded_run_hash": "9b833c9cce559094bd1ea82f413dfeead76cce73d3e360bec75265d7618fac2a",
+  "preparation_changes": [
+    "Replace module description with a neutral description of the 65-publication study and current reproduction-file names.",
+    "Replace the private reviewer-document URL constant with a local crosswalk filename."
+  ],
+  "analytical_ast_identical_after_excluding_only_these_two_items": true,
+  "no_model_refitted_for_appendix_preparation": true
+}

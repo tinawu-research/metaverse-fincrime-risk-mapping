@@ -1,0 +1,208 @@
+{
+  "inputs": {
+    "K11_Topic_Threat_Decision_Guide 1.md": "fab271b6bf5949302ab314ac69b512b87fde650711a8404e29913ea657e9422d",
+    "K11_Joint_Review_Checklist 1.md": "57a176cc7a2a1714596b78e1c7e3d6a5d532ca1252964825b56df18194a263ab",
+    "topic_prevalence.csv": "298889758b2cbe659682e088f2753cc27378aa6fc336ff15563529dcbf34fd3c",
+    "document_topic_matrix.csv": "7198211bd309dc8d43717d007327e068f09ad70440aede77dc14924311fce972",
+    "corpus_manifest.csv": "98e5a3044d3a02829394734272a40a1711b461dcd1560a8de9b1a4ea19b16f12",
+    "label_adjudication.xlsx": "96f9b7795f91a6a5567b0031cc47ce7a398676ac00a61e02e23753674c86f2ba",
+    "document_evidence_table_65.csv": "27402d5d6eea1fb683f79bcd010bedf145ac7726ae2e6ff1ae80cd95729d01b6"
+  },
+  "all_checks_pass": true,
+  "n_checks": 33,
+  "checks": [
+    {
+      "check": "guide_has_34_unique_pairs",
+      "pass": true,
+      "detail": "34 rows / 34 unique"
+    },
+    {
+      "check": "checklist_has_34_unique_pairs",
+      "pass": true,
+      "detail": "34 rows"
+    },
+    {
+      "check": "guide_and_checklist_same_pair_set",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "curated_evidence_covers_same_34_pairs",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "guide_vs_checklist_decision_action_explanation_identical",
+      "pass": true,
+      "detail": "0 mismatches: []"
+    },
+    {
+      "check": "decision_counts_match_stated_totals",
+      "pass": true,
+      "detail": {
+        "Modify": 4,
+        "Accept": 14,
+        "Reject": 1,
+        "Promote": 6,
+        "Drop": 5,
+        "Leave conceptual": 4
+      }
+    },
+    {
+      "check": "24_retained_10_excluded",
+      "pass": true,
+      "detail": "24 retained / 10 excluded"
+    },
+    {
+      "check": "excluded_breakdown_1_reject_4_leave_conceptual_5_drop",
+      "pass": true,
+      "detail": {
+        "rejected": 1,
+        "dropped": 5,
+        "leave_conceptual": 4
+      }
+    },
+    {
+      "check": "four_leave_conceptual_excluded",
+      "pass": true,
+      "detail": [
+        "T04>TH_IDENTITY",
+        "T05>TH_CYBER",
+        "T05>TH_DEFI",
+        "T07>TH_DEFI"
+      ]
+    },
+    {
+      "check": "original_18_split_13_accept_4_modify_1_reject_17_enter",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "conceptual_14_split_6_promote_4_leave_4_drop",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "11_topics_in_lda_record",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "prevalence_in_lda_record_equals_guide_membership_table_at_2dp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "prevalence_sums_to_100",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "labels_in_guide_equal_drive_verified_label_adjudication",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "check": "retained_pairs_equal_guide_membership_table_per_topic",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "check": "T03_has_no_retained_pair",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "ten_topics_mapped",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "all_threat_codes_known",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "65_ids_manifest_matrix_rule_output_identical",
+      "pass": true,
+      "detail": "manifest=65 matrix=65 rule_output=65"
+    },
+    {
+      "check": "manifest_all_status_included",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "rule_output_filenames_equal_manifest_filenames",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "all_anchor_DOC_IDs_are_in_the_65",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "guide_claim:T02 weight D c3ba = 0.5940",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "guide_claim:T04 weight D6bbb = 0.3366 and highest T04 doc",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "guide_claim:T05 METAseen 0.6164 highest",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "guide_claim:T05 audit paper 0.5273 second",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "guide_claim:T05 jurisdiction chapter 0.5024 third",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "guide_claim:T11 Malve own strongest topic 0.6376",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "guide_claim:T11 Malve not highest T11 doc (>=4 docs higher)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "guide_claim:T01 Jin and Ryu weight 0.4712",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "dominant_doc_counts_equal_lda_record",
+      "pass": true,
+      "detail": {
+        "T07": 6,
+        "T11": 21,
+        "T02": 11,
+        "T09": 2,
+        "T10": 5,
+        "T04": 2,
+        "T08": 6,
+        "T03": 2,
+        "T05": 4,
+        "T06": 4,
+        "T01": 2
+      }
+    },
+    {
+      "check": "curated_anchor_DOC_IDs_equal_DOC_IDs_named_in_guide_row",
+      "pass": true,
+      "detail": []
+    }
+  ]
+}

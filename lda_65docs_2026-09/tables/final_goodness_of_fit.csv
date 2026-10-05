@@ -1,0 +1,9 @@
+﻿metric,value,interpretation
+training_variational_lower_bound,-1939103.1034618497,Approximate evidence lower bound in nats; not exact marginal log likelihood.
+training_bound_perplexity,2268.4092478314105,"Training bound-derived perplexity, lower is better on the same data/vocabulary."
+overall_c_v,0.47995652623119156,Unweighted mean across raw top-10 topic coherences; window 110.
+overall_c_npmi,0.029904067844606377,Unweighted mean across raw top-10 topic coherences; window 10.
+topic_diversity_top10,0.6727272727272727,Unique terms across all top-10 lists divided by 10K.
+outer_iterations,90.0,Actual EM updates observed by the trace hook.
+converged,1.0,Successive training perplexity difference below configured tolerance; no guarantee of global optimum.
+articles,65.0,"Independent sampling units remain original documents, not chunks."

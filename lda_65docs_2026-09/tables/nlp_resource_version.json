@@ -1,0 +1,4 @@
+{
+  "wordnet": "3.0",
+  "lemmatizer": "WordNetLemmatizer; noun POS; domain aliases applied first"
+}

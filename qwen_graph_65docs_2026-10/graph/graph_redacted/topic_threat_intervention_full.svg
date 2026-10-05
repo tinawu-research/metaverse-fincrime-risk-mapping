@@ -1,0 +1,396 @@
+<svg class="graph-svg semantic-svg" xmlns="http://www.w3.org/2000/svg" width="1120" height="1150" viewBox="0 0 1120 1150" role="img" aria-label="K=11 topic threat intervention network">
+<style>
+  .graph-title { font: 700 22px Arial, sans-serif; fill: #172026; }
+  .graph-subtitle { font: 400 13px Arial, sans-serif; fill: #4f5d66; }
+  text { font-family: Arial, sans-serif; }
+  .node { cursor: default; }
+  .edge { pointer-events: stroke; }
+</style>
+<rect width="1120" height="1150" fill="#f7f8f5"/>
+<text x="54" y="34" class="graph-title">K=11 Topic-to-Threat-to-Intervention Graph (65 publications)</text>
+<text x="54" y="58" class="graph-subtitle">Exploratory K=11 LDA topics; 24 author-reviewed topic-threat associations (T03 has none).</text>
+<text x="54" y="77" class="graph-subtitle">Associations are not estimates of crime incidence, causation or preventive effectiveness.</text>
+<text x="130" y="108" text-anchor="middle" font-size="12" font-weight="700" fill="#46545d">K=11 topic (mean proportion)</text>
+<text x="400" y="108" text-anchor="middle" font-size="12" font-weight="700" fill="#46545d">Threat category</text>
+<text x="660" y="108" text-anchor="middle" font-size="12" font-weight="700" fill="#46545d">Model layers and signals (fixed)</text>
+<text x="930" y="108" text-anchor="middle" font-size="12" font-weight="700" fill="#46545d">Intervention points (fixed)</text>
+<path class="edge author" data-origin="author_reviewed_k11_20261001" d="M 230.0,140.0 C 262.5,140.0 262.5,696.2 295.0,696.2" fill="none" stroke="#9b3d42" stroke-width="2.4" stroke-opacity="0.85" stroke-dasharray="7 4"><title>topic-associated-with-threat [author_reviewed_k11_20261001]&#10;Accept: Perceived personal-information privacy risks associated with adoption of metaverse business/finance services. Limits: Perception/adoption evidence does not establish actual privacy breaches. The human-identity-threat construct on p.8 concerns AI/workplace existential issues, not identity theft.</title></path><path class="edge author" data-origin="author_reviewed_k11_20261001" d="M 230.0,229.0 C 262.5,229.0 262.5,918.8 295.0,918.8" fill="none" stroke="#9b3d42" stroke-width="2.4" stroke-opacity="0.85"><title>topic-associated-with-threat [author_reviewed_k11_20261001]&#10;Modify: Modify: retain as “smart-contract vulnerability and project-anomaly detection”. Limits: A proposed/evaluated technical method; does not establish prevention in live use or cover all cyberattack types.</title></path><path class="edge author" data-origin="author_reviewed_k11_20261001" d="M 230.0,229.0 C 262.5,229.0 262.5,251.2 295.0,251.2" fill="none" stroke="#9b3d42" stroke-width="2.4" stroke-opacity="0.85"><title>topic-associated-with-threat [author_reviewed_k11_20261001]&#10;Promote: Avatar-cloning/impersonation risks addressed by a proposed detection/privacy-awareness framework. Limits: Described scenarios and a test-bed do not establish real-world victimisation or preventive effectiveness.</title></path><path class="edge author" data-origin="author_reviewed_k11_20261001" d="M 230.0,229.0 C 262.5,229.0 262.5,807.5 295.0,807.5" fill="none" stroke="#9b3d42" stroke-width="2.4" stroke-opacity="0.85"><title>topic-associated-with-threat [author_reviewed_k11_20261001]&#10;Modify: Modify: retain as “ML-based detection/classification of suspected fraudulent or malicious Ethereum/Bitcoin transactions”. Correct the seven-algorithm-ensemble description. Limits: Classification results and stated aims do not demonstrate a reduction in actual fraud or operational deployment.</title></path><path class="edge author" data-origin="author_reviewed_k11_20261001" d="M 230.0,229.0 C 262.5,229.0 262.5,696.2 295.0,696.2" fill="none" stroke="#9b3d42" stroke-width="2.4" stroke-opacity="0.85"><title>topic-associated-with-threat [author_reviewed_k11_20261001]&#10;Promote: Personal-information and behavioural-data privacy exposure addressed by the proposed NFT-avatar framework; replace the generic “data” keyword rationale. Limits: Do not claim measured breaches or field-proven prevention.</title></path><path class="edge author" data-origin="author_reviewed_k11_20261001" d="M 230.0,407.0 C 262.5,407.0 262.5,918.8 295.0,918.8" fill="none" stroke="#9b3d42" stroke-width="2.4" stroke-opacity="0.85"><title>topic-associated-with-threat [author_reviewed_k11_20261001]&#10;Promote: Attacks on avatar/virtual-entity trust and reputation systems, including Sybil, on/off and reputation manipulation. Limits: Included under the agreed scope covering associated platform-security risks. A direct financial-offence mechanism is not established.</title></path><path class="edge author" data-origin="author_reviewed_k11_20261001" d="M 230.0,496.0 C 262.5,496.0 262.5,1030.0 295.0,1030.0" fill="none" stroke="#9b3d42" stroke-width="2.4" stroke-opacity="0.85"><title>topic-associated-with-threat [author_reviewed_k11_20261001]&#10;Modify: Modify: retain as “audit/compliance governance and jurisdictional accountability challenges”; add the jurisdiction chapter when discussing actual gaps. Limits: Recommendations do not establish control effectiveness. The chapter supplies the authors&#x27; legal analysis, not an independent verification of current law.</title></path><path class="edge author" data-origin="author_reviewed_k11_20261001" d="M 230.0,496.0 C 262.5,496.0 262.5,696.2 295.0,696.2" fill="none" stroke="#9b3d42" stroke-width="2.4" stroke-opacity="0.85"><title>topic-associated-with-threat [author_reviewed_k11_20261001]&#10;Promote: Observed data-collection/disclosure inconsistencies and associated privacy exposure in the applications studied by METAseen. Limits: Do not generalise to all metaverse applications or imply proven legal violations or crime incidence.</title></path><path class="edge author" data-origin="author_reviewed_k11_20261001" d="M 230.0,496.0 C 262.5,496.0 262.5,140.0 295.0,140.0" fill="none" stroke="#9b3d42" stroke-width="2.4" stroke-opacity="0.85"><title>topic-associated-with-threat [author_reviewed_k11_20261001]&#10;Accept: Accept on Author C’s supplied passage: retain as a general fraud concern motivating audit controls. The independent source-check limitation remains recorded. Limits: A general fraud concern; no specific scam mechanism, incident rate or laundering pathway is established.</title></path><path class="edge author" data-origin="author_reviewed_k11_20261001" d="M 230.0,585.0 C 262.5,585.0 262.5,140.0 295.0,140.0" fill="none" stroke="#9b3d42" stroke-width="2.4" stroke-opacity="0.85" stroke-dasharray="7 4"><title>topic-associated-with-threat [author_reviewed_k11_20261001]&#10;Accept: Accept with the stated perception caveat: “interviewed artists&#x27; perceived scam and suspicious-activity risks in NFT markets”. Limits: Interviews do not independently establish that alleged crimes occurred or measure their incidence. Keep the perception qualification visible.</title></path><path class="edge author" data-origin="author_reviewed_k11_20261001" d="M 230.0,674.0 C 262.5,674.0 262.5,251.2 295.0,251.2" fill="none" stroke="#9b3d42" stroke-width="2.4" stroke-opacity="0.85"><title>topic-associated-with-threat [author_reviewed_k11_20261001]&#10;Accept: Accept: “identity/impersonation risks motivating avatar authentication”. Limits: A motivating risk, not an incident-frequency estimate. Supports the authentication strand more directly than the transaction-protocol strand.</title></path><path class="edge author" data-origin="author_reviewed_k11_20261001" d="M 230.0,763.0 C 262.5,763.0 262.5,585.0 295.0,585.0" fill="none" stroke="#9b3d42" stroke-width="2.4" stroke-opacity="0.85"><title>topic-associated-with-threat [author_reviewed_k11_20261001]&#10;Accept: Accept: describe literature-discussed DeFi-related laundering/concealment mechanisms. Limits: Keep the p.11 finding that NFTs did not prompt an en masse switch away from established methods. That NFT-specific finding does not establish that all DeFi laundering is rare. No adoption-frequency estimate follows from the edge.</title></path><path class="edge author" data-origin="author_reviewed_k11_20261001" d="M 230.0,763.0 C 262.5,763.0 262.5,1030.0 295.0,1030.0" fill="none" stroke="#9b3d42" stroke-width="2.4" stroke-opacity="0.85"><title>topic-associated-with-threat [author_reviewed_k11_20261001]&#10;Accept: Accept with a narrow regulatory explanation: “supervisory and cross-jurisdiction governance challenges concerning DeFi/DEX activity”. Limits: A descriptive analysis of regulation and supervisory challenges; does not demonstrate effectiveness of particular measures.</title></path><path class="edge author" data-origin="author_reviewed_k11_20261001" d="M 230.0,763.0 C 262.5,763.0 262.5,140.0 295.0,140.0" fill="none" stroke="#9b3d42" stroke-width="2.4" stroke-opacity="0.85"><title>topic-associated-with-threat [author_reviewed_k11_20261001]&#10;Accept: Accept: retain as literature discussion of cryptoasset fraud/scams. The Manning anchor supplies independently checked support even while Shim&#x27;s PDF is unlocated. Limits: Review/case-synthesis material; not new measurement by this project. Maintain attribution to the cited literature.</title></path><path class="edge author" data-origin="author_reviewed_k11_20261001" d="M 230.0,763.0 C 262.5,763.0 262.5,473.8 295.0,473.8" fill="none" stroke="#9b3d42" stroke-width="2.4" stroke-opacity="0.85"><title>topic-associated-with-threat [author_reviewed_k11_20261001]&#10;Promote: Cross-chain/asset-hopping laundering exposure using bridges and decentralised exchanges; replace the Shim wallet-credential-theft rationale with Manning p.8, §9.1. Limits: Source support overlaps the DeFi edge and is not an additional independent incident finding. Credential theft alone does not establish laundering.</title></path><path class="edge author" data-origin="author_reviewed_k11_20261001" d="M 230.0,852.0 C 262.5,852.0 262.5,362.5 295.0,362.5" fill="none" stroke="#9b3d42" stroke-width="2.4" stroke-opacity="0.85"><title>topic-associated-with-threat [author_reviewed_k11_20261001]&#10;Accept: Accept: “NFT-market manipulation risks discussed in the source”. Limits: Monetary and incident claims are attributed to other references. The relationship can be accepted without repeating the unverified monetary figure.</title></path><path class="edge author" data-origin="author_reviewed_k11_20261001" d="M 230.0,941.0 C 262.5,941.0 262.5,918.8 295.0,918.8" fill="none" stroke="#9b3d42" stroke-width="2.4" stroke-opacity="0.85" stroke-dasharray="7 4"><title>topic-associated-with-threat [author_reviewed_k11_20261001]&#10;Promote: Potential quantum attacks on encryption/access-control security and the proposed post-quantum response. Limits: Retain the potential/future-risk framing; do not imply observed operational quantum attacks, measured crime incidence or field-proven protection.</title></path><path class="edge author" data-origin="author_reviewed_k11_20261001" d="M 230.0,941.0 C 262.5,941.0 262.5,696.2 295.0,696.2" fill="none" stroke="#9b3d42" stroke-width="2.4" stroke-opacity="0.85"><title>topic-associated-with-threat [author_reviewed_k11_20261001]&#10;Accept: Accept: “privacy/data-protection concerns motivating encryption and access control”. Limits: A technical research motivation and proposed scheme; not measurement of actual breaches or proof of operational prevention.</title></path><path class="edge author" data-origin="author_reviewed_k11_20261001" d="M 230.0,1030.0 C 262.5,1030.0 262.5,918.8 295.0,918.8" fill="none" stroke="#9b3d42" stroke-width="2.4" stroke-opacity="0.85"><title>topic-associated-with-threat [author_reviewed_k11_20261001]&#10;Accept: Accept: general platform-security threat discussion. Limits: A threat-landscape overview, not an incident-prevalence study.</title></path><path class="edge author" data-origin="author_reviewed_k11_20261001" d="M 230.0,1030.0 C 262.5,1030.0 262.5,585.0 295.0,585.0" fill="none" stroke="#9b3d42" stroke-width="2.4" stroke-opacity="0.85"><title>topic-associated-with-threat [author_reviewed_k11_20261001]&#10;Modify: Modify: retain specifically as “exploitation of smart-contract vulnerabilities”. Limits: Do not extend the entry to all DeFi/DAO/governance misuse. It is a threat-table entry, not a detailed case study.</title></path><path class="edge author" data-origin="author_reviewed_k11_20261001" d="M 230.0,1030.0 C 262.5,1030.0 262.5,1030.0 295.0,1030.0" fill="none" stroke="#9b3d42" stroke-width="2.4" stroke-opacity="0.85"><title>topic-associated-with-threat [author_reviewed_k11_20261001]&#10;Accept: Accept: general legal/compliance and cross-border governance challenges. Limits: Does not establish a particular accountability-gap incident or evaluate a governance intervention.</title></path><path class="edge author" data-origin="author_reviewed_k11_20261001" d="M 230.0,1030.0 C 262.5,1030.0 262.5,251.2 295.0,251.2" fill="none" stroke="#9b3d42" stroke-width="2.4" stroke-opacity="0.85"><title>topic-associated-with-threat [author_reviewed_k11_20261001]&#10;Accept: Accept: identity theft, impersonation and identity-related access risks. Limits: Multiple supporting discussions do not establish incident frequency or independent empirical confirmation of particular cases.</title></path><path class="edge author" data-origin="author_reviewed_k11_20261001" d="M 230.0,1030.0 C 262.5,1030.0 262.5,696.2 295.0,696.2" fill="none" stroke="#9b3d42" stroke-width="2.4" stroke-opacity="0.85"><title>topic-associated-with-threat [author_reviewed_k11_20261001]&#10;Accept: Accept: privacy/data-protection concerns and their regulatory context. Limits: Regulatory discussion is not evidence of a documented breach.</title></path><path class="edge author" data-origin="author_reviewed_k11_20261001" d="M 230.0,1030.0 C 262.5,1030.0 262.5,140.0 295.0,140.0" fill="none" stroke="#9b3d42" stroke-width="2.4" stroke-opacity="0.85"><title>topic-associated-with-threat [author_reviewed_k11_20261001]&#10;Accept: Accept: phishing/social-engineering pathways involving metaverse impersonation. Limits: A described threat pathway, not measured frequency.</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 505.0,140.0 C 530.0,140.0 530.0,440.0 555.0,440.0" fill="none" stroke="#53616b" stroke-width="1.38" stroke-opacity="0.23"><title>threat-operates-through-layer [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 505.0,140.0 C 530.0,140.0 530.0,585.0 555.0,585.0" fill="none" stroke="#53616b" stroke-width="1.38" stroke-opacity="0.23"><title>modelled-by-signal [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 505.0,140.0 C 662.5,140.0 662.5,140.0 820.0,140.0" fill="none" stroke="#53616b" stroke-width="1.38" stroke-opacity="0.23"><title>intervention-point [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 505.0,140.0 C 662.5,140.0 662.5,955.8 820.0,955.8" fill="none" stroke="#53616b" stroke-width="1.38" stroke-opacity="0.23"><title>intervention-point [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 505.0,140.0 C 662.5,140.0 662.5,510.8 820.0,510.8" fill="none" stroke="#53616b" stroke-width="1.38" stroke-opacity="0.23"><title>intervention-point [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 505.0,251.2 C 530.0,251.2 530.0,200.0 555.0,200.0" fill="none" stroke="#53616b" stroke-width="1.38" stroke-opacity="0.23"><title>threat-operates-through-layer [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 505.0,251.2 C 530.0,251.2 530.0,640.6 555.0,640.6" fill="none" stroke="#53616b" stroke-width="1.38" stroke-opacity="0.23"><title>modelled-by-signal [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 505.0,251.2 C 662.5,251.2 662.5,214.2 820.0,214.2" fill="none" stroke="#53616b" stroke-width="1.38" stroke-opacity="0.23"><title>intervention-point [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 505.0,251.2 C 662.5,251.2 662.5,288.3 820.0,288.3" fill="none" stroke="#53616b" stroke-width="1.38" stroke-opacity="0.23"><title>intervention-point [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 505.0,251.2 C 662.5,251.2 662.5,955.8 820.0,955.8" fill="none" stroke="#53616b" stroke-width="1.38" stroke-opacity="0.23"><title>intervention-point [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 505.0,362.5 C 530.0,362.5 530.0,260.0 555.0,260.0" fill="none" stroke="#53616b" stroke-width="1.38" stroke-opacity="0.23"><title>threat-operates-through-layer [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 505.0,362.5 C 530.0,362.5 530.0,696.2 555.0,696.2" fill="none" stroke="#53616b" stroke-width="1.38" stroke-opacity="0.23"><title>modelled-by-signal [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 505.0,362.5 C 662.5,362.5 662.5,436.7 820.0,436.7" fill="none" stroke="#53616b" stroke-width="1.38" stroke-opacity="0.23"><title>intervention-point [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 505.0,362.5 C 662.5,362.5 662.5,510.8 820.0,510.8" fill="none" stroke="#53616b" stroke-width="1.38" stroke-opacity="0.23"><title>intervention-point [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 505.0,362.5 C 662.5,362.5 662.5,585.0 820.0,585.0" fill="none" stroke="#53616b" stroke-width="1.38" stroke-opacity="0.23"><title>intervention-point [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 505.0,473.8 C 530.0,473.8 530.0,320.0 555.0,320.0" fill="none" stroke="#53616b" stroke-width="1.38" stroke-opacity="0.23"><title>threat-operates-through-layer [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 505.0,473.8 C 530.0,473.8 530.0,751.9 555.0,751.9" fill="none" stroke="#53616b" stroke-width="1.38" stroke-opacity="0.23"><title>modelled-by-signal [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 505.0,473.8 C 662.5,473.8 662.5,659.2 820.0,659.2" fill="none" stroke="#53616b" stroke-width="1.38" stroke-opacity="0.23"><title>intervention-point [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 505.0,473.8 C 662.5,473.8 662.5,881.7 820.0,881.7" fill="none" stroke="#53616b" stroke-width="1.38" stroke-opacity="0.23"><title>intervention-point [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 505.0,473.8 C 662.5,473.8 662.5,955.8 820.0,955.8" fill="none" stroke="#53616b" stroke-width="1.38" stroke-opacity="0.23"><title>intervention-point [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 505.0,585.0 C 530.0,585.0 530.0,380.0 555.0,380.0" fill="none" stroke="#53616b" stroke-width="1.38" stroke-opacity="0.23"><title>threat-operates-through-layer [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 505.0,585.0 C 530.0,585.0 530.0,807.5 555.0,807.5" fill="none" stroke="#53616b" stroke-width="1.38" stroke-opacity="0.23"><title>modelled-by-signal [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 505.0,585.0 C 662.5,585.0 662.5,807.5 820.0,807.5" fill="none" stroke="#53616b" stroke-width="1.38" stroke-opacity="0.23"><title>intervention-point [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 505.0,585.0 C 662.5,585.0 662.5,659.2 820.0,659.2" fill="none" stroke="#53616b" stroke-width="1.38" stroke-opacity="0.23"><title>intervention-point [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 505.0,585.0 C 662.5,585.0 662.5,436.7 820.0,436.7" fill="none" stroke="#53616b" stroke-width="1.38" stroke-opacity="0.23"><title>intervention-point [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 505.0,696.2 C 530.0,696.2 530.0,200.0 555.0,200.0" fill="none" stroke="#53616b" stroke-width="1.38" stroke-opacity="0.23"><title>threat-operates-through-layer [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 505.0,696.2 C 530.0,696.2 530.0,863.1 555.0,863.1" fill="none" stroke="#53616b" stroke-width="1.38" stroke-opacity="0.23"><title>modelled-by-signal [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 505.0,696.2 C 662.5,696.2 662.5,288.3 820.0,288.3" fill="none" stroke="#53616b" stroke-width="1.38" stroke-opacity="0.23"><title>intervention-point [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 505.0,696.2 C 662.5,696.2 662.5,1030.0 820.0,1030.0" fill="none" stroke="#53616b" stroke-width="1.38" stroke-opacity="0.23"><title>intervention-point [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 505.0,696.2 C 662.5,696.2 662.5,955.8 820.0,955.8" fill="none" stroke="#53616b" stroke-width="1.38" stroke-opacity="0.23"><title>intervention-point [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 505.0,807.5 C 530.0,807.5 530.0,320.0 555.0,320.0" fill="none" stroke="#53616b" stroke-width="1.38" stroke-opacity="0.23"><title>threat-operates-through-layer [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 505.0,807.5 C 530.0,807.5 530.0,918.8 555.0,918.8" fill="none" stroke="#53616b" stroke-width="1.38" stroke-opacity="0.23"><title>modelled-by-signal [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 505.0,807.5 C 662.5,807.5 662.5,733.3 820.0,733.3" fill="none" stroke="#53616b" stroke-width="1.38" stroke-opacity="0.23"><title>intervention-point [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 505.0,807.5 C 662.5,807.5 662.5,659.2 820.0,659.2" fill="none" stroke="#53616b" stroke-width="1.38" stroke-opacity="0.23"><title>intervention-point [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 505.0,807.5 C 662.5,807.5 662.5,881.7 820.0,881.7" fill="none" stroke="#53616b" stroke-width="1.38" stroke-opacity="0.23"><title>intervention-point [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 505.0,918.8 C 530.0,918.8 530.0,140.0 555.0,140.0" fill="none" stroke="#53616b" stroke-width="1.38" stroke-opacity="0.23"><title>threat-operates-through-layer [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 505.0,918.8 C 530.0,918.8 530.0,974.4 555.0,974.4" fill="none" stroke="#53616b" stroke-width="1.38" stroke-opacity="0.23"><title>modelled-by-signal [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 505.0,918.8 C 662.5,918.8 662.5,362.5 820.0,362.5" fill="none" stroke="#53616b" stroke-width="1.38" stroke-opacity="0.23"><title>intervention-point [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 505.0,918.8 C 662.5,918.8 662.5,288.3 820.0,288.3" fill="none" stroke="#53616b" stroke-width="1.38" stroke-opacity="0.23"><title>intervention-point [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 505.0,918.8 C 662.5,918.8 662.5,955.8 820.0,955.8" fill="none" stroke="#53616b" stroke-width="1.38" stroke-opacity="0.23"><title>intervention-point [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 505.0,1030.0 C 530.0,1030.0 530.0,380.0 555.0,380.0" fill="none" stroke="#53616b" stroke-width="1.38" stroke-opacity="0.23"><title>threat-operates-through-layer [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 505.0,1030.0 C 530.0,1030.0 530.0,1030.0 555.0,1030.0" fill="none" stroke="#53616b" stroke-width="1.38" stroke-opacity="0.23"><title>modelled-by-signal [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 505.0,1030.0 C 662.5,1030.0 662.5,807.5 820.0,807.5" fill="none" stroke="#53616b" stroke-width="1.38" stroke-opacity="0.23"><title>intervention-point [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 505.0,1030.0 C 662.5,1030.0 662.5,881.7 820.0,881.7" fill="none" stroke="#53616b" stroke-width="1.38" stroke-opacity="0.23"><title>intervention-point [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 505.0,1030.0 C 662.5,1030.0 662.5,955.8 820.0,955.8" fill="none" stroke="#53616b" stroke-width="1.38" stroke-opacity="0.23"><title>intervention-point [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 765.0,140.0 C 660.0,140.0 660.0,500.0 555.0,500.0" fill="none" stroke="#53616b" stroke-width="1.20" stroke-opacity="0.22"><title>feeds-detection-and-intervention [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 765.0,200.0 C 660.0,200.0 660.0,500.0 555.0,500.0" fill="none" stroke="#53616b" stroke-width="1.20" stroke-opacity="0.22"><title>feeds-detection-and-intervention [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 765.0,260.0 C 660.0,260.0 660.0,500.0 555.0,500.0" fill="none" stroke="#53616b" stroke-width="1.20" stroke-opacity="0.22"><title>feeds-detection-and-intervention [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 765.0,320.0 C 660.0,320.0 660.0,500.0 555.0,500.0" fill="none" stroke="#53616b" stroke-width="1.20" stroke-opacity="0.22"><title>feeds-detection-and-intervention [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 765.0,380.0 C 660.0,380.0 660.0,500.0 555.0,500.0" fill="none" stroke="#53616b" stroke-width="1.20" stroke-opacity="0.22"><title>feeds-detection-and-intervention [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 765.0,440.0 C 660.0,440.0 660.0,500.0 555.0,500.0" fill="none" stroke="#53616b" stroke-width="1.20" stroke-opacity="0.22"><title>feeds-detection-and-intervention [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 765.0,585.0 C 660.0,585.0 660.0,500.0 555.0,500.0" fill="none" stroke="#53616b" stroke-width="1.20" stroke-opacity="0.22"><title>analytical-signal [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 765.0,640.6 C 660.0,640.6 660.0,500.0 555.0,500.0" fill="none" stroke="#53616b" stroke-width="1.20" stroke-opacity="0.22"><title>analytical-signal [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 765.0,696.2 C 660.0,696.2 660.0,500.0 555.0,500.0" fill="none" stroke="#53616b" stroke-width="1.20" stroke-opacity="0.22"><title>analytical-signal [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 765.0,751.9 C 660.0,751.9 660.0,500.0 555.0,500.0" fill="none" stroke="#53616b" stroke-width="1.20" stroke-opacity="0.22"><title>analytical-signal [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 765.0,807.5 C 660.0,807.5 660.0,500.0 555.0,500.0" fill="none" stroke="#53616b" stroke-width="1.20" stroke-opacity="0.22"><title>analytical-signal [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 765.0,863.1 C 660.0,863.1 660.0,500.0 555.0,500.0" fill="none" stroke="#53616b" stroke-width="1.20" stroke-opacity="0.22"><title>analytical-signal [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 765.0,918.8 C 660.0,918.8 660.0,500.0 555.0,500.0" fill="none" stroke="#53616b" stroke-width="1.20" stroke-opacity="0.22"><title>analytical-signal [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 765.0,974.4 C 660.0,974.4 660.0,500.0 555.0,500.0" fill="none" stroke="#53616b" stroke-width="1.20" stroke-opacity="0.22"><title>analytical-signal [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 765.0,1030.0 C 660.0,1030.0 660.0,500.0 555.0,500.0" fill="none" stroke="#53616b" stroke-width="1.20" stroke-opacity="0.22"><title>analytical-signal [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 765.0,500.0 C 792.5,500.0 792.5,140.0 820.0,140.0" fill="none" stroke="#53616b" stroke-width="1.15" stroke-opacity="0.21"><title>converted-into-control [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 765.0,500.0 C 792.5,500.0 792.5,214.2 820.0,214.2" fill="none" stroke="#53616b" stroke-width="1.15" stroke-opacity="0.21"><title>converted-into-control [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 765.0,500.0 C 792.5,500.0 792.5,288.3 820.0,288.3" fill="none" stroke="#53616b" stroke-width="1.15" stroke-opacity="0.21"><title>converted-into-control [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 765.0,500.0 C 792.5,500.0 792.5,362.5 820.0,362.5" fill="none" stroke="#53616b" stroke-width="1.15" stroke-opacity="0.21"><title>converted-into-control [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 765.0,500.0 C 792.5,500.0 792.5,436.7 820.0,436.7" fill="none" stroke="#53616b" stroke-width="1.15" stroke-opacity="0.21"><title>converted-into-control [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 765.0,500.0 C 792.5,500.0 792.5,510.8 820.0,510.8" fill="none" stroke="#53616b" stroke-width="1.15" stroke-opacity="0.21"><title>converted-into-control [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 765.0,500.0 C 792.5,500.0 792.5,585.0 820.0,585.0" fill="none" stroke="#53616b" stroke-width="1.15" stroke-opacity="0.21"><title>converted-into-control [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 765.0,500.0 C 792.5,500.0 792.5,659.2 820.0,659.2" fill="none" stroke="#53616b" stroke-width="1.15" stroke-opacity="0.21"><title>converted-into-control [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 765.0,500.0 C 792.5,500.0 792.5,733.3 820.0,733.3" fill="none" stroke="#53616b" stroke-width="1.15" stroke-opacity="0.21"><title>converted-into-control [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 765.0,500.0 C 792.5,500.0 792.5,807.5 820.0,807.5" fill="none" stroke="#53616b" stroke-width="1.15" stroke-opacity="0.21"><title>converted-into-control [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 765.0,500.0 C 792.5,500.0 792.5,881.7 820.0,881.7" fill="none" stroke="#53616b" stroke-width="1.15" stroke-opacity="0.21"><title>converted-into-control [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 765.0,500.0 C 792.5,500.0 792.5,955.8 820.0,955.8" fill="none" stroke="#53616b" stroke-width="1.15" stroke-opacity="0.21"><title>converted-into-control [legacy_fixed_concept]</title></path><path class="edge" data-origin="legacy_fixed_concept" d="M 765.0,500.0 C 792.5,500.0 792.5,1030.0 820.0,1030.0" fill="none" stroke="#53616b" stroke-width="1.15" stroke-opacity="0.21"><title>converted-into-control [legacy_fixed_concept]</title></path>
+
+<g class="node topic" data-type="topic" data-node-id="T01">
+  <title>T01: Perceived trust, equality and consumer issues&#10;2.97% mean publication-level topic proportion (thematic attention, not crime incidence); dominant topic in 2 of 65 publications.</title>
+  <rect x="30.0" y="109.0" width="200.0" height="62.0" rx="7" fill="#315c72" stroke="#172026" stroke-opacity="0.18" stroke-width="1.2"/>
+  <text x="130.0" y="129.1" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">T01: Perceived trust,</text>
+<text x="130.0" y="143.5" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">equality and consumer</text>
+<text x="130.0" y="157.9" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">issues (2.97%)</text>
+</g>
+
+<g class="node topic" data-type="topic" data-node-id="T02">
+  <title>T02: Data-driven attack detection and authentication&#10;14.39% mean publication-level topic proportion (thematic attention, not crime incidence); dominant topic in 11 of 65 publications.</title>
+  <rect x="30.0" y="198.0" width="200.0" height="62.0" rx="7" fill="#315c72" stroke="#172026" stroke-opacity="0.18" stroke-width="1.2"/>
+  <text x="130.0" y="218.1" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">T02: Data-driven attack</text>
+<text x="130.0" y="232.5" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">detection and</text>
+<text x="130.0" y="246.9" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">authentication (14.39%)</text>
+</g>
+
+<g class="node topic" data-type="topic" data-node-id="T03">
+  <title>T03: Gameplay and review/research methods&#10;6.17% mean publication-level topic proportion (thematic attention, not crime incidence); dominant topic in 2 of 65 publications. No author-approved topic-threat link (insufficient reviewed support).</title>
+  <rect x="30.0" y="287.0" width="200.0" height="62.0" rx="7" fill="#315c72" stroke="#172026" stroke-opacity="0.18" stroke-width="1.2"/>
+  <text x="130.0" y="307.1" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">T03: Gameplay and</text>
+<text x="130.0" y="321.5" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">review/research methods</text>
+<text x="130.0" y="335.9" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">(6.17%)</text>
+</g>
+
+<g class="node topic" data-type="topic" data-node-id="T04">
+  <title>T04: Technical trust, reputation and authenticity&#10;3.25% mean publication-level topic proportion (thematic attention, not crime incidence); dominant topic in 2 of 65 publications.</title>
+  <rect x="30.0" y="376.0" width="200.0" height="62.0" rx="7" fill="#315c72" stroke="#172026" stroke-opacity="0.18" stroke-width="1.2"/>
+  <text x="130.0" y="396.1" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">T04: Technical trust,</text>
+<text x="130.0" y="410.5" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">reputation and</text>
+<text x="130.0" y="424.9" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">authenticity (3.25%)</text>
+</g>
+
+<g class="node topic" data-type="topic" data-node-id="T05">
+  <title>T05: Governance of data and assets&#10;7.57% mean publication-level topic proportion (thematic attention, not crime incidence); dominant topic in 4 of 65 publications.</title>
+  <rect x="30.0" y="465.0" width="200.0" height="62.0" rx="7" fill="#315c72" stroke="#172026" stroke-opacity="0.18" stroke-width="1.2"/>
+  <text x="130.0" y="492.6" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">T05: Governance of data</text>
+<text x="130.0" y="507.0" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">and assets (7.57%)</text>
+</g>
+
+<g class="node topic" data-type="topic" data-node-id="T06">
+  <title>T06: NFT ownership and digital-asset markets&#10;8.86% mean publication-level topic proportion (thematic attention, not crime incidence); dominant topic in 4 of 65 publications.</title>
+  <rect x="30.0" y="554.0" width="200.0" height="62.0" rx="7" fill="#315c72" stroke="#172026" stroke-opacity="0.18" stroke-width="1.2"/>
+  <text x="130.0" y="574.1" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">T06: NFT ownership and</text>
+<text x="130.0" y="588.5" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">digital-asset markets</text>
+<text x="130.0" y="602.9" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">(8.86%)</text>
+</g>
+
+<g class="node topic" data-type="topic" data-node-id="T07">
+  <title>T07: Transaction and authentication protocols&#10;9.65% mean publication-level topic proportion (thematic attention, not crime incidence); dominant topic in 6 of 65 publications.</title>
+  <rect x="30.0" y="643.0" width="200.0" height="62.0" rx="7" fill="#315c72" stroke="#172026" stroke-opacity="0.18" stroke-width="1.2"/>
+  <text x="130.0" y="663.1" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">T07: Transaction and</text>
+<text x="130.0" y="677.5" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">authentication protocols</text>
+<text x="130.0" y="691.9" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">(9.65%)</text>
+</g>
+
+<g class="node topic" data-type="topic" data-node-id="T08">
+  <title>T08: Cryptoasset crime and scams&#10;8.57% mean publication-level topic proportion (thematic attention, not crime incidence); dominant topic in 6 of 65 publications.</title>
+  <rect x="30.0" y="732.0" width="200.0" height="62.0" rx="7" fill="#315c72" stroke="#172026" stroke-opacity="0.18" stroke-width="1.2"/>
+  <text x="130.0" y="759.6" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">T08: Cryptoasset crime</text>
+<text x="130.0" y="774.0" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">and scams (8.57%)</text>
+</g>
+
+<g class="node topic" data-type="topic" data-node-id="T09">
+  <title>T09: NFT markets, value and financial perceptions&#10;3.20% mean publication-level topic proportion (thematic attention, not crime incidence); dominant topic in 2 of 65 publications.</title>
+  <rect x="30.0" y="821.0" width="200.0" height="62.0" rx="7" fill="#315c72" stroke="#172026" stroke-opacity="0.18" stroke-width="1.2"/>
+  <text x="130.0" y="841.1" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">T09: NFT markets, value</text>
+<text x="130.0" y="855.5" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">and financial perceptions</text>
+<text x="130.0" y="869.9" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">(3.20%)</text>
+</g>
+
+<g class="node topic" data-type="topic" data-node-id="T10">
+  <title>T10: Encryption, access control and network methods&#10;7.19% mean publication-level topic proportion (thematic attention, not crime incidence); dominant topic in 5 of 65 publications.</title>
+  <rect x="30.0" y="910.0" width="200.0" height="62.0" rx="7" fill="#315c72" stroke="#172026" stroke-opacity="0.18" stroke-width="1.2"/>
+  <text x="130.0" y="930.1" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">T10: Encryption, access</text>
+<text x="130.0" y="944.5" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">control and network</text>
+<text x="130.0" y="958.9" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">methods (7.19%)</text>
+</g>
+
+<g class="node topic" data-type="topic" data-node-id="T11">
+  <title>T11: Broad metaverse-platform security&#10;28.18% mean publication-level topic proportion (thematic attention, not crime incidence); dominant topic in 21 of 65 publications.</title>
+  <rect x="30.0" y="999.0" width="200.0" height="62.0" rx="7" fill="#315c72" stroke="#172026" stroke-opacity="0.18" stroke-width="1.2"/>
+  <text x="130.0" y="1019.1" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">T11: Broad</text>
+<text x="130.0" y="1033.5" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">metaverse-platform</text>
+<text x="130.0" y="1047.9" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">security (28.18%)</text>
+</g>
+
+<g class="node threat" data-type="threat" data-node-id="TH_SCAM">
+  <title>Scam, fraud, and social-deception laundering opportunities&#10;</title>
+  <rect x="295.0" y="105.0" width="210.0" height="70.0" rx="7" fill="#9b3d42" stroke="#172026" stroke-opacity="0.18" stroke-width="1.2"/>
+  <text x="400.0" y="129.1" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">Scam, fraud, and</text>
+<text x="400.0" y="143.5" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">social-deception</text>
+<text x="400.0" y="157.9" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">laundering opportunities</text>
+</g>
+
+<g class="node threat" data-type="threat" data-node-id="TH_IDENTITY">
+  <title>Avatar, identity, biometric, and account takeover abuse&#10;</title>
+  <rect x="295.0" y="216.2" width="210.0" height="70.0" rx="7" fill="#9b3d42" stroke="#172026" stroke-opacity="0.18" stroke-width="1.2"/>
+  <text x="400.0" y="240.4" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">Avatar, identity,</text>
+<text x="400.0" y="254.8" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">biometric, and account</text>
+<text x="400.0" y="269.2" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">takeover abuse</text>
+</g>
+
+<g class="node threat" data-type="threat" data-node-id="TH_NFT">
+  <title>NFT, gaming, and virtual-property value manipulation&#10;</title>
+  <rect x="295.0" y="327.5" width="210.0" height="70.0" rx="7" fill="#9b3d42" stroke="#172026" stroke-opacity="0.18" stroke-width="1.2"/>
+  <text x="400.0" y="351.6" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">NFT, gaming, and</text>
+<text x="400.0" y="366.0" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">virtual-property value</text>
+<text x="400.0" y="380.4" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">manipulation</text>
+</g>
+
+<g class="node threat" data-type="threat" data-node-id="TH_WALLET">
+  <title>Wallet, exchange, off-ramp, and cross-chain laundering exposure&#10;</title>
+  <rect x="295.0" y="438.8" width="210.0" height="70.0" rx="7" fill="#9b3d42" stroke="#172026" stroke-opacity="0.18" stroke-width="1.2"/>
+  <text x="400.0" y="462.9" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">Wallet, exchange,</text>
+<text x="400.0" y="477.3" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">off-ramp, and cross-chain</text>
+<text x="400.0" y="491.7" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">laundering exposure</text>
+</g>
+
+<g class="node threat" data-type="threat" data-node-id="TH_DEFI">
+  <title>DeFi, smart-contract, DAO, and governance-control misuse&#10;</title>
+  <rect x="295.0" y="550.0" width="210.0" height="70.0" rx="7" fill="#9b3d42" stroke="#172026" stroke-opacity="0.18" stroke-width="1.2"/>
+  <text x="400.0" y="574.1" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">DeFi, smart-contract, DAO,</text>
+<text x="400.0" y="588.5" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">and governance-control</text>
+<text x="400.0" y="602.9" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">misuse</text>
+</g>
+
+<g class="node threat" data-type="threat" data-node-id="TH_PRIVACY">
+  <title>Privacy, data protection, and traceability gaps&#10;</title>
+  <rect x="295.0" y="661.2" width="210.0" height="70.0" rx="7" fill="#9b3d42" stroke="#172026" stroke-opacity="0.18" stroke-width="1.2"/>
+  <text x="400.0" y="692.8" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">Privacy, data protection,</text>
+<text x="400.0" y="707.2" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">and traceability gaps</text>
+</g>
+
+<g class="node threat" data-type="threat" data-node-id="TH_PAYMENT">
+  <title>Digital payment, trust, fraud-detection, and Sybil-risk environment&#10;</title>
+  <rect x="295.0" y="772.5" width="210.0" height="70.0" rx="7" fill="#9b3d42" stroke="#172026" stroke-opacity="0.18" stroke-width="1.2"/>
+  <text x="400.0" y="796.6" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">Digital payment, trust,</text>
+<text x="400.0" y="811.0" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">fraud-detection, and</text>
+<text x="400.0" y="825.4" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">Sybil-risk environment</text>
+</g>
+
+<g class="node threat" data-type="threat" data-node-id="TH_CYBER">
+  <title>Cyberattack, malware, platform-security, and infrastructure compromise&#10;</title>
+  <rect x="295.0" y="883.8" width="210.0" height="70.0" rx="7" fill="#9b3d42" stroke="#172026" stroke-opacity="0.18" stroke-width="1.2"/>
+  <text x="400.0" y="907.9" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">Cyberattack, malware,</text>
+<text x="400.0" y="922.3" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">platform-security, and</text>
+<text x="400.0" y="936.7" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">infrastructure compromise</text>
+</g>
+
+<g class="node threat" data-type="threat" data-node-id="TH_GOVERNANCE">
+  <title>Platform governance, jurisdictional, and legal accountability gaps&#10;</title>
+  <rect x="295.0" y="995.0" width="210.0" height="70.0" rx="7" fill="#9b3d42" stroke="#172026" stroke-opacity="0.18" stroke-width="1.2"/>
+  <text x="400.0" y="1019.1" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">Platform governance,</text>
+<text x="400.0" y="1033.5" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">jurisdictional, and legal</text>
+<text x="400.0" y="1047.9" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">accountability gaps</text>
+</g>
+
+<g class="node layer" data-type="layer" data-node-id="LY_PLATFORM">
+  <title>Platform affordances: avatars, immersion, persistence, social presence&#10;</title>
+  <rect x="555.0" y="112.0" width="210.0" height="56.0" rx="7" fill="#6f5b2f" stroke="#172026" stroke-opacity="0.18" stroke-width="1.2"/>
+  <text x="660.0" y="121.7" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">Platform affordances:</text>
+<text x="660.0" y="136.1" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">avatars, immersion,</text>
+<text x="660.0" y="150.5" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">persistence, social</text>
+<text x="660.0" y="164.9" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">presence</text>
+</g>
+
+<g class="node layer" data-type="layer" data-node-id="LY_IDENTITY">
+  <title>Identity-access layer: accounts, avatars, biometrics, credentials&#10;</title>
+  <rect x="555.0" y="172.0" width="210.0" height="56.0" rx="7" fill="#6f5b2f" stroke="#172026" stroke-opacity="0.18" stroke-width="1.2"/>
+  <text x="660.0" y="189.1" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">Identity-access layer:</text>
+<text x="660.0" y="203.5" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">accounts, avatars,</text>
+<text x="660.0" y="217.9" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">biometrics, credentials</text>
+</g>
+
+<g class="node layer" data-type="layer" data-node-id="LY_ASSET">
+  <title>Asset-market layer: NFTs, tokens, game items, virtual property&#10;</title>
+  <rect x="555.0" y="232.0" width="210.0" height="56.0" rx="7" fill="#6f5b2f" stroke="#172026" stroke-opacity="0.18" stroke-width="1.2"/>
+  <text x="660.0" y="249.1" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">Asset-market layer: NFTs,</text>
+<text x="660.0" y="263.5" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">tokens, game items,</text>
+<text x="660.0" y="277.9" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">virtual property</text>
+</g>
+
+<g class="node layer" data-type="layer" data-node-id="LY_TRANSACTION">
+  <title>Transaction-flow layer: wallets, payments, bridges, exchanges&#10;</title>
+  <rect x="555.0" y="292.0" width="210.0" height="56.0" rx="7" fill="#6f5b2f" stroke="#172026" stroke-opacity="0.18" stroke-width="1.2"/>
+  <text x="660.0" y="309.1" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">Transaction-flow layer:</text>
+<text x="660.0" y="323.5" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">wallets, payments,</text>
+<text x="660.0" y="337.9" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">bridges, exchanges</text>
+</g>
+
+<g class="node layer" data-type="layer" data-node-id="LY_GOVERNANCE">
+  <title>Governance-control layer: DAOs, contracts, rules, jurisdiction&#10;</title>
+  <rect x="555.0" y="352.0" width="210.0" height="56.0" rx="7" fill="#6f5b2f" stroke="#172026" stroke-opacity="0.18" stroke-width="1.2"/>
+  <text x="660.0" y="369.1" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">Governance-control layer:</text>
+<text x="660.0" y="383.5" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">DAOs, contracts, rules,</text>
+<text x="660.0" y="397.9" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">jurisdiction</text>
+</g>
+
+<g class="node layer" data-type="layer" data-node-id="LY_OPPORTUNITY">
+  <title>Opportunity-formation layer: anonymity, deception, fragmented controls&#10;</title>
+  <rect x="555.0" y="412.0" width="210.0" height="56.0" rx="7" fill="#6f5b2f" stroke="#172026" stroke-opacity="0.18" stroke-width="1.2"/>
+  <text x="660.0" y="421.7" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">Opportunity-formation</text>
+<text x="660.0" y="436.1" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">layer: anonymity,</text>
+<text x="660.0" y="450.5" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">deception, fragmented</text>
+<text x="660.0" y="464.9" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">controls</text>
+</g>
+
+<g class="node layer" data-type="layer" data-node-id="LY_DETECTION">
+  <title>Detection-intervention layer: evidence, analytics, policy controls&#10;</title>
+  <rect x="555.0" y="472.0" width="210.0" height="56.0" rx="7" fill="#6f5b2f" stroke="#172026" stroke-opacity="0.18" stroke-width="1.2"/>
+  <text x="660.0" y="489.1" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">Detection-intervention</text>
+<text x="660.0" y="503.5" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">layer: evidence,</text>
+<text x="660.0" y="517.9" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">analytics, policy controls</text>
+</g>
+
+<g class="node signal" data-type="signal" data-node-id="SG_SCAM">
+  <title>Scam campaign and social-engineering signals&#10;</title>
+  <rect x="555.0" y="559.0" width="210.0" height="52.0" rx="7" fill="#526d3f" stroke="#172026" stroke-opacity="0.18" stroke-width="1.2"/>
+  <text x="660.0" y="581.6" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">Scam campaign and</text>
+<text x="660.0" y="596.0" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">social-engineering signals</text>
+</g>
+
+<g class="node signal" data-type="signal" data-node-id="SG_AVATAR">
+  <title>Avatar/account anomaly signals&#10;</title>
+  <rect x="555.0" y="614.6" width="210.0" height="52.0" rx="7" fill="#526d3f" stroke="#172026" stroke-opacity="0.18" stroke-width="1.2"/>
+  <text x="660.0" y="637.2" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">Avatar/account anomaly</text>
+<text x="660.0" y="651.6" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">signals</text>
+</g>
+
+<g class="node signal" data-type="signal" data-node-id="SG_NFT">
+  <title>NFT wash-trade, provenance, and value-anomaly signals&#10;</title>
+  <rect x="555.0" y="670.2" width="210.0" height="52.0" rx="7" fill="#526d3f" stroke="#172026" stroke-opacity="0.18" stroke-width="1.2"/>
+  <text x="660.0" y="685.4" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">NFT wash-trade,</text>
+<text x="660.0" y="699.8" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">provenance, and</text>
+<text x="660.0" y="714.2" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">value-anomaly signals</text>
+</g>
+
+<g class="node signal" data-type="signal" data-node-id="SG_WALLET">
+  <title>Wallet clustering, mixer, bridge, and off-ramp exposure signals&#10;</title>
+  <rect x="555.0" y="725.9" width="210.0" height="52.0" rx="7" fill="#526d3f" stroke="#172026" stroke-opacity="0.18" stroke-width="1.2"/>
+  <text x="660.0" y="741.0" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">Wallet clustering, mixer,</text>
+<text x="660.0" y="755.4" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">bridge, and off-ramp</text>
+<text x="660.0" y="769.8" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">exposure signals</text>
+</g>
+
+<g class="node signal" data-type="signal" data-node-id="SG_CONTRACT">
+  <title>Smart-contract, DAO, treasury, and permission-risk signals&#10;</title>
+  <rect x="555.0" y="781.5" width="210.0" height="52.0" rx="7" fill="#526d3f" stroke="#172026" stroke-opacity="0.18" stroke-width="1.2"/>
+  <text x="660.0" y="796.6" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">Smart-contract, DAO,</text>
+<text x="660.0" y="811.0" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">treasury, and</text>
+<text x="660.0" y="825.4" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">permission-risk signals</text>
+</g>
+
+<g class="node signal" data-type="signal" data-node-id="SG_PRIVACY">
+  <title>Privacy, encryption, and traceability-loss signals&#10;</title>
+  <rect x="555.0" y="837.1" width="210.0" height="52.0" rx="7" fill="#526d3f" stroke="#172026" stroke-opacity="0.18" stroke-width="1.2"/>
+  <text x="660.0" y="859.7" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">Privacy, encryption, and</text>
+<text x="660.0" y="874.1" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">traceability-loss signals</text>
+</g>
+
+<g class="node signal" data-type="signal" data-node-id="SG_PAYMENT">
+  <title>Payment, fraud-detection, trust, and Sybil signals&#10;</title>
+  <rect x="555.0" y="892.8" width="210.0" height="52.0" rx="7" fill="#526d3f" stroke="#172026" stroke-opacity="0.18" stroke-width="1.2"/>
+  <text x="660.0" y="915.3" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">Payment, fraud-detection,</text>
+<text x="660.0" y="929.7" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">trust, and Sybil signals</text>
+</g>
+
+<g class="node signal" data-type="signal" data-node-id="SG_CYBER">
+  <title>Cyberattack, malware, and platform compromise signals&#10;</title>
+  <rect x="555.0" y="948.4" width="210.0" height="52.0" rx="7" fill="#526d3f" stroke="#172026" stroke-opacity="0.18" stroke-width="1.2"/>
+  <text x="660.0" y="963.5" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">Cyberattack, malware, and</text>
+<text x="660.0" y="977.9" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">platform compromise</text>
+<text x="660.0" y="992.3" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">signals</text>
+</g>
+
+<g class="node signal" data-type="signal" data-node-id="SG_GOVERNANCE">
+  <title>Legal, compliance, and cross-jurisdiction signals&#10;</title>
+  <rect x="555.0" y="1004.0" width="210.0" height="52.0" rx="7" fill="#526d3f" stroke="#172026" stroke-opacity="0.18" stroke-width="1.2"/>
+  <text x="660.0" y="1026.6" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">Legal, compliance, and</text>
+<text x="660.0" y="1041.0" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">cross-jurisdiction signals</text>
+</g>
+
+<g class="node intervention" data-type="intervention" data-node-id="IN_SCAM_MONITOR">
+  <title>Scam-campaign monitoring and user harm response&#10;</title>
+  <rect x="820.0" y="112.0" width="220.0" height="56.0" rx="7" fill="#2f6f62" stroke="#172026" stroke-opacity="0.18" stroke-width="1.2"/>
+  <text x="930.0" y="136.6" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">Scam-campaign monitoring and</text>
+<text x="930.0" y="151.0" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">user harm response</text>
+</g>
+
+<g class="node intervention" data-type="intervention" data-node-id="IN_ONBOARDING">
+  <title>Risk-based onboarding and identity assurance&#10;</title>
+  <rect x="820.0" y="186.2" width="220.0" height="56.0" rx="7" fill="#2f6f62" stroke="#172026" stroke-opacity="0.18" stroke-width="1.2"/>
+  <text x="930.0" y="210.7" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">Risk-based onboarding and</text>
+<text x="930.0" y="225.1" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">identity assurance</text>
+</g>
+
+<g class="node intervention" data-type="intervention" data-node-id="IN_ACCESS">
+  <title>Authentication, key custody, and access-control monitoring&#10;</title>
+  <rect x="820.0" y="260.3" width="220.0" height="56.0" rx="7" fill="#2f6f62" stroke="#172026" stroke-opacity="0.18" stroke-width="1.2"/>
+  <text x="930.0" y="277.5" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">Authentication, key custody,</text>
+<text x="930.0" y="291.9" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">and access-control</text>
+<text x="930.0" y="306.3" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">monitoring</text>
+</g>
+
+<g class="node intervention" data-type="intervention" data-node-id="IN_PLATFORM_SECURITY">
+  <title>Platform security monitoring and vulnerability response&#10;</title>
+  <rect x="820.0" y="334.5" width="220.0" height="56.0" rx="7" fill="#2f6f62" stroke="#172026" stroke-opacity="0.18" stroke-width="1.2"/>
+  <text x="930.0" y="359.1" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">Platform security monitoring</text>
+<text x="930.0" y="373.5" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">and vulnerability response</text>
+</g>
+
+<g class="node intervention" data-type="intervention" data-node-id="IN_PROVENANCE">
+  <title>NFT/token provenance and asset-origin review&#10;</title>
+  <rect x="820.0" y="408.7" width="220.0" height="56.0" rx="7" fill="#2f6f62" stroke="#172026" stroke-opacity="0.18" stroke-width="1.2"/>
+  <text x="930.0" y="433.2" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">NFT/token provenance and</text>
+<text x="930.0" y="447.6" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">asset-origin review</text>
+</g>
+
+<g class="node intervention" data-type="intervention" data-node-id="IN_MARKETPLACE">
+  <title>Marketplace behaviour monitoring and scam suppression&#10;</title>
+  <rect x="820.0" y="482.8" width="220.0" height="56.0" rx="7" fill="#2f6f62" stroke="#172026" stroke-opacity="0.18" stroke-width="1.2"/>
+  <text x="930.0" y="500.0" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">Marketplace behaviour</text>
+<text x="930.0" y="514.4" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">monitoring and scam</text>
+<text x="930.0" y="528.8" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">suppression</text>
+</g>
+
+<g class="node intervention" data-type="intervention" data-node-id="IN_VALUATION">
+  <title>Virtual-asset valuation and wash-trade anomaly review&#10;</title>
+  <rect x="820.0" y="557.0" width="220.0" height="56.0" rx="7" fill="#2f6f62" stroke="#172026" stroke-opacity="0.18" stroke-width="1.2"/>
+  <text x="930.0" y="581.6" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">Virtual-asset valuation and</text>
+<text x="930.0" y="596.0" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">wash-trade anomaly review</text>
+</g>
+
+<g class="node intervention" data-type="intervention" data-node-id="IN_CHAIN_ANALYTICS">
+  <title>Wallet, bridge, mixer, and cross-chain analytics&#10;</title>
+  <rect x="820.0" y="631.2" width="220.0" height="56.0" rx="7" fill="#2f6f62" stroke="#172026" stroke-opacity="0.18" stroke-width="1.2"/>
+  <text x="930.0" y="655.7" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">Wallet, bridge, mixer, and</text>
+<text x="930.0" y="670.1" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">cross-chain analytics</text>
+</g>
+
+<g class="node intervention" data-type="intervention" data-node-id="IN_PAYMENT_CONTROLS">
+  <title>Digital-payment fraud controls and trust scoring&#10;</title>
+  <rect x="820.0" y="705.3" width="220.0" height="56.0" rx="7" fill="#2f6f62" stroke="#172026" stroke-opacity="0.18" stroke-width="1.2"/>
+  <text x="930.0" y="729.9" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">Digital-payment fraud</text>
+<text x="930.0" y="744.3" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">controls and trust scoring</text>
+</g>
+
+<g class="node intervention" data-type="intervention" data-node-id="IN_GOVERNANCE_AUDIT">
+  <title>Smart-contract, DAO, and governance audit controls&#10;</title>
+  <rect x="820.0" y="779.5" width="220.0" height="56.0" rx="7" fill="#2f6f62" stroke="#172026" stroke-opacity="0.18" stroke-width="1.2"/>
+  <text x="930.0" y="804.1" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">Smart-contract, DAO, and</text>
+<text x="930.0" y="818.5" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">governance audit controls</text>
+</g>
+
+<g class="node intervention" data-type="intervention" data-node-id="IN_OFFRAMP">
+  <title>Exchange/off-ramp due diligence and reporting&#10;</title>
+  <rect x="820.0" y="853.7" width="220.0" height="56.0" rx="7" fill="#2f6f62" stroke="#172026" stroke-opacity="0.18" stroke-width="1.2"/>
+  <text x="930.0" y="878.2" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">Exchange/off-ramp due</text>
+<text x="930.0" y="892.6" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">diligence and reporting</text>
+</g>
+
+<g class="node intervention" data-type="intervention" data-node-id="IN_EVIDENCE">
+  <title>Investigation, evidence preservation, and case escalation&#10;</title>
+  <rect x="820.0" y="927.8" width="220.0" height="56.0" rx="7" fill="#2f6f62" stroke="#172026" stroke-opacity="0.18" stroke-width="1.2"/>
+  <text x="930.0" y="945.0" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">Investigation, evidence</text>
+<text x="930.0" y="959.4" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">preservation, and case</text>
+<text x="930.0" y="973.8" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">escalation</text>
+</g>
+
+<g class="node intervention" data-type="intervention" data-node-id="IN_PRIVACY_BY_DESIGN">
+  <title>Privacy-by-design controls with auditability&#10;</title>
+  <rect x="820.0" y="1002.0" width="220.0" height="56.0" rx="7" fill="#2f6f62" stroke="#172026" stroke-opacity="0.18" stroke-width="1.2"/>
+  <text x="930.0" y="1026.6" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">Privacy-by-design controls</text>
+<text x="930.0" y="1041.0" text-anchor="middle" font-size="12" font-weight="650" fill="#ffffff">with auditability</text>
+</g>
+
+<rect x="40" y="1086" width="15" height="15" rx="3" fill="#315c72"/><text x="62" y="1098" font-size="12" fill="#26323a">K=11 topic</text><rect x="245" y="1086" width="15" height="15" rx="3" fill="#9b3d42"/><text x="267" y="1098" font-size="12" fill="#26323a">Threat category</text><rect x="450" y="1086" width="15" height="15" rx="3" fill="#6f5b2f"/><text x="472" y="1098" font-size="12" fill="#26323a">Modelling layer</text><rect x="655" y="1086" width="15" height="15" rx="3" fill="#526d3f"/><text x="677" y="1098" font-size="12" fill="#26323a">Analytical signal</text><rect x="860" y="1086" width="15" height="15" rx="3" fill="#2f6f62"/><text x="882" y="1098" font-size="12" fill="#26323a">Intervention point</text><path d="M 40,1122 L 80,1122" stroke="#9b3d42" stroke-width="2.4"/><text x="86" y="1126" font-size="11" fill="#26323a">Author-reviewed topic-threat association (24)</text><path d="M 390,1122 L 430,1122" stroke="#9b3d42" stroke-width="2.4" stroke-dasharray="7 4"/><text x="436" y="1126" font-size="11" fill="#26323a">Same, perception-based or potential-risk evidence</text><path d="M 770,1122 L 810,1122" stroke="#53616b" stroke-width="1.2" stroke-opacity="0.5"/><text x="816" y="1126" font-size="11" fill="#26323a">Fixed conceptual links (not reviewed here)</text>
+</svg>

@@ -1,0 +1,13 @@
+{
+  "unit": "original PDF; binary term presence",
+  "nodes": "top document-normalized terms after display-only filtering and maximum document-frequency filter",
+  "edge_weight": "Jaccard = joint document count / union document count",
+  "minimum_cooccurring_documents": 3,
+  "minimum_jaccard": 0.05,
+  "minimum_npmi": 0.05,
+  "maximum_document_frequency_fraction": 0.9,
+  "plot_edge_cap": 150,
+  "eligible_edges": 325,
+  "plotted_edges": 150,
+  "community_method": "greedy modularity on displayed graph; not LDA topic assignments"
+}

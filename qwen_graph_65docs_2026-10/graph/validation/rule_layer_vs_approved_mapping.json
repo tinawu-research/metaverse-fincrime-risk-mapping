@@ -1,0 +1,60 @@
+{
+  "n_keyword_rule_doc_threat_edges": 193,
+  "dominant_topic_rule": "argmax of document_topic_matrix row; no threshold",
+  "documents_with_tied_top_weight": [],
+  "summary": {
+    "dominant_topic_pair_is_author_excluded:Drop": 8,
+    "dominant_topic_pair_is_author_excluded:Leave conceptual": 8,
+    "dominant_topic_pair_is_author_excluded:Reject": 4,
+    "dominant_topic_pair_is_author_retained": 83,
+    "dominant_topic_pair_not_among_the_34_reviewed_pairs": 90
+  },
+  "n_edges_listed_in_excluded_pairs": 20,
+  "excluded_pair_hits_by_pair": {
+    "T04>TH_DEFI": 1,
+    "T04>TH_IDENTITY": 1,
+    "T04>TH_PAYMENT": 1,
+    "T05>TH_CYBER": 1,
+    "T05>TH_DEFI": 1,
+    "T05>TH_IDENTITY": 4,
+    "T05>TH_NFT": 1,
+    "T06>TH_NFT": 4,
+    "T07>TH_DEFI": 5,
+    "T10>TH_WALLET": 1
+  },
+  "author_in_degree_by_threat_from_24_approved_edges": {
+    "TH_PRIVACY": 5,
+    "TH_CYBER": 4,
+    "TH_SCAM": 4,
+    "TH_IDENTITY": 3,
+    "TH_GOVERNANCE": 3,
+    "TH_DEFI": 2,
+    "TH_PAYMENT": 1,
+    "TH_WALLET": 1,
+    "TH_NFT": 1
+  },
+  "keyword_rule_in_degree_by_threat": {
+    "TH_CYBER": 43,
+    "TH_DEFI": 35,
+    "TH_NFT": 34,
+    "TH_WALLET": 27,
+    "TH_IDENTITY": 16,
+    "TH_SCAM": 16,
+    "TH_GOVERNANCE": 12,
+    "TH_PRIVACY": 6,
+    "TH_PAYMENT": 4
+  },
+  "dominant_topic_doc_counts": {
+    "T01": 2,
+    "T02": 11,
+    "T03": 2,
+    "T04": 2,
+    "T05": 4,
+    "T06": 4,
+    "T07": 6,
+    "T08": 6,
+    "T09": 2,
+    "T10": 5,
+    "T11": 21
+  }
+}

@@ -1,0 +1,19 @@
+﻿variant,seed,matched_js_similarity,matched_top10_jaccard,max_abs_topic_word_difference_after_matching,basis
+whole_document_units,11,0.4461153301591075,0.3760245602350865,0.13215770205461713,same-seed saved full-corpus K=11 baseline; no model refitted
+whole_document_units,42,0.48648064414340425,0.4556554556554557,0.032733254607766965,same-seed saved full-corpus K=11 baseline; no model refitted
+whole_document_units,97,0.46418897779827045,0.32065483536071765,0.03446223967292841,same-seed saved full-corpus K=11 baseline; no model refitted
+chunks_200,11,0.4843501464020268,0.37400207291848153,0.07084814073886579,same-seed saved full-corpus K=11 baseline; no model refitted
+chunks_200,42,0.5478469381626051,0.48089358650855973,0.028230596527874966,same-seed saved full-corpus K=11 baseline; no model refitted
+chunks_200,97,0.5624703062029209,0.4999545908636818,0.03048134545240552,same-seed saved full-corpus K=11 baseline; no model refitted
+chunks_800,11,0.5495717592018097,0.5412684072971155,0.07695133658063666,same-seed saved full-corpus K=11 baseline; no model refitted
+chunks_800,42,0.5911153446167567,0.521266612175703,0.026176569213638742,same-seed saved full-corpus K=11 baseline; no model refitted
+chunks_800,97,0.6086924281179482,0.5884040202222022,0.020968032752758665,same-seed saved full-corpus K=11 baseline; no model refitted
+uncapped_training_chunks,11,1.0,1.0,0.0,same-seed saved full-corpus K=11 baseline; no model refitted
+uncapped_training_chunks,42,1.0,1.0,0.0,same-seed saved full-corpus K=11 baseline; no model refitted
+uncapped_training_chunks,97,1.0,1.0,0.0,same-seed saved full-corpus K=11 baseline; no model refitted
+alpha_0_1,11,0.9648621765524026,0.9834710743801653,0.0011550234307002999,same-seed saved full-corpus K=11 baseline; no model refitted
+alpha_0_1,42,0.945624930725049,0.9504132231404959,0.002014953649791109,same-seed saved full-corpus K=11 baseline; no model refitted
+alpha_0_1,97,0.9602455738429931,0.9834710743801653,0.0012742681977699242,same-seed saved full-corpus K=11 baseline; no model refitted
+eta_0_1,11,0.7886852601173202,0.7969303423848878,0.011859993459073261,same-seed saved full-corpus K=11 baseline; no model refitted
+eta_0_1,42,0.7997679849777722,0.8450942996397542,0.01322874116575688,same-seed saved full-corpus K=11 baseline; no model refitted
+eta_0_1,97,0.805242339775091,0.8402203856749313,0.00797328698848033,same-seed saved full-corpus K=11 baseline; no model refitted

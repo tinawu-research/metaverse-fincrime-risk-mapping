@@ -1,0 +1,438 @@
+{
+  "all_pass": true,
+  "n_checks": 70,
+  "summary": {
+    "documents": 65,
+    "nodes": 118,
+    "edges": 544,
+    "nodes_by_type": {
+      "dimension": 4,
+      "document": 65,
+      "intervention": 13,
+      "layer": 7,
+      "signal": 9,
+      "threat": 9,
+      "topic": 11
+    },
+    "edges_by_origin": {
+      "author_reviewed_k11_20261001": 24,
+      "legacy_fixed_concept": 73,
+      "rule_65docs": 447
+    },
+    "edges_by_relation": {
+      "analytical-signal": 9,
+      "converted-into-control": 13,
+      "document-keyword-matches-threat": 193,
+      "document-supports-evidence-dimension": 251,
+      "feeds-detection-and-intervention": 6,
+      "high-score-keyword-anchor": 3,
+      "intervention-point": 27,
+      "modelled-by-signal": 9,
+      "threat-operates-through-layer": 9,
+      "topic-associated-with-threat": 24
+    },
+    "multi_relation_pairs": {
+      "DOC_D5279c89a9098>TH_DEFI": [
+        "document-keyword-matches-threat",
+        "high-score-keyword-anchor"
+      ],
+      "DOC_Dc35d9a0e2a20>TH_CYBER": [
+        "document-keyword-matches-threat",
+        "high-score-keyword-anchor"
+      ],
+      "DOC_Dced739924e6e>TH_IDENTITY": [
+        "document-keyword-matches-threat",
+        "high-score-keyword-anchor"
+      ]
+    },
+    "approved_topic_threat_edges": 24
+  },
+  "checks": [
+    {
+      "check": "definition_identical_to_old:THREATS",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "definition_identical_to_old:LAYERS",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "definition_identical_to_old:SIGNALS",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "definition_identical_to_old:INTERVENTIONS",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "definition_identical_to_old:DIMENSIONS",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "definition_identical_to_old:TYPE_COLOR",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "threat_ids_in_graph_equal_old_THREATS",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "every_reviewed_pair_threat_code_exists_in_old_THREATS",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "65_document_nodes",
+      "pass": true,
+      "detail": 65
+    },
+    {
+      "check": "document_node_source_ids_equal_manifest_65",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "document_node_ids_unique",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "document_nodes_equal_rule_output_ids",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "calvo_removed_document_absent",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "approved_set_has_24",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "topic_threat_edges_exactly_the_24_approved",
+      "pass": true,
+      "detail": "extra=[] missing=[]"
+    },
+    {
+      "check": "all_topic_threat_edges_flagged_author_origin",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "author_origin_edges_only_topic_threat",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "ten_excluded_pairs",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "none_of_10_excluded_pairs_in_graph_any_direction",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "four_leave_conceptual_absent",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "11_topic_nodes",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "T03_node_present",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "T03_has_no_edges_at_all",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "topics_have_only_outgoing_topic_threat_edges",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "per_topic_link_counts_match_guide",
+      "pass": true,
+      "detail": {
+        "T01": 1,
+        "T02": 4,
+        "T04": 1,
+        "T05": 3,
+        "T06": 1,
+        "T07": 1,
+        "T08": 4,
+        "T09": 1,
+        "T10": 2,
+        "T11": 6
+      }
+    },
+    {
+      "check": "9_threat_nodes",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "prevalence_sums_to_100_at_2dp",
+      "pass": true,
+      "detail": 100.0
+    },
+    {
+      "check": "no_edge_between_document_and_topic_nodes",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "keyword_rule_threat_edges_never_author_origin_and_never_topic_endpoint",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "author_threat_ranking_depends_only_on_the_24_approved_edges",
+      "pass": true,
+      "detail": {
+        "TH_PRIVACY": 5,
+        "TH_CYBER": 4,
+        "TH_IDENTITY": 3,
+        "TH_PAYMENT": 1,
+        "TH_GOVERNANCE": 3,
+        "TH_SCAM": 4,
+        "TH_DEFI": 2,
+        "TH_WALLET": 1,
+        "TH_NFT": 1
+      }
+    },
+    {
+      "check": "paper_figure_script_draws_only_author_origin_edges",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "no_dangling_edges",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "no_duplicate_edges_same_source_target_relation",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "no_self_loops",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "multi_relation_pairs_are_only_the_rule_anchor_overlays",
+      "pass": true,
+      "detail": {
+        "DOC_D5279c89a9098>TH_DEFI": [
+          "document-keyword-matches-threat",
+          "high-score-keyword-anchor"
+        ],
+        "DOC_Dc35d9a0e2a20>TH_CYBER": [
+          "document-keyword-matches-threat",
+          "high-score-keyword-anchor"
+        ],
+        "DOC_Dced739924e6e>TH_IDENTITY": [
+          "document-keyword-matches-threat",
+          "high-score-keyword-anchor"
+        ]
+      }
+    },
+    {
+      "check": "every_edge_has_origin",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "only_T03_is_isolated",
+      "pass": true,
+      "detail": [
+        "T03"
+      ]
+    },
+    {
+      "check": "rule_edges_only_touch_documents",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "legacy_edges_never_touch_topic_or_document",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "legacy_edge_count_equals_definitions_minus_self_loop",
+      "pass": true,
+      "detail": 73
+    },
+    {
+      "check": "csv_counts_match_json",
+      "pass": true,
+      "detail": "118/544"
+    },
+    {
+      "check": "csv_edge_keys_match_json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "graphml_counts_match_json",
+      "pass": true,
+      "detail": "118/544"
+    },
+    {
+      "check": "graphml_author_edges_24",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "T01_PRIVACY_perception_qualifier",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "T06_SCAM_perception_qualifier",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "T04_CYBER_trust_reputation_only",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "T10_CYBER_potential_quantum",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "T08_DEFI_manning_nft_finding",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "T06_and_T09_both_present_and_unmerged",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "every_author_edge_has_DOC_IDs_pages_and_status",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "author_edge_DOC_IDs_all_in_65",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "semantic_svg_draws_24_author_edges",
+      "pass": true,
+      "detail": 24
+    },
+    {
+      "check": "semantic_svg_draws_every_non_document_edge",
+      "pass": true,
+      "detail": "svg=97 expected=97"
+    },
+    {
+      "check": "figure_exists:Figure_K11_topic_threat_associations.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "figure_exists:Figure_K11_topic_threat_associations.pdf",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "figure_exists:Figure_K11_topic_threat_associations.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "figure_svg_labels_T01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "figure_svg_labels_T02",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "figure_svg_labels_T04",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "figure_svg_labels_T05",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "figure_svg_labels_T06",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "figure_svg_labels_T07",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "figure_svg_labels_T08",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "figure_svg_labels_T09",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "figure_svg_labels_T10",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "figure_svg_labels_T11",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "figure_svg_labels_T03_no_link_note",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "html_pack_mentions_limits",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "html_pack_has_no_59_or_Round5_leftovers",
+      "pass": true,
+      "detail": ""
+    }
+  ]
+}

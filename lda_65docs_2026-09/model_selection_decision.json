@@ -1,0 +1,28 @@
+{
+  "recommended_k": 11,
+  "final_k": 11,
+  "tested_k": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "gates_passed": false,
+  "coherence_best_k": 12,
+  "coherence_tolerance_used": 0.02,
+  "predictive_cutoff_nats_per_token": -7.481190296217087,
+  "manual_override_reason": "",
+  "rule": "Shortlist within max(0.02, best-K fold SE) of best mean C_v; apply declared stability/diversity/convergence gates; retain candidates within one fold SE of best validation completion log score; choose smallest K. If gates fail, retain coherence shortlist and mark provisional.",
+  "uncertainty_note": "Fold SE and dependent seed-pair SD are descriptive model-selection aids, not independent inferential confidence intervals.",
+  "notes": [
+    "No coherence-shortlisted K passed all declared stability, diversity, and convergence gates. Recommendation is provisional; inspect and rerun before reporting.",
+    "Human interpretability checks by at least two coders remain pending until completed rating files are supplied."
+  ]
+}

@@ -1,0 +1,5 @@
+# Third-party packages used by graph/code, at the versions present on the server interpreter (Python 3.12.0) where
+# the code was re-run on 2026-10-05. Everything else in graph/code is the Python standard library.
+# 06_recheck_three_pdfs.py additionally calls the poppler command-line tools pdftotext and pdfinfo.
+matplotlib==3.8.0   # 04_make_paper_figures.py
+openpyxl==3.1.2     # 01_build_decision_records.py (reads the internal label workbook; not distributed)

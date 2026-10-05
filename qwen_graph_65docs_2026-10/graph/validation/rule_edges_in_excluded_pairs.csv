@@ -1,0 +1,21 @@
+DOC_ID,doc_index,dominant_topic,dominant_topic_weight,threat,keyword_matches,author_decision_for_topic_threat_pair,note
+D6bbb4f6b30f4,28,T04,0.3366,TH_DEFI,1,Drop,keyword-rule document edge only; no topic-threat edge is created from it
+D514e784e1e1b,17,T04,0.3041,TH_IDENTITY,4,Leave conceptual,keyword-rule document edge only; no topic-threat edge is created from it
+D6bbb4f6b30f4,28,T04,0.3366,TH_PAYMENT,4,Drop,keyword-rule document edge only; no topic-threat edge is created from it
+De11ad817ca1d,55,T05,0.6164,TH_CYBER,1,Leave conceptual,keyword-rule document edge only; no topic-threat edge is created from it
+D28078c8a10cc,10,T05,0.5273,TH_DEFI,2,Leave conceptual,keyword-rule document edge only; no topic-threat edge is created from it
+D21cf0acb1a9a,07,T05,0.5024,TH_IDENTITY,5,Drop,keyword-rule document edge only; no topic-threat edge is created from it
+D28078c8a10cc,10,T05,0.5273,TH_IDENTITY,9,Drop,keyword-rule document edge only; no topic-threat edge is created from it
+Dced739924e6e,51,T05,0.3961,TH_IDENTITY,5,Drop,keyword-rule document edge only; no topic-threat edge is created from it
+De11ad817ca1d,55,T05,0.6164,TH_IDENTITY,3,Drop,keyword-rule document edge only; no topic-threat edge is created from it
+D28078c8a10cc,10,T05,0.5273,TH_NFT,3,Drop,keyword-rule document edge only; no topic-threat edge is created from it
+D1c167b303ed0,05,T06,0.4359,TH_NFT,6,Reject,keyword-rule document edge only; no topic-threat edge is created from it
+D78df4a50ef94,32,T06,0.6331,TH_NFT,5,Reject,keyword-rule document edge only; no topic-threat edge is created from it
+D933970ff55c6,36,T06,0.3457,TH_NFT,7,Reject,keyword-rule document edge only; no topic-threat edge is created from it
+Dfed6d84a0e4f,65,T06,0.6976,TH_NFT,7,Reject,keyword-rule document edge only; no topic-threat edge is created from it
+D165861071eca,03,T07,0.6127,TH_DEFI,3,Leave conceptual,keyword-rule document edge only; no topic-threat edge is created from it
+D569a973fcbb6,20,T07,0.7394,TH_DEFI,3,Leave conceptual,keyword-rule document edge only; no topic-threat edge is created from it
+D65ab9f4e98ce,26,T07,0.4619,TH_DEFI,2,Leave conceptual,keyword-rule document edge only; no topic-threat edge is created from it
+Da6361d07d275,40,T07,0.6639,TH_DEFI,7,Leave conceptual,keyword-rule document edge only; no topic-threat edge is created from it
+Df64cb83374bc,60,T07,0.3689,TH_DEFI,6,Leave conceptual,keyword-rule document edge only; no topic-threat edge is created from it
+Ddffd47d0866a,54,T10,0.3806,TH_WALLET,4,Drop,keyword-rule document edge only; no topic-threat edge is created from it

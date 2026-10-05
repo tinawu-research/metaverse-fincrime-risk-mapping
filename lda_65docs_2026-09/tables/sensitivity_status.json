@@ -1,0 +1,14 @@
+{
+  "completed_variants": [
+    "alpha_0_1",
+    "chunks_200",
+    "chunks_800",
+    "eta_0_1",
+    "uncapped_training_chunks",
+    "whole_document_units"
+  ],
+  "pending": [
+    "Publication-type sensitivity awaits metadata_csv. Complete metadata_template.csv and verify the classifications."
+  ],
+  "interpretation": "Sensitivity measures dependence on specifications; it does not prove substantive validity."
+}
